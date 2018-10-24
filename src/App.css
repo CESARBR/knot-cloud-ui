@@ -1,32 +1,31 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
+  background-image: url("./_assets/png/4BackgroundDarkness.png"),
+    url("./_assets/png/3BackgroundImage.png"),
+    url("./_assets/png/2BackgroundColoring.png"),
+    url("./_assets/png/1BackgroundGradient.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  width:100%;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  overflow: hidden;
+}
+
+.knot-logo-wrapper {
+  padding-top: 85px;
+  padding-bottom: 85px;
+}
+
+.knot-logo-image {
+  width: 77px;
+  height: 90px;
+  margin-bottom: 30px;
+}
+
+.knot-logo-header {
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-weight: normal;
+  font-size: 25pt;
+  opacity: 1;
 }
