@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="5954 -4449 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-3 {
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #4eb907;
+        opacity: 0.8;
+      }
+
+      .cls-4 {
+        fill: #0c6541;
+        opacity: 0.7;
+      }
+
+      .cls-5 {
+        fill: #09260a;
+        opacity: 0.65;
+      }
+
+      .cls-6 {
+        stroke: none;
+      }
+
+      .cls-7 {
+        fill: none;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_326" data-name="Rectangle 326" class="cls-1" width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_1" data-name="Mask Group 1" class="cls-2" transform="translate(5954 -4449)">
+    <g id="Ellipse_7" data-name="Ellipse 7" class="cls-3" transform="translate(-145 590)">
+      <ellipse class="cls-6" cx="667.5" cy="195" rx="667.5" ry="195"/>
+      <ellipse class="cls-7" cx="667.5" cy="195" rx="667" ry="194.5"/>
+    </g>
+    <ellipse id="Ellipse_8" data-name="Ellipse 8" class="cls-4" cx="505" cy="215" rx="505" ry="215" transform="translate(1420 210)"/>
+    <ellipse id="Ellipse_9" data-name="Ellipse 9" class="cls-5" cx="672.5" cy="320" rx="672.5" ry="320" transform="translate(-330 -215)"/>
+  </g>
+</svg>
