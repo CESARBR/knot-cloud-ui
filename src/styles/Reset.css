@@ -1,0 +1,14 @@
+.reset-pwd-wrapper {
+  position: relative;
+  width: 50%;
+  margin:auto;
+  text-align: center;
+}
+
+.page-title {
+  color: white;
+  font-weight: normal;
+  font-size: 25px;
+  margin-bottom: 25px;
+  margin-top: 0;
+}
