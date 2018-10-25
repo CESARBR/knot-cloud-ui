@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "cd19406c_7ba2a9b9",
+        "filename": "src/components/Signup.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-10-25T18:15:04Z",
+      "side": 1,
+      "message": "No need to initialize. Not sure which is the best code style standard.",
+      "range": {
+        "startLine": 7,
+        "startChar": 17,
+        "endLine": 7,
+        "endChar": 18
+      },
+      "revId": "0d291d1d30e4ff1622dda274eea4c4eead2eb0cb",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2ec5fdb0_113bbb6f",
+        "filename": "src/components/Signup.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-10-25T18:15:04Z",
+      "side": 1,
+      "message": "What do you think about having a function for each field. \nThis would avoid things link [e.target.id].\nI\u0027d rather be more explicit and have more functions but understand exactly what they\u0027re doing.",
+      "range": {
+        "startLine": 16,
+        "startChar": 19,
+        "endLine": 16,
+        "endChar": 0
+      },
+      "revId": "0d291d1d30e4ff1622dda274eea4c4eead2eb0cb",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f467fe06_aabc9ade",
+        "filename": "src/components/Signup.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-10-25T18:15:04Z",
+      "side": 1,
+      "message": "Should we go PascalCase, camelCase or dash-case?",
+      "range": {
+        "startLine": 36,
+        "startChar": 28,
+        "endLine": 36,
+        "endChar": 32
+      },
+      "revId": "0d291d1d30e4ff1622dda274eea4c4eead2eb0cb",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
