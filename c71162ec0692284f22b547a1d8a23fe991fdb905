@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f33f2fed_9a9131ee",
+        "filename": "src/App.css",
+        "patchSetId": 2
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-10-26T20:15:19Z",
+      "side": 1,
+      "message": "Use pt for font-size",
+      "range": {
+        "startLine": 48,
+        "startChar": 13,
+        "endLine": 48,
+        "endChar": 17
+      },
+      "revId": "c71162ec0692284f22b547a1d8a23fe991fdb905",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1eb9190f_c8478524",
+        "filename": "src/components/Signup.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-10-26T20:15:19Z",
+      "side": 1,
+      "message": "Should it be an a-link or a React component (such as Link/Redirect that are being used in other patches)?",
+      "range": {
+        "startLine": 40,
+        "startChar": 8,
+        "endLine": 42,
+        "endChar": 12
+      },
+      "revId": "c71162ec0692284f22b547a1d8a23fe991fdb905",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
