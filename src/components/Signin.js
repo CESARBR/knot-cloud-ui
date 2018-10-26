@@ -26,7 +26,7 @@ class Signin extends Component {
 
   render() {
     return (
-      <div className="Signin">
+      <div className="sign-form">
         <form onSubmit={e => this.handleSignin(e)}>
           <input className="text-input" id="email" type="email" onChange={this.handleChange} placeholder="Email" required />
           <br />
