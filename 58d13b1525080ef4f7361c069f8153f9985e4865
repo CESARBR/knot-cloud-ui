@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "969bf029_3f2d28a2",
+        "filename": "src/components/Signin.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-10-26T20:17:26Z",
+      "side": 1,
+      "message": "Same question, should it be an a-link?",
+      "range": {
+        "startLine": 37,
+        "startChar": 8,
+        "endLine": 42,
+        "endChar": 12
+      },
+      "revId": "58d13b1525080ef4f7361c069f8153f9985e4865",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c61c35f6_1ee0857b",
+        "filename": "src/styles/Signin.css",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-10-26T20:17:26Z",
+      "side": 1,
+      "message": "add a space",
+      "range": {
+        "startLine": 1,
+        "startChar": 10,
+        "endLine": 1,
+        "endChar": 11
+      },
+      "revId": "58d13b1525080ef4f7361c069f8153f9985e4865",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
