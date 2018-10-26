@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "094e9f68_eee2d6c6",
+        "filename": "src/components/Reset.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-10-26T19:49:20Z",
+      "side": 1,
+      "message": "What about Ramon\u0027s question? Should it be Redirect instead of Link?",
+      "range": {
+        "startLine": 2,
+        "startChar": 9,
+        "endLine": 2,
+        "endChar": 17
+      },
+      "revId": "e55fe2a30e23f9f6b42de76f88acab3ede57c351",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
