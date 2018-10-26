@@ -1,0 +1,61 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2eb2df26_4cef5dfa",
+        "filename": "src/App.css",
+        "patchSetId": 3
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-10-26T19:26:45Z",
+      "side": 1,
+      "message": "Add a space after",
+      "revId": "67ae6f12f63e72aa142a6df360aa7e5307530c45",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ba01a13e_0b91260b",
+        "filename": "src/App.css",
+        "patchSetId": 3
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-10-26T19:26:45Z",
+      "side": 1,
+      "message": "Does this size come from the spec? Should it be pixel or point?",
+      "revId": "67ae6f12f63e72aa142a6df360aa7e5307530c45",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "918183c8_250423ed",
+        "filename": "src/App.js",
+        "patchSetId": 3
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-10-26T19:26:45Z",
+      "side": 1,
+      "message": "`alt` should contain a readable text. Is it pointing to some kind of string resource? If not, I suggest \u0027KNoT logo\u0027.",
+      "range": {
+        "startLine": 16,
+        "startChar": 65,
+        "endLine": 16,
+        "endChar": 74
+      },
+      "revId": "67ae6f12f63e72aa142a6df360aa7e5307530c45",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
