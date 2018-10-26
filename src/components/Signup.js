@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import config from 'react-global-configuration';
+import { Link, Redirect } from 'react-router-dom';
+import DeviceService from '../services/device';
 
 class Signup extends Component {
   constructor(props) {
@@ -7,7 +9,8 @@ class Signup extends Component {
     this.state = {
       email: '',
       password: '',
-      confirmPassword: ''
+      confirmPassword: '',
+      redirect: false
     };
     this.handleChange = this.handleChange.bind(this);
     this.handleSignup = this.handleSignup.bind(this);
@@ -17,11 +20,30 @@ class Signup extends Component {
     this.setState({ [e.target.id]: e.target.value });
   }
 
-  handleSignup(e) {
+  async handleSignup(e) {
     const { email, password, confirmPassword } = this.state;
+    let device;
     e.preventDefault();
-    // TODO: Request to authenticator
-    alert(`${email}\n${password}\n${confirmPassword}`);
+    if (password === confirmPassword) {
+      device = new DeviceService(config.get('authenticator.host'), config.get('authenticator.port'));
+      try {
+        await device.createUser(email, password);
+        this.setState({ redirect: true });
+      } catch (err) {
+        console.error(err);
+        alert(err.message);
+      }
+    } else {
+      // TODO: show to user that password not match
+      alert('password not match');
+    }
+  }
+
+  renderRedirect() { // eslint-disable-line consistent-return
+    const { redirect } = this.state;
+    if (redirect) {
+      return <Redirect to="/" />;
+    }
   }
 
   render() {
@@ -39,6 +61,7 @@ class Signup extends Component {
         <Link to="/">
           <input className="btn btn-secondary" id="button-signin" type="submit" value="Sign in" />
         </Link>
+        {this.renderRedirect()}
       </div>
     );
   }
