@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d4bf57d4_00974146",
+        "filename": "src/components/Signup.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-10-26T21:00:32Z",
+      "side": 1,
+      "message": "Any idea how to better it? I thought in use config package but I had problems using it with yarn/react",
+      "range": {
+        "startLine": 27,
+        "startChar": 33,
+        "endLine": 27,
+        "endChar": 56
+      },
+      "revId": "96a98c3d8f7ae2ec074c979932e362a8df38cc9c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
