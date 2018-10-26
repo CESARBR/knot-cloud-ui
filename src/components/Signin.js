@@ -20,13 +20,13 @@ class Signin extends Component {
   handleSignin(e) {
     const { email, password } = this.state;
     e.preventDefault();
-    // TODO: Request to authenticator
+    // TODO: Request to Authenticator
     alert(`${email}\n${password}`);
   }
 
   render() {
     return (
-      <div className="Signin">
+      <div className="form">
         <form onSubmit={e => this.handleSignin(e)}>
           <input className="text-input" id="email" type="email" onChange={this.handleChange} placeholder="Email" required />
           <br />
