@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "01f16f38_f57feea5",
+        "filename": "src/components/Forgot.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-10-26T19:39:42Z",
+      "side": 1,
+      "message": "Remove the leading and trailing space",
+      "range": {
+        "startLine": 21,
+        "startChar": 35,
+        "endLine": 21,
+        "endChar": 36
+      },
+      "revId": "fc13a6d5bdb709d5a8ac3f6f975db32acaa11fec",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
