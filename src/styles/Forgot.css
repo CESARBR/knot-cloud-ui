@@ -4,3 +4,15 @@
   margin:auto;
   text-align: center;
 }
+
+.request-result {
+  font-size: 10pt;
+}
+
+.request-error{
+  color: red;
+}
+
+.request-success{
+  color: white;
+}
