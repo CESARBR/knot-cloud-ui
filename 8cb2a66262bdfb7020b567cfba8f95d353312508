@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "54572b37_acc0a924",
+        "filename": "src/components/Forgot.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-10-30T13:59:33Z",
+      "side": 1,
+      "message": "Define if we\u0027ll move these requests to a service or a similar structure.",
+      "range": {
+        "startLine": 45,
+        "startChar": 4,
+        "endLine": 49,
+        "endChar": 19
+      },
+      "revId": "8cb2a66262bdfb7020b567cfba8f95d353312508",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
