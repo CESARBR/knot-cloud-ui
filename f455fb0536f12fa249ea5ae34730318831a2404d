@@ -1,0 +1,119 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3d69716e_493800b6",
+        "filename": "src/components/Signup.js",
+        "patchSetId": 4
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-10-30T13:57:29Z",
+      "side": 1,
+      "message": "Avoid the console.error\n\nWouldn\u0027t it be better to have a component to show the error message?",
+      "range": {
+        "startLine": 33,
+        "startChar": 8,
+        "endLine": 34,
+        "endChar": 27
+      },
+      "revId": "f455fb0536f12fa249ea5ae34730318831a2404d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9f5c3195_b4b4c323",
+        "filename": "src/services/device.js",
+        "patchSetId": 4
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-10-30T13:57:29Z",
+      "side": 1,
+      "message": "Will we use axios or request-promise-native?",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 1,
+        "endChar": 45
+      },
+      "revId": "f455fb0536f12fa249ea5ae34730318831a2404d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d5626cdd_2294d60d",
+        "filename": "src/services/device.js",
+        "patchSetId": 4
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-10-30T13:57:29Z",
+      "side": 1,
+      "message": "/users",
+      "range": {
+        "startLine": 5,
+        "startChar": 56,
+        "endLine": 5,
+        "endChar": 63
+      },
+      "revId": "f455fb0536f12fa249ea5ae34730318831a2404d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "92305b78_557e0e11",
+        "filename": "src/services/device.js",
+        "patchSetId": 4
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-10-30T13:57:29Z",
+      "side": 1,
+      "message": "I think you can split into baseUrl and the other paths (/users, /forgot, /reset)",
+      "range": {
+        "startLine": 5,
+        "startChar": 9,
+        "endLine": 5,
+        "endChar": 25
+      },
+      "revId": "f455fb0536f12fa249ea5ae34730318831a2404d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5de8988d_930b57ca",
+        "filename": "src/services/device.js",
+        "patchSetId": 4
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-10-30T13:57:29Z",
+      "side": 1,
+      "message": "Avoid console.log",
+      "range": {
+        "startLine": 33,
+        "startChar": 4,
+        "endLine": 33,
+        "endChar": 26
+      },
+      "revId": "f455fb0536f12fa249ea5ae34730318831a2404d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
