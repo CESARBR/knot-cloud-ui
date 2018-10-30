@@ -94,6 +94,30 @@
     },
     {
       "key": {
+        "uuid": "01569a2a_35f34a69",
+        "filename": "src/services/device.js",
+        "patchSetId": 4
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-10-30T14:38:08Z",
+      "side": 1,
+      "message": "thinking in this way. I will change the class name to AuthenticatorService right?",
+      "parentUuid": "92305b78_557e0e11",
+      "range": {
+        "startLine": 5,
+        "startChar": 9,
+        "endLine": 5,
+        "endChar": 25
+      },
+      "revId": "f455fb0536f12fa249ea5ae34730318831a2404d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "5de8988d_930b57ca",
         "filename": "src/services/device.js",
         "patchSetId": 4
