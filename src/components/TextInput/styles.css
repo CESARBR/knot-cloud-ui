@@ -1,0 +1,10 @@
+.text-input {
+  position: relative;
+  width: 430px;
+  height: 50px;
+  border-radius: 25px;
+  margin-bottom: 25px;
+  font-size: 15pt;
+  border: 0;
+  padding-left: 20px;
+}
