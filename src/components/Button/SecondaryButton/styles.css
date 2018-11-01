@@ -1,0 +1,13 @@
+.btn-secondary {
+  background: rgba(7, 121, 13, 0); /* #07790D */
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: white;
+  color: #07790d;
+}
+
+.btn-secondary:active {
+  transform: translateY(2px);
+}

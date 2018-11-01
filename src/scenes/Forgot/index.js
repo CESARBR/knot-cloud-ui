@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import '../styles/Forgot.css';
 import { Link } from 'react-router-dom';
+import TextInput from 'components/TextInput';
+import { PrimaryButton, SecondaryButton } from 'components/Button';
+import './styles.css';
 
 class Forgot extends Component {
   constructor(props) {
@@ -20,15 +22,11 @@ class Forgot extends Component {
       <div className="forgot-pwd-wrapper">
         <h3 className="page-title"> FORGOT PASSWORD </h3>
         <form className="reset-form" onSubmit={e => this.handleSubmit(e)}>
-          <input type="email" className="text-input" id="reset-user-email" placeholder="Email" onChange={e => this.setState({ email: e.target.value })} required />
-          <br />
-          <input type="submit" className="btn btn-primary" id="reset-user-btn" value="SUBMIT" />
-          <br />
+          <TextInput type="email" id="reset-user-email" placeholder="Email" onChange={e => this.setState({ email: e.target.value })} />
+          <PrimaryButton name="SUBMIT" />
         </form>
         <Link to="/">
-          <button className="btn btn-secondary" type="button">
-            LOGIN
-          </button>
+          <SecondaryButton name="Login" />
         </Link>
       </div>
     );

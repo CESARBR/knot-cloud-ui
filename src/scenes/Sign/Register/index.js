@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
 import config from 'react-global-configuration';
 import { Link, Redirect } from 'react-router-dom';
-import Authenticator from '../services/Authenticator';
-import ErrorMessage from './ErrorMessage';
+import Authenticator from 'services/Authenticator';
+import ErrorMessage from 'components/ErrorMessage';
+import { PrimaryButton, SecondaryButton } from 'components/Button';
+import TextInput from 'components/TextInput';
+import 'scenes/Sign/styles.css';
 
 class Signup extends Component {
   constructor(props) {
@@ -75,17 +78,14 @@ class Signup extends Component {
     return (
       <div className="sign-form">
         <form onSubmit={e => this.handleSignup(e)}>
-          <input className="text-input" id="email" type="email" onChange={this.handleChange} placeholder="Email" required />
-          <br />
-          <input className="text-input" id="password" type="password" onChange={this.handleChange} placeholder="Password" required />
-          <br />
-          <input className="text-input" id="confirmPassword" type="password" onChange={this.handleChange} placeholder="Confirm Password" required />
-          <br />
+          <TextInput type="email" id="email" placeholder="Email" onChange={this.handleChange} />
+          <TextInput type="password" id="password" placeholder="Password" onChange={this.handleChange} />
+          <TextInput type="password" id="confirmPassword" placeholder="Confirm Password" onChange={this.handleChange} />
           <ErrorMessage message={errorMessage} />
-          <input className="btn btn-primary" id="button" type="submit" value="Sign up" />
+          <PrimaryButton name="Sign up" />
         </form>
         <Link to="/">
-          <input className="btn btn-secondary" id="button-signin" type="submit" value="Sign in" />
+          <SecondaryButton name="Sign in" />
         </Link>
         {this.renderRedirect()}
       </div>

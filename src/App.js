@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import './App.css';
-import KLoginIcon from './_assets/png/KLoginIcon.png';
-import Forgot from './components/Forgot';
-import Signup from './components/Signup';
-import Reset from './components/Reset';
-import Signin from './components/Signin';
-import NotFound from './components/NotFound';
+import KLoginIcon from '_assets/png/KLoginIcon.png';
+import { Signup, Signin } from 'scenes/Sign';
+import NotFound from 'scenes/NotFound';
+import Forgot from 'scenes/Forgot';
+import Reset from 'scenes/Reset';
+import 'App.css';
 
 class App extends Component {
   render() {

@@ -38,58 +38,6 @@
   margin-top: 0;
 }
 
-.text-input {
-  position: relative;
-  width: 430px;
-  height: 50px;
-  border-radius: 25px;
-  margin-bottom: 25px;
-  font-size: 15pt;
-  border: 0;
-  padding-left: 20px;
-}
-
-.btn {
-  position: relative;
-  border-radius: 25px;
-  width: 450px;
-  height: 50px;
-  font-size: 15pt;
-  margin-bottom: 25px;
-  border: 0px solid;
-  padding: 0;
-}
-
-.btn-primary {
-  background-color: #07790D;
-  color: white;
-  box-shadow: 0 3px black;
-}
-
-.btn-primary:hover {
-  background-color: white;
-  color: #07790d;
-}
-
-.btn-primary:active {
-  box-shadow: 0 1px black;
-  transform: translateY(2px);
-}
-
-.btn-secondary {
-  background: rgba(7, 121, 13, 0); /* #07790D */
-  color: white;
-}
-
-.btn-secondary:hover {
-  background-color: white;
-  color: #07790d;
-}
-
-.btn-secondary:active {
-  transform: translateY(2px);
-}
-
 .sign-form {
   display: inline-block;
   width: 480px;
