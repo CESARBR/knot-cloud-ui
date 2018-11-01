@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
 import config from 'react-global-configuration';
 import { Link, Redirect } from 'react-router-dom';
-import AuthenticatorService from '../services/authenticator';
-import ErrorMessage from './ErrorMessage';
+import AuthenticatorService from 'services/authenticator';
+import ErrorMessage from 'components/ErrorMessage';
+import PrimaryButton from 'components/Button/PrimaryButton';
+import SecondaryButton from 'components/Button/SecondaryButton';
+import InputText from 'components/InputText';
+import 'scenes/Sign/styles.css';
 
 class Signup extends Component {
   constructor(props) {
@@ -70,19 +74,16 @@ class Signup extends Component {
   render() {
     const { errorMessage } = this.state;
     return (
-      <div className="form">
+      <div className="sign-form">
         <form onSubmit={e => this.handleSignup(e)}>
-          <input className="text-input" id="email" type="email" onChange={this.handleChange} placeholder="Email" required />
-          <br />
-          <input className="text-input" id="password" type="password" onChange={this.handleChange} placeholder="Password" required />
-          <br />
-          <input className="text-input" id="confirmPassword" type="password" onChange={this.handleChange} placeholder="Confirm Password" required />
-          <br />
+          <InputText type="email" id="email" placeholder="Email" onChange={this.handleChange} />
+          <InputText type="password" id="password" placeholder="Password" onChange={this.handleChange} />
+          <InputText type="password" id="confirmPassword" placeholder="Confirm Password" onChange={this.handleChange} />
           <ErrorMessage message={errorMessage} />
-          <input className="btn btn-primary" id="button" type="submit" value="Sign up" />
+          <PrimaryButton name="Sign up" />
         </form>
         <Link to="/">
-          <input className="btn btn-secondary" id="button-signin" type="submit" value="Sign in" />
+          <SecondaryButton name="Sign in" />
         </Link>
         {this.renderRedirect()}
       </div>
