@@ -6,6 +6,16 @@
     "no-param-reassign": [2, { "props": false }],
     "comma-dangle":[2,"never"]
   },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "moduleDirectory": [
+          "node_modules",
+          "src"
+        ]
+      }
+    }
+  },
   "env": {
     "browser": true,
     "node": true
