@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import '../styles/Signin.css';
+import InputText from 'components/InputText';
+import ButtonPrimary from 'components/Button/ButtonPrimary';
+
+import ButtonSmall from './components/ButtonSmall';
 
 class Signin extends Component {
   constructor(props) {
@@ -28,18 +31,15 @@ class Signin extends Component {
     return (
       <div className="Signin">
         <form onSubmit={e => this.handleSignin(e)}>
-          <input className="text-input" id="email" type="email" onChange={this.handleChange} placeholder="Email" required />
-          <br />
-          <input className="text-input" id="password" type="password" onChange={this.handleChange} placeholder="Password" required />
-          <br />
-          <input className="btn btn-primary" id="button-signin" type="submit" value="Sign in" />
-          <br />
+          <InputText type="email" id="email" placeholder="Email" onChange={this.handleChange} />
+          <InputText type="password" id="password" placeholder="Password" onChange={this.handleChange} />
+          <ButtonPrimary name="Login" />
         </form>
         <Link to="/signup">
-          <input className="btn btn-secondary btn-small" id="button-signup" type="submit" value="Sign up" />
+          <ButtonSmall name="Sign up" />
         </Link>
         <Link to="/forgot">
-          <input className="btn btn-secondary btn-small" id="button-forgot" href="/forgot" type="submit" value="Forgot password?" />
+          <ButtonSmall name="Forgot Password?" />
         </Link>
       </div>
     );

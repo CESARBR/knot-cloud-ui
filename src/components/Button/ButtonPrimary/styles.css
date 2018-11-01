@@ -1,0 +1,15 @@
+.btn-primary {
+  background-color: #07790D;
+  color: white;
+  box-shadow: 0 3px black;
+}
+
+.btn-primary:hover {
+  background-color: white;
+  color: #07790d;
+}
+
+.btn-primary:active {
+  box-shadow: 0 1px black;
+  transform: translateY(2px);
+}
