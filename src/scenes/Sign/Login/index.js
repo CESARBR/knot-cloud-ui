@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import '../styles/Signin.css';
+import TextInput from 'components/TextInput';
+import PrimaryButton from 'components/Button/PrimaryButton';
+import 'scenes/Sign/styles.css';
+
+import SmallButton from './components/SmallButton';
 
 class Signin extends Component {
   constructor(props) {
@@ -26,20 +30,17 @@ class Signin extends Component {
 
   render() {
     return (
-      <div className="form">
+      <div className="sign-form">
         <form onSubmit={e => this.handleSignin(e)}>
-          <input className="text-input" id="email" type="email" onChange={this.handleChange} placeholder="Email" required />
-          <br />
-          <input className="text-input" id="password" type="password" onChange={this.handleChange} placeholder="Password" required />
-          <br />
-          <input className="btn btn-primary" id="button-signin" type="submit" value="Sign in" />
-          <br />
+          <TextInput type="email" id="email" placeholder="Email" onChange={this.handleChange} />
+          <TextInput type="password" id="password" placeholder="Password" onChange={this.handleChange} />
+          <PrimaryButton name="Login" />
         </form>
         <Link to="/signup">
-          <input className="btn btn-secondary btn-small" id="button-signup" type="submit" value="Sign up" />
+          <SmallButton name="Sign up" />
         </Link>
         <Link to="/forgot">
-          <input className="btn btn-secondary btn-small" id="button-forgot" href="/forgot" type="submit" value="Forgot password?" />
+          <SmallButton name="Forgot Password?" />
         </Link>
       </div>
     );

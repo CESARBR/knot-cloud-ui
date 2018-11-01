@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import '../styles/Reset.css';
 import { Redirect } from 'react-router-dom';
+import TextInput from 'components/TextInput';
+import PrimaryButton from 'components/Button/PrimaryButton';
+import './styles.css';
 
 class Reset extends Component {
   constructor(props) {
@@ -39,12 +41,9 @@ class Reset extends Component {
       <div className="reset-pwd-wrapper">
         <h3 className="page-title"> RESET PASSWORD </h3>
         <form className="reset-form" onSubmit={e => this.handleSubmit(e)}>
-          <input type="password" className="text-input" id="new-password" placeholder="New Password" onChange={e => this.setState({ password: e.target.value })} required />
-          <br />
-          <input type="password" className="text-input" id="new-password-confirm" placeholder="Confirm new password" onChange={e => this.setState({ confirm: e.target.value })} required />
-          <br />
-          <input type="submit" className="btn btn-primary" id="reset-user-btn" value="SUBMIT" />
-          <br />
+          <TextInput type="password" id="new-password" placeholder="New Password" onChange={e => this.setState({ password: e.target.value })} />
+          <TextInput type="password" id="new-password-confirm" placeholder="Confirm new password" onChange={e => this.setState({ confirm: e.target.value })} />
+          <PrimaryButton name="SUBMIT" />
         </form>
         {this.renderRedirect()}
       </div>
