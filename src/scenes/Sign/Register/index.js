@@ -26,41 +26,18 @@ class Signup extends Component {
     this.setState({ errorMessage: '' }); // remove message
   }
 
-  handleError(error) {
-    let message;
-    if (error.response) {
-      // Request was made and server responded with a status code
-      // out of range 2XX
-      const { status, data: { message: dataMessage } } = error.response;
-
-      if (status === 400) {
-        message = 'Bad request';
-      } else if (status === 500) {
-        message = 'Unknown error';
-      } else {
-        message = dataMessage;
-      }
-    } else if (error.request) {
-      // Request was made but no response was received
-      message = 'Could not reach server! Try again later';
-    } else {
-      // Something happened when setting up the request
-      message = error.message; // eslint-disable-line prefer-destructuring
-    }
-    this.setState({ errorMessage: message });
-  }
-
-  async handleSignup(e) {
+  handleSignup(e) {
     const { email, password, confirmPassword } = this.state;
     const authService = new Authenticator(config.get('authenticator.host'), config.get('authenticator.port'));
     e.preventDefault();
     if (password === confirmPassword) {
-      try {
-        await authService.createUser(email, password);
-        this.setState({ redirect: true });
-      } catch (error) {
-        this.handleError(error);
-      }
+      authService.createUser(email, password)
+        .then(() => {
+          this.setState({ redirect: true });
+        })
+        .catch((error) => {
+          this.setState({ errorMessage: error.message });
+        });
     } else {
       this.setState({ errorMessage: 'Password not match' });
     }

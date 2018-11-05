@@ -1,17 +1,18 @@
 import axios from 'axios';
+import ErrorHandler from 'services/Authenticator/ErrorHandler';
 
 class Authenticator {
   constructor(hostname, port) {
     this.baseUrl = `http://${hostname}:${port}`;
   }
 
-  async createUser(email, password) {
+  createUser(email, password) {
     const url = `${this.baseUrl}/users`;
 
-    return axios.post(url, {
+    return ErrorHandler.execute(axios.post(url, {
       email,
       password
-    });
+    }));
   }
 }
 
