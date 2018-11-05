@@ -1,0 +1,290 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8ad5b23e_e28fa0e6",
+        "filename": ".env",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-11-05T18:01:12Z",
+      "side": 1,
+      "message": "Who uses this variable?",
+      "revId": "e6fdeba9f8c735940a72e7b4ed83bacdbdddc98c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e81306fd_80d21438",
+        "filename": ".eslintrc.json",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-11-05T18:01:12Z",
+      "side": 1,
+      "message": "For our Node projects we are changing the project root and we use eslint-import-resolver-babel-module, an ESLint plugin, so that it can still verify if there are wrong imports. Could you search for a similar or whether this same package works? We shouldn\u0027t be disabling ESLint rules, unless if it doesn\u0027t make sense or there isn\u0027t another way.",
+      "range": {
+        "startLine": 8,
+        "startChar": 4,
+        "endLine": 8,
+        "endChar": 33
+      },
+      "revId": "e6fdeba9f8c735940a72e7b4ed83bacdbdddc98c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "28de707f_18518e1c",
+        "filename": "src/components/Button/ButtonPrimary/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-11-05T18:01:12Z",
+      "side": 1,
+      "message": "Is it correct? Should we use both files?\n\nShouldn\u0027t it be imported using absolute paths?",
+      "range": {
+        "startLine": 3,
+        "startChar": 0,
+        "endLine": 4,
+        "endChar": 23
+      },
+      "revId": "e6fdeba9f8c735940a72e7b4ed83bacdbdddc98c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "43b35f95_cb6733da",
+        "filename": "src/components/Button/ButtonPrimary/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-11-05T18:01:12Z",
+      "side": 1,
+      "message": "PrimaryButton",
+      "range": {
+        "startLine": 6,
+        "startChar": 6,
+        "endLine": 6,
+        "endChar": 19
+      },
+      "revId": "e6fdeba9f8c735940a72e7b4ed83bacdbdddc98c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "20caf1e7_a32b854c",
+        "filename": "src/components/Button/ButtonPrimary/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-11-05T18:01:12Z",
+      "side": 1,
+      "message": "Why it it being disabled?",
+      "range": {
+        "startLine": 8,
+        "startChar": 33,
+        "endLine": 8,
+        "endChar": 72
+      },
+      "revId": "e6fdeba9f8c735940a72e7b4ed83bacdbdddc98c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7e4ade2c_35fd33ff",
+        "filename": "src/components/Button/ButtonPrimary/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-11-05T18:01:12Z",
+      "side": 1,
+      "message": "Add blank lines to separate class and other definitions",
+      "revId": "e6fdeba9f8c735940a72e7b4ed83bacdbdddc98c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9278bae9_f4e97f69",
+        "filename": "src/components/Button/ButtonPrimary/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-11-05T18:01:12Z",
+      "side": 1,
+      "message": "Here as well",
+      "revId": "e6fdeba9f8c735940a72e7b4ed83bacdbdddc98c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3ba75924_612332c0",
+        "filename": "src/components/Button/ButtonSecondary/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-11-05T18:01:12Z",
+      "side": 1,
+      "message": "The questions regarding the primary button also applies here.",
+      "revId": "e6fdeba9f8c735940a72e7b4ed83bacdbdddc98c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fdd93a39_fc31c91f",
+        "filename": "src/components/Button/ButtonSecondary/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-11-05T18:01:12Z",
+      "side": 1,
+      "message": "SecondaryButton",
+      "range": {
+        "startLine": 6,
+        "startChar": 6,
+        "endLine": 6,
+        "endChar": 21
+      },
+      "revId": "e6fdeba9f8c735940a72e7b4ed83bacdbdddc98c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d9d9b556_fa750741",
+        "filename": "src/components/Button/styles.css",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-11-05T18:01:12Z",
+      "side": 1,
+      "message": "Verify if the CSS files are using the same pattern. I remember seeing other CSS with 4 space tab.",
+      "range": {
+        "startLine": 2,
+        "startChar": 0,
+        "endLine": 2,
+        "endChar": 2
+      },
+      "revId": "e6fdeba9f8c735940a72e7b4ed83bacdbdddc98c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4cb061f8_e6713d3a",
+        "filename": "src/components/InputText/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-11-05T18:01:12Z",
+      "side": 1,
+      "message": "See questions regarding primary button.",
+      "revId": "e6fdeba9f8c735940a72e7b4ed83bacdbdddc98c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9c6a30ed_4747633b",
+        "filename": "src/components/InputText/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-11-05T18:01:12Z",
+      "side": 1,
+      "message": "TextInput",
+      "range": {
+        "startLine": 5,
+        "startChar": 6,
+        "endLine": 5,
+        "endChar": 15
+      },
+      "revId": "e6fdeba9f8c735940a72e7b4ed83bacdbdddc98c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "30f9cadb_e25958ce",
+        "filename": "src/scenes/Sign/Login/components/ButtonSmall/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-11-05T18:01:12Z",
+      "side": 1,
+      "message": "See the comments regarding other buttons",
+      "revId": "e6fdeba9f8c735940a72e7b4ed83bacdbdddc98c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "252db944_007757be",
+        "filename": "src/scenes/Sign/Login/components/ButtonSmall/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-11-05T18:01:12Z",
+      "side": 1,
+      "message": "SmallButton",
+      "range": {
+        "startLine": 6,
+        "startChar": 6,
+        "endLine": 6,
+        "endChar": 17
+      },
+      "revId": "e6fdeba9f8c735940a72e7b4ed83bacdbdddc98c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
