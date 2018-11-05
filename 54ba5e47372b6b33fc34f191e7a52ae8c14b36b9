@@ -1,0 +1,165 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1bb7cad7_eaf3b5df",
+        "filename": "src/components/MessageError/index.js",
+        "patchSetId": 7
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-11-05T16:58:23Z",
+      "side": 1,
+      "message": "ErrorMessage",
+      "range": {
+        "startLine": 4,
+        "startChar": 6,
+        "endLine": 4,
+        "endChar": 18
+      },
+      "revId": "54ba5e47372b6b33fc34f191e7a52ae8c14b36b9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c30ec714_0698b2a8",
+        "filename": "src/components/MessageError/index.js",
+        "patchSetId": 7
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-11-05T16:58:23Z",
+      "side": 1,
+      "message": "errorMessage or simply message (the class name already implies that this is an error message).",
+      "range": {
+        "startLine": 6,
+        "startChar": 12,
+        "endLine": 6,
+        "endChar": 22
+      },
+      "revId": "54ba5e47372b6b33fc34f191e7a52ae8c14b36b9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "138efc32_7fde29cb",
+        "filename": "src/components/MessageError/index.js",
+        "patchSetId": 7
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-11-05T16:58:23Z",
+      "side": 1,
+      "message": "Instead of disabling ESLint, remove the else, it is unnecessary.",
+      "range": {
+        "startLine": 14,
+        "startChar": 6,
+        "endLine": 14,
+        "endChar": 50
+      },
+      "revId": "54ba5e47372b6b33fc34f191e7a52ae8c14b36b9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d162c8a0_29ce147e",
+        "filename": "src/components/Signup.js",
+        "patchSetId": 7
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-11-05T16:58:23Z",
+      "side": 1,
+      "message": "errorMessage",
+      "range": {
+        "startLine": 15,
+        "startChar": 6,
+        "endLine": 15,
+        "endChar": 16
+      },
+      "revId": "54ba5e47372b6b33fc34f191e7a52ae8c14b36b9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9da83385_08f2a567",
+        "filename": "src/components/Signup.js",
+        "patchSetId": 7
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-11-05T16:58:23Z",
+      "side": 1,
+      "message": "authService\n\nYou don\u0027t reassign any value to this variable, mark it as const (declare it inside the if)",
+      "range": {
+        "startLine": 28,
+        "startChar": 8,
+        "endLine": 28,
+        "endChar": 16
+      },
+      "revId": "54ba5e47372b6b33fc34f191e7a52ae8c14b36b9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d3bc43ac_c621d0ab",
+        "filename": "src/components/Signup.js",
+        "patchSetId": 7
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-11-05T16:58:23Z",
+      "side": 1,
+      "message": "422 can happen because of a validation error in any of the fields, you must parse the responde body to get the real cause.",
+      "range": {
+        "startLine": 46,
+        "startChar": 10,
+        "endLine": 46,
+        "endChar": 38
+      },
+      "revId": "54ba5e47372b6b33fc34f191e7a52ae8c14b36b9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a8b4f14e_e2355187",
+        "filename": "src/components/Signup.js",
+        "patchSetId": 7
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-11-05T16:58:23Z",
+      "side": 1,
+      "message": "Consider both as unknown/system error.",
+      "range": {
+        "startLine": 48,
+        "startChar": 10,
+        "endLine": 51,
+        "endChar": 38
+      },
+      "revId": "54ba5e47372b6b33fc34f191e7a52ae8c14b36b9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
