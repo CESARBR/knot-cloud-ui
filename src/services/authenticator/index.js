@@ -18,6 +18,18 @@ class Authenticator {
       throw message;
     }
   }
+
+  async forgotPassword(email) {
+    const url = `${this.baseUrl}/forgot`;
+
+    try {
+      await ErrorHandler.execute(axios.post(url, {
+        email
+      }));
+    } catch (message) {
+      throw message;
+    }
+  }
 }
 
 export default Authenticator;
