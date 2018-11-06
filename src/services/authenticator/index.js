@@ -30,6 +30,19 @@ class Authenticator {
       throw message;
     }
   }
+
+  async authUser(email, password) {
+    const url = `${this.baseUrl}/auth`;
+
+    try {
+      await ErrorHandler.execute(axios.post(url, {
+        email,
+        password
+      }));
+    } catch (message) {
+      throw message;
+    }
+  }
 }
 
 export default Authenticator;
