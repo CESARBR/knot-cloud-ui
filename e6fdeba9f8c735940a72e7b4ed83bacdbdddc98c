@@ -107,6 +107,30 @@
     },
     {
       "key": {
+        "uuid": "e2666d6e_85437a22",
+        "filename": "src/components/Button/ButtonPrimary/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-06T13:19:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "28de707f_18518e1c",
+      "range": {
+        "startLine": 3,
+        "startChar": 0,
+        "endLine": 4,
+        "endChar": 23
+      },
+      "revId": "e6fdeba9f8c735940a72e7b4ed83bacdbdddc98c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "43b35f95_cb6733da",
         "filename": "src/components/Button/ButtonPrimary/index.js",
         "patchSetId": 1
@@ -127,6 +151,30 @@
       "revId": "e6fdeba9f8c735940a72e7b4ed83bacdbdddc98c",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "432d750b_1e2d5887",
+        "filename": "src/components/Button/ButtonPrimary/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-06T13:19:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "43b35f95_cb6733da",
+      "range": {
+        "startLine": 6,
+        "startChar": 6,
+        "endLine": 6,
+        "endChar": 19
+      },
+      "revId": "e6fdeba9f8c735940a72e7b4ed83bacdbdddc98c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     },
     {
       "key": {
@@ -170,6 +218,24 @@
     },
     {
       "key": {
+        "uuid": "a42295bb_68f8e1ce",
+        "filename": "src/components/Button/ButtonPrimary/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-06T13:19:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7e4ade2c_35fd33ff",
+      "revId": "e6fdeba9f8c735940a72e7b4ed83bacdbdddc98c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9278bae9_f4e97f69",
         "filename": "src/components/Button/ButtonPrimary/index.js",
         "patchSetId": 1
@@ -187,6 +253,24 @@
     },
     {
       "key": {
+        "uuid": "bab38c49_03ae06ba",
+        "filename": "src/components/Button/ButtonPrimary/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-06T13:19:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9278bae9_f4e97f69",
+      "revId": "e6fdeba9f8c735940a72e7b4ed83bacdbdddc98c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3ba75924_612332c0",
         "filename": "src/components/Button/ButtonSecondary/index.js",
         "patchSetId": 1
@@ -201,6 +285,24 @@
       "revId": "e6fdeba9f8c735940a72e7b4ed83bacdbdddc98c",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1d50cd99_9704d1a8",
+        "filename": "src/components/Button/ButtonSecondary/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-06T13:19:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3ba75924_612332c0",
+      "revId": "e6fdeba9f8c735940a72e7b4ed83bacdbdddc98c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     },
     {
       "key": {
@@ -227,6 +329,30 @@
     },
     {
       "key": {
+        "uuid": "609a0928_8340a65d",
+        "filename": "src/components/Button/ButtonSecondary/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-06T13:19:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fdd93a39_fc31c91f",
+      "range": {
+        "startLine": 6,
+        "startChar": 6,
+        "endLine": 6,
+        "endChar": 21
+      },
+      "revId": "e6fdeba9f8c735940a72e7b4ed83bacdbdddc98c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "d9d9b556_fa750741",
         "filename": "src/components/Button/styles.css",
         "patchSetId": 1
@@ -247,6 +373,30 @@
       "revId": "e6fdeba9f8c735940a72e7b4ed83bacdbdddc98c",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "eb194316_ecce99fb",
+        "filename": "src/components/Button/styles.css",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-06T13:19:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d9d9b556_fa750741",
+      "range": {
+        "startLine": 2,
+        "startChar": 0,
+        "endLine": 2,
+        "endChar": 2
+      },
+      "revId": "e6fdeba9f8c735940a72e7b4ed83bacdbdddc98c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     },
     {
       "key": {
