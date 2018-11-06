@@ -1,0 +1,78 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9de5bc37_b38ac63c",
+        "filename": "src/components/ErrorMessage/index.js",
+        "patchSetId": 8
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1013169
+      },
+      "writtenOn": "2018-11-06T18:59:45Z",
+      "side": 1,
+      "message": "Break this character in a new line to format it correctly.",
+      "range": {
+        "startLine": 11,
+        "startChar": 12,
+        "endLine": 11,
+        "endChar": 13
+      },
+      "revId": "106746be4d39ee727f283452120c1e232e6e1b93",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "74600afa_0c569326",
+        "filename": "src/components/Signup.js",
+        "patchSetId": 8
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1013169
+      },
+      "writtenOn": "2018-11-06T18:59:45Z",
+      "side": 1,
+      "message": "I think you can make this function more readable by creating other two functions: createUser() and handleError(), separating the responsibilities. \n\ne.g.\n\nasync handleSignup() {\n  if (password \u003d\u003d\u003d confirmPassword) {\n    await createUser(email, password);\n  } else {\n    .....\n  }\n}\n\nasync createUser(email, password) {\n  try {\n    //authService.createUser(...);\n  catch (error) {\n    handleError(error);\n  }  \n}\n\nhandleError(...) {\n  ...\n}",
+      "revId": "106746be4d39ee727f283452120c1e232e6e1b93",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4b2e608d_f6ec0811",
+        "filename": "src/services/authenticator.js",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1013169
+      },
+      "writtenOn": "2018-11-06T18:59:45Z",
+      "side": 1,
+      "message": "Rename the file to \u0027Authenticator\u0027, the same name of the class.",
+      "revId": "106746be4d39ee727f283452120c1e232e6e1b93",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4451a266_9647d6cd",
+        "filename": "src/services/authenticator.js",
+        "patchSetId": 8
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1013169
+      },
+      "writtenOn": "2018-11-06T18:59:45Z",
+      "side": 1,
+      "message": "I think you could rename the class to \u0027Authenticator\u0027 only, since this file is already under \u0027src/services\u0027 path.",
+      "revId": "106746be4d39ee727f283452120c1e232e6e1b93",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
