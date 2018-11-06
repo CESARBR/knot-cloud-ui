@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "48dc8d30_1d52a3e5",
+        "filename": "src/components/InputText/index.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-11-06T20:36:55Z",
+      "side": 1,
+      "message": "Remove this. As discussed, not needed.",
+      "range": {
+        "startLine": 7,
+        "startChar": 44,
+        "endLine": 7,
+        "endChar": 83
+      },
+      "revId": "ef456b35749108723add926ff618fb1a63148246",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
