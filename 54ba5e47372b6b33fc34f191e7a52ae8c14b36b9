@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "52fbb0de_9e380a98",
+        "filename": "src/components/MessageError/index.js",
+        "patchSetId": 7
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-06T11:50:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1bb7cad7_eaf3b5df",
+      "range": {
+        "startLine": 4,
+        "startChar": 6,
+        "endLine": 4,
+        "endChar": 18
+      },
+      "revId": "54ba5e47372b6b33fc34f191e7a52ae8c14b36b9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "c30ec714_0698b2a8",
         "filename": "src/components/MessageError/index.js",
         "patchSetId": 7
@@ -45,6 +69,30 @@
       "revId": "54ba5e47372b6b33fc34f191e7a52ae8c14b36b9",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "89d2393a_017cfb9e",
+        "filename": "src/components/MessageError/index.js",
+        "patchSetId": 7
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-06T11:50:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c30ec714_0698b2a8",
+      "range": {
+        "startLine": 6,
+        "startChar": 12,
+        "endLine": 6,
+        "endChar": 22
+      },
+      "revId": "54ba5e47372b6b33fc34f191e7a52ae8c14b36b9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     },
     {
       "key": {
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "1cae17c2_08924ae6",
+        "filename": "src/components/MessageError/index.js",
+        "patchSetId": 7
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-06T11:50:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "138efc32_7fde29cb",
+      "range": {
+        "startLine": 14,
+        "startChar": 6,
+        "endLine": 14,
+        "endChar": 50
+      },
+      "revId": "54ba5e47372b6b33fc34f191e7a52ae8c14b36b9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "d162c8a0_29ce147e",
         "filename": "src/components/Signup.js",
         "patchSetId": 7
@@ -94,6 +166,30 @@
     },
     {
       "key": {
+        "uuid": "2646e98c_3204e43e",
+        "filename": "src/components/Signup.js",
+        "patchSetId": 7
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-06T11:50:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d162c8a0_29ce147e",
+      "range": {
+        "startLine": 15,
+        "startChar": 6,
+        "endLine": 15,
+        "endChar": 16
+      },
+      "revId": "54ba5e47372b6b33fc34f191e7a52ae8c14b36b9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9da83385_08f2a567",
         "filename": "src/components/Signup.js",
         "patchSetId": 7
@@ -114,6 +210,30 @@
       "revId": "54ba5e47372b6b33fc34f191e7a52ae8c14b36b9",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c9baf1c0_c80916d7",
+        "filename": "src/components/Signup.js",
+        "patchSetId": 7
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-06T11:50:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9da83385_08f2a567",
+      "range": {
+        "startLine": 28,
+        "startChar": 8,
+        "endLine": 28,
+        "endChar": 16
+      },
+      "revId": "54ba5e47372b6b33fc34f191e7a52ae8c14b36b9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     },
     {
       "key": {
@@ -160,6 +280,30 @@
       "revId": "54ba5e47372b6b33fc34f191e7a52ae8c14b36b9",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4f70f89d_093a1fd6",
+        "filename": "src/components/Signup.js",
+        "patchSetId": 7
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-06T11:50:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a8b4f14e_e2355187",
+      "range": {
+        "startLine": 48,
+        "startChar": 10,
+        "endLine": 51,
+        "endChar": 38
+      },
+      "revId": "54ba5e47372b6b33fc34f191e7a52ae8c14b36b9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
