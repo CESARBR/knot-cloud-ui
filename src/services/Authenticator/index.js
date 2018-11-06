@@ -14,6 +14,14 @@ class Authenticator {
       password
     }));
   }
+
+  forgotPassword(email) {
+    const url = `${this.baseUrl}/forgot`;
+
+    return ErrorHandler.execute(axios.post(url, {
+      email
+    }));
+  }
 }
 
 export default Authenticator;
