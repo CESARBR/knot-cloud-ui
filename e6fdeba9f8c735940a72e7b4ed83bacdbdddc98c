@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "d12af63e_111f8ced",
+        "filename": ".env",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-06T11:50:30Z",
+      "side": 1,
+      "message": "it avoids the use of absolute path in import statements",
+      "parentUuid": "8ad5b23e_e28fa0e6",
+      "revId": "e6fdeba9f8c735940a72e7b4ed83bacdbdddc98c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "e81306fd_80d21438",
         "filename": ".eslintrc.json",
         "patchSetId": 1
@@ -30,6 +48,30 @@
       "writtenOn": "2018-11-05T18:01:12Z",
       "side": 1,
       "message": "For our Node projects we are changing the project root and we use eslint-import-resolver-babel-module, an ESLint plugin, so that it can still verify if there are wrong imports. Could you search for a similar or whether this same package works? We shouldn\u0027t be disabling ESLint rules, unless if it doesn\u0027t make sense or there isn\u0027t another way.",
+      "range": {
+        "startLine": 8,
+        "startChar": 4,
+        "endLine": 8,
+        "endChar": 33
+      },
+      "revId": "e6fdeba9f8c735940a72e7b4ed83bacdbdddc98c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0f1ea2a2_ed3e7b79",
+        "filename": ".eslintrc.json",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-06T11:50:30Z",
+      "side": 1,
+      "message": "I\u0027ve used the NODE_PATH\u003dsrc to avoid using imports like \u0027../../../../services\u0027. But I agree that there must be settings that turn on imports no unresolved",
+      "parentUuid": "e81306fd_80d21438",
       "range": {
         "startLine": 8,
         "startChar": 4,
