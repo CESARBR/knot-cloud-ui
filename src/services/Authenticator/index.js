@@ -22,6 +22,15 @@ class Authenticator {
       email
     }));
   }
+
+  authenticate(email, password) {
+    const url = `${this.baseUrl}/auth`;
+
+    return ErrorHandler.execute(axios.post(url, {
+      email,
+      password
+    }));
+  }
 }
 
 export default Authenticator;
