@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e1d1ac5e_19bcf9db",
+        "filename": "src/components/InputText/index.js",
+        "patchSetId": 5
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-11-07T21:44:19Z",
+      "side": 1,
+      "message": "TextInput",
+      "range": {
+        "startLine": 5,
+        "startChar": 6,
+        "endLine": 5,
+        "endChar": 15
+      },
+      "revId": "7be8bf8acf702a0fb90ca93e0e65888e4e559c93",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
