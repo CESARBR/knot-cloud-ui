@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3cac2539_c40edc95",
+        "filename": "src/components/ErrorMessage/styles.css",
+        "patchSetId": 11
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-11-07T21:36:55Z",
+      "side": 1,
+      "message": "Verify the CSS coding style. This has 4 space indentation while there are others with 2.",
+      "range": {
+        "startLine": 2,
+        "startChar": 0,
+        "endLine": 2,
+        "endChar": 4
+      },
+      "revId": "afacb52e20b7836cfd98e4d15c90549b616c7b12",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9da4039f_35c3847a",
+        "filename": "src/components/Signup.js",
+        "patchSetId": 11
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-11-07T21:36:55Z",
+      "side": 1,
+      "message": "Weren\u0027t we using absolute paths?",
+      "range": {
+        "startLine": 4,
+        "startChar": 27,
+        "endLine": 4,
+        "endChar": 30
+      },
+      "revId": "afacb52e20b7836cfd98e4d15c90549b616c7b12",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "aa18f326_cc81b665",
+        "filename": "src/components/Signup.js",
+        "patchSetId": 11
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-11-07T21:36:55Z",
+      "side": 1,
+      "message": "This can be done in one line:\n\nconst { status, data: { message: dataMessage } } \u003d error.response;",
+      "range": {
+        "startLine": 31,
+        "startChar": 6,
+        "endLine": 32,
+        "endChar": 54
+      },
+      "revId": "afacb52e20b7836cfd98e4d15c90549b616c7b12",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
