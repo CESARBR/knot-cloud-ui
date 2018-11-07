@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e956a1dd_e8be79d3",
+        "filename": "src/services/authenticator/errorHandler/index.js",
+        "patchSetId": 3
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-11-07T21:48:22Z",
+      "side": 1,
+      "message": "Is it a pattern to use camelCase in service names? authenticator for the file and folder that holds Authenticator and errorHandler for the file/folder that holds ErrorHandler?\n\nIs this error handler specific to the authenticator?",
+      "revId": "45f6aeab1bc806bfbeb5f88e11d807acff7e6fd4",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "59c387dd_5bfe099f",
+        "filename": "src/services/authenticator/index.js",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-11-07T21:48:22Z",
+      "side": 1,
+      "message": "as you are not doing anything with message, remove the try/catch",
+      "range": {
+        "startLine": 17,
+        "startChar": 0,
+        "endLine": 19,
+        "endChar": 5
+      },
+      "revId": "45f6aeab1bc806bfbeb5f88e11d807acff7e6fd4",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
