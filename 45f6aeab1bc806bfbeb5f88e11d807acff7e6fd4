@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "de08ef20_50d36ff7",
+        "filename": "src/services/authenticator/errorHandler/index.js",
+        "patchSetId": 3
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-08T14:34:33Z",
+      "side": 1,
+      "message": "https://medium.com/@alexmngn/how-to-better-organize-your-react-applications-2fd3ea1920f1\nIn section: `What could be a better approach to organize your application?`\nAll the services started with lower_case/camelCase, and as we are working with classes the pattern used to be in PascalCase.\nThe example used by author also use camelCase for service: `https://github.com/alexmngn/react-native-authentication/tree/master/client/MobileApp/src/services`\n\nI belive so.",
+      "parentUuid": "e956a1dd_e8be79d3",
+      "revId": "45f6aeab1bc806bfbeb5f88e11d807acff7e6fd4",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "59c387dd_5bfe099f",
         "filename": "src/services/authenticator/index.js",
         "patchSetId": 3
@@ -39,6 +57,30 @@
       "revId": "45f6aeab1bc806bfbeb5f88e11d807acff7e6fd4",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ec4f8ff9_8540e634",
+        "filename": "src/services/authenticator/index.js",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-08T14:34:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "59c387dd_5bfe099f",
+      "range": {
+        "startLine": 17,
+        "startChar": 0,
+        "endLine": 19,
+        "endChar": 5
+      },
+      "revId": "45f6aeab1bc806bfbeb5f88e11d807acff7e6fd4",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
