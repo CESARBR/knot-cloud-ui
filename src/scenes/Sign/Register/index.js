@@ -12,8 +12,7 @@ class Signup extends Component {
     super(props);
     this.state = {
       email: '',
-      password: '',
-      confirmPassword: '',
+      isPasswordValid: false,
       redirect: false,
       errorMessage: ''
     };
@@ -23,14 +22,14 @@ class Signup extends Component {
 
   handleChange(e) {
     this.setState({ [e.target.id]: e.target.value });
-    this.setState({ errorMessage: '' }); // remove message
   }
 
   handleSignup(e) {
-    const { email, password, confirmPassword } = this.state;
+    const { email, password, isPasswordValid } = this.state;
     const authService = new Authenticator(config.get('authenticator.host'), config.get('authenticator.port'));
+
     e.preventDefault();
-    if (password === confirmPassword) {
+    if (isPasswordValid) {
       authService.createUser(email, password)
         .then(() => {
           this.setState({ redirect: true });
@@ -38,9 +37,50 @@ class Signup extends Component {
         .catch((error) => {
           this.setState({ errorMessage: error.message });
         });
-    } else {
-      this.setState({ errorMessage: 'Password not match' });
     }
+  }
+
+  shouldShowError(doPasswordsMatch, emptyFields) {
+    const errorMessage = (!doPasswordsMatch && !emptyFields) ? "Passwords don't match!" : '';
+
+    this.setState({
+      errorMessage
+    });
+  }
+
+  checkPasswordsValid(password, confirmPassword) {
+    const doPasswordsMatch = (password === confirmPassword);
+    const emptyFields = !(password && confirmPassword);
+    const isPasswordValid = (doPasswordsMatch && !emptyFields);
+
+    this.shouldShowError(doPasswordsMatch, emptyFields);
+    this.setState({
+      isPasswordValid
+    });
+  }
+
+  updatePassword(e) {
+    const { confirmPassword } = this.state;
+    const password = e.target.value;
+
+    this.setState({
+      password
+    });
+    this.checkPasswordsValid(password, confirmPassword);
+
+    e.preventDefault();
+  }
+
+  updateConfirmPassword(e) {
+    const { password } = this.state;
+    const confirmPassword = e.target.value;
+
+    this.setState({
+      confirmPassword
+    });
+    this.checkPasswordsValid(password, confirmPassword);
+
+    e.preventDefault();
   }
 
   renderRedirect() { // eslint-disable-line consistent-return
@@ -56,8 +96,8 @@ class Signup extends Component {
       <div className="sign-form">
         <form onSubmit={e => this.handleSignup(e)}>
           <TextInput type="email" id="email" placeholder="Email" onChange={this.handleChange} />
-          <TextInput type="password" id="password" placeholder="Password" onChange={this.handleChange} />
-          <TextInput type="password" id="confirmPassword" placeholder="Confirm Password" onChange={this.handleChange} />
+          <TextInput type="password" id="password" placeholder="Password" onChange={e => this.updatePassword(e)} />
+          <TextInput type="password" id="confirmPassword" placeholder="Confirm Password" onChange={e => this.updateConfirmPassword(e)} />
           <ErrorMessage message={errorMessage} />
           <PrimaryButton name="Sign up" />
         </form>
