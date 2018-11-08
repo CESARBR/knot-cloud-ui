@@ -55,6 +55,24 @@
     },
     {
       "key": {
+        "uuid": "472264db_60e593da",
+        "filename": "src/services/authenticator/errorHandler/index.js",
+        "patchSetId": 3
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-08T19:00:02Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0a47ddc3_ec2c305a",
+      "revId": "45f6aeab1bc806bfbeb5f88e11d807acff7e6fd4",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "59c387dd_5bfe099f",
         "filename": "src/services/authenticator/index.js",
         "patchSetId": 3
