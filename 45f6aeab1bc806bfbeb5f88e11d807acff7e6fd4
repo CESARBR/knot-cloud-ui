@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "0a47ddc3_ec2c305a",
+        "filename": "src/services/authenticator/errorHandler/index.js",
+        "patchSetId": 3
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-11-08T17:27:34Z",
+      "side": 1,
+      "message": "I think it uses camelCase when it exports functions or attributes and PascalCase when it exports classes. See sessions/index.jsx, there are only functions. I think that ErrorHandler can be spelled in PascalCase (also, instead of a class, this could be a function).",
+      "parentUuid": "de08ef20_50d36ff7",
+      "revId": "45f6aeab1bc806bfbeb5f88e11d807acff7e6fd4",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "59c387dd_5bfe099f",
         "filename": "src/services/authenticator/index.js",
         "patchSetId": 3
