@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "0632f48b_c4e66e63",
+        "filename": "src/components/ErrorMessage/styles.css",
+        "patchSetId": 11
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-08T14:34:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3cac2539_c40edc95",
+      "range": {
+        "startLine": 2,
+        "startChar": 0,
+        "endLine": 2,
+        "endChar": 4
+      },
+      "revId": "afacb52e20b7836cfd98e4d15c90549b616c7b12",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9da4039f_35c3847a",
         "filename": "src/components/Signup.js",
         "patchSetId": 11
@@ -36,6 +60,30 @@
       "writtenOn": "2018-11-07T21:36:55Z",
       "side": 1,
       "message": "Weren\u0027t we using absolute paths?",
+      "range": {
+        "startLine": 4,
+        "startChar": 27,
+        "endLine": 4,
+        "endChar": 30
+      },
+      "revId": "afacb52e20b7836cfd98e4d15c90549b616c7b12",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8373e238_aecd27c5",
+        "filename": "src/components/Signup.js",
+        "patchSetId": 11
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-08T14:34:06Z",
+      "side": 1,
+      "message": "This is done just in next commit.",
+      "parentUuid": "9da4039f_35c3847a",
       "range": {
         "startLine": 4,
         "startChar": 27,
@@ -68,6 +116,30 @@
       "revId": "afacb52e20b7836cfd98e4d15c90549b616c7b12",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b0ab87e8_b0f54b7b",
+        "filename": "src/components/Signup.js",
+        "patchSetId": 11
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-08T14:34:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "aa18f326_cc81b665",
+      "range": {
+        "startLine": 31,
+        "startChar": 6,
+        "endLine": 32,
+        "endChar": 54
+      },
+      "revId": "afacb52e20b7836cfd98e4d15c90549b616c7b12",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
