@@ -14,6 +14,16 @@ class Authenticator {
       password
     }));
   }
+
+  resetPassword(uuid, token, password) {
+    const url = `${this.baseUrl}/reset`;
+
+    return ErrorHandler.execute(axios.post(url, {
+      uuid,
+      token,
+      password
+    }));
+  }
 }
 
 export default Authenticator;

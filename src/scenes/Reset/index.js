@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
 import { Redirect } from 'react-router-dom';
+import config from 'react-global-configuration';
 import TextInput from 'components/TextInput';
 import PrimaryButton from 'components/Button/PrimaryButton';
 import ErrorMessage from 'components/ErrorMessage';
+import Authenticator from 'services/Authenticator';
+import PropTypes from 'prop-types';
+import * as queryString from 'query-string';
 import './styles.css';
 
 class Reset extends Component {
@@ -18,12 +22,23 @@ class Reset extends Component {
   }
 
   handleSubmit(e) {
-    const { passwordMatch } = this.state;
+    const { password, passwordMatch } = this.state;
+    const { location: { search } } = this.props;
+    const { uuid, token } = queryString.parse(search);
+    const authService = new Authenticator(config.get('authenticator.host'), config.get('authenticator.port'));
 
     if (passwordMatch) {
-      this.setState({
-        redirect: true
-      });
+      authService.resetPassword(uuid, token, password)
+        .then(() => {
+          this.setState({
+            redirect: true
+          });
+        })
+        .catch((error) => {
+          this.setState({
+            errorMessage: error.message
+          });
+        });
     }
 
     e.preventDefault();
@@ -72,4 +87,15 @@ class Reset extends Component {
       </div>
     );
   }
-} export default Reset;
+}
+
+Reset.propTypes = {
+  location: PropTypes.shape({ search: PropTypes.string.isRequired })
+};
+
+Reset.defaultProps = {
+  location: { search: '?uuid=&token=' }
+};
+
+
+export default Reset;
