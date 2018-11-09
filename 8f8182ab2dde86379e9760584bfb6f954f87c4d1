@@ -16,6 +16,24 @@
       "revId": "8f8182ab2dde86379e9760584bfb6f954f87c4d1",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d7a293e9_4b2143ef",
+        "filename": "src/scenes/Sign/index.js",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-09T16:01:13Z",
+      "side": 1,
+      "message": "Nice found!\nThe reason is to this:\nimport {Signin, Signup} from \u0027scenes/Sign\u0027;\n\nI will change the Button too.",
+      "parentUuid": "a70069dd_c5259286",
+      "revId": "8f8182ab2dde86379e9760584bfb6f954f87c4d1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
     }
   ]
 }
