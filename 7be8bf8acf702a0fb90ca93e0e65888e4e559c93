@@ -2,6 +2,40 @@
   "comments": [
     {
       "key": {
+        "uuid": "9a53cf82_67b14baf",
+        "filename": ".env",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-11-09T01:11:11Z",
+      "side": 1,
+      "message": "Not sure if problem is my environment, but yarn would not use this environment variable, had to explicitly set it.\nBelieve it\u0027s better to double check in a third setup.",
+      "revId": "7be8bf8acf702a0fb90ca93e0e65888e4e559c93",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4ecf80e9_fe63d25c",
+        "filename": ".env",
+        "patchSetId": 5
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-11-09T01:11:11Z",
+      "side": 1,
+      "message": "Should have a newline in the end of file?",
+      "revId": "7be8bf8acf702a0fb90ca93e0e65888e4e559c93",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "e1d1ac5e_19bcf9db",
         "filename": "src/components/InputText/index.js",
         "patchSetId": 5
@@ -46,6 +80,29 @@
       "revId": "7be8bf8acf702a0fb90ca93e0e65888e4e559c93",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "aabe10c1_8805ac0f",
+        "filename": "src/scenes/Sign/Login/index.js",
+        "patchSetId": 5
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-11-09T01:11:11Z",
+      "side": 1,
+      "message": "eslint 28:5  warning  Unexpected alert  no-alert\n\nAs this is going to be removed in future patches, I\u0027d suggest add \n// eslint-disable-line no-alert\nfor this commit",
+      "range": {
+        "startLine": 28,
+        "startChar": 3,
+        "endLine": 28,
+        "endChar": 35
+      },
+      "revId": "7be8bf8acf702a0fb90ca93e0e65888e4e559c93",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
     }
   ]
 }
