@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d0f3299d_5afa4ee5",
+        "filename": "src/scenes/Sign/Login/index.js",
+        "patchSetId": 8
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-11-09T20:55:53Z",
+      "side": 1,
+      "message": "Remove this empty line or comment the reason for it not to be together with the others. \ne.g.:\n// import components defined inside own component",
+      "range": {
+        "startLine": 8,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 51
+      },
+      "revId": "98a01b7315022eb15515050abb95bc1158552b33",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
