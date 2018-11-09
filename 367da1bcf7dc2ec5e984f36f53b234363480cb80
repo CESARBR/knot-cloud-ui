@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "e9b9afdc_9d88990e",
+        "filename": "src/components/Signin.js",
+        "patchSetId": 13
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-09T16:01:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4cc86aac_ad09ee48",
+      "range": {
+        "startLine": 23,
+        "startChar": 4,
+        "endLine": 23,
+        "endChar": 37
+      },
+      "revId": "367da1bcf7dc2ec5e984f36f53b234363480cb80",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "992cfeed_01c7756b",
         "filename": "src/components/Signin.js",
         "patchSetId": 13
@@ -45,6 +69,30 @@
       "revId": "367da1bcf7dc2ec5e984f36f53b234363480cb80",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "393aa80f_5c7ad36d",
+        "filename": "src/components/Signin.js",
+        "patchSetId": 13
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-09T16:01:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "992cfeed_01c7756b",
+      "range": {
+        "startLine": 29,
+        "startChar": 6,
+        "endLine": 29,
+        "endChar": 28
+      },
+      "revId": "367da1bcf7dc2ec5e984f36f53b234363480cb80",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     },
     {
       "key": {
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "fa44b01d_8e394f06",
+        "filename": "src/components/Signup.js",
+        "patchSetId": 13
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-09T16:01:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "23eaa8ef_7739b92f",
+      "range": {
+        "startLine": 76,
+        "startChar": 6,
+        "endLine": 76,
+        "endChar": 28
+      },
+      "revId": "367da1bcf7dc2ec5e984f36f53b234363480cb80",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5b74f554_74df81f1",
         "filename": "src/services/Authenticator.js",
         "patchSetId": 13
@@ -82,6 +154,30 @@
       "writtenOn": "2018-11-09T01:03:00Z",
       "side": 1,
       "message": "What\u0027s the common usage? Having http:// here or have the protocol (http or https) in the config?",
+      "range": {
+        "startLine": 5,
+        "startChar": 20,
+        "endLine": 5,
+        "endChar": 27
+      },
+      "revId": "367da1bcf7dc2ec5e984f36f53b234363480cb80",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "784c667a_920e2be8",
+        "filename": "src/services/Authenticator.js",
+        "patchSetId": 13
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-09T16:01:04Z",
+      "side": 1,
+      "message": "As we haven\u0027t implemented the SSL yet. I think we can use just http. And when it is ok we can add the protocol in config as environment variable",
+      "parentUuid": "5b74f554_74df81f1",
       "range": {
         "startLine": 5,
         "startChar": 20,
