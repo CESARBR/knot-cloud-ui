@@ -46,6 +46,30 @@
       "revId": "96a98c3d8f7ae2ec074c979932e362a8df38cc9c",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d7094581_427268ad",
+        "filename": "src/components/Signup.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-11-09T01:03:00Z",
+      "side": 1,
+      "message": "+1 on using react-global-configuration. \nThe other suggestion would be to have an config.js file and export the module to be used by other files (pretty much the same react-global-configuration does, but in a less fancy way)",
+      "parentUuid": "daa333b2_7d4ac9ce",
+      "range": {
+        "startLine": 27,
+        "startChar": 33,
+        "endLine": 27,
+        "endChar": 56
+      },
+      "revId": "96a98c3d8f7ae2ec074c979932e362a8df38cc9c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
     }
   ]
 }

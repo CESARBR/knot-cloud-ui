@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f408a3a0_3f7fde83",
+        "filename": "src/index.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-11-09T01:03:00Z",
+      "side": 1,
+      "message": "Which file is this?",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 30
+      },
+      "revId": "f40cbc62cc45d5e262a0f9bbef5b9ec42167abe7",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ce43decb_7d2ab21c",
+        "filename": "src/services/device.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-11-09T01:03:00Z",
+      "side": 1,
+      "message": "Are we going with \"request-promise-native\", \"axios\" or other?",
+      "range": {
+        "startLine": 1,
+        "startChar": 37,
+        "endLine": 1,
+        "endChar": 43
+      },
+      "revId": "f40cbc62cc45d5e262a0f9bbef5b9ec42167abe7",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bef688af_a4025105",
+        "filename": "src/services/device.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-11-09T01:03:00Z",
+      "side": 1,
+      "message": "Instead of making this function async in order to have the await inside, could we just use then? Which is the best approach/pattern?",
+      "range": {
+        "startLine": 15,
+        "startChar": 17,
+        "endLine": 15,
+        "endChar": 22
+      },
+      "revId": "f40cbc62cc45d5e262a0f9bbef5b9ec42167abe7",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
