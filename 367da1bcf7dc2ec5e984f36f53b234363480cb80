@@ -187,6 +187,30 @@
       "revId": "367da1bcf7dc2ec5e984f36f53b234363480cb80",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "540f19e2_4c0934f9",
+        "filename": "src/services/Authenticator.js",
+        "patchSetId": 13
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-11-09T19:23:09Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "784c667a_920e2be8",
+      "range": {
+        "startLine": 5,
+        "startChar": 20,
+        "endLine": 5,
+        "endChar": 27
+      },
+      "revId": "367da1bcf7dc2ec5e984f36f53b234363480cb80",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
