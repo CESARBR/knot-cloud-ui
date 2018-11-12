@@ -1,0 +1,32 @@
+.card-device {
+  width: 325px;
+}
+
+.card-body-device {
+  font-size: 15px;
+  align-content: space-around;
+  justify-content: flex-end;
+}
+
+.card-body-action {
+  padding-right: 15px;
+  padding-bottom: 15px;
+  outline: none;
+  color: black;
+  user-select: none;
+  order: 10;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card-body-action:hover {
+  cursor: pointer;
+  transform: translateY(-2px);
+}
+
+.card-body-action:active {
+  transform: translateY(1px);
+}
