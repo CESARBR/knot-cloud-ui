@@ -1,0 +1,9 @@
+.cardboard {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 30px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
