@@ -5,6 +5,7 @@ import { Signup, Signin } from 'scenes/Sign';
 import NotFound from 'scenes/NotFound';
 import Forgot from 'scenes/Forgot';
 import Reset from 'scenes/Reset';
+import Gateway from 'scenes/Gateways';
 import 'App.css';
 
 class App extends Component {
@@ -21,6 +22,9 @@ class App extends Component {
             <Route path="/forgot" component={Forgot} />
             <Route path="/signup" component={Signup} />
             <Route path="/reset" component={Reset} />
+            <Route path="/gateway" component={Gateway} />
+            <Route path="/dev" component={Gateway} />
+            <Route path="/admin" component={Gateway} />
             <Route component={NotFound} />
           </Switch>
         </BrowserRouter>
