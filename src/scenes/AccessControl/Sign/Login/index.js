@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, Redirect } from 'react-router-dom';
 import TextInput from 'components/TextInput';
 import PrimaryButton from 'components/Button/PrimaryButton';
 import ErrorMessage from 'components/ErrorMessage';
 import Authenticator from 'services/Authenticator';
 import 'scenes/AccessControl/Sign/styles.css';
+import Storage from 'services/Storage';
 import SmallButton from './components/SmallButton';
 
 class Signin extends Component {
@@ -13,7 +14,8 @@ class Signin extends Component {
     this.state = {
       email: '',
       password: '',
-      errorMessage: ''
+      errorMessage: '',
+      redirect: false
     };
     this.handleChange = this.handleChange.bind(this);
     this.handleSignin = this.handleSignin.bind(this);
@@ -30,11 +32,19 @@ class Signin extends Component {
     e.preventDefault();
     authService.authenticate(email, password)
       .then((res) => {
-        console.log(res); // eslint-disable-line no-console
+        Storage.setCredentials(res.uuid, res.token);
+        this.setState({ redirect: true });
       })
       .catch((error) => {
         this.setState({ errorMessage: error.message });
       });
+  }
+
+  renderRedirect() { // eslint-disable-line consistent-return
+    const { redirect } = this.state;
+    if (redirect) {
+      return <Redirect to="/" />;
+    }
   }
 
   render() {
@@ -53,6 +63,7 @@ class Signin extends Component {
         <Link to="/forgot">
           <SmallButton name="Forgot Password?" />
         </Link>
+        {this.renderRedirect()}
       </div>
     );
   }
