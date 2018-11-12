@@ -1,0 +1,11 @@
+.cardboard {
+  width: 1080px;
+  margin-left: 70px;
+  margin-right: -10px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
