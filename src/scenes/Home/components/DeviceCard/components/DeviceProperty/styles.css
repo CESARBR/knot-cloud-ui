@@ -1,0 +1,42 @@
+.device-property-key h1 {
+  color: black;
+  font-size: 15px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 210px;
+  outline: none;
+}
+
+.device-property-key h1:hover {
+  text-overflow: clip;
+  white-space: normal;
+  word-break: break-all;
+}
+
+.device-property-value h1 {
+  font-weight: lighter;
+  font-size: 15px;
+  color: black;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  outline: none;
+}
+
+.device-property-value[contenteditable="true"] h1:hover {
+  text-overflow: clip;
+  white-space: normal;
+  word-break: break-all;
+  background: lightgray;
+}
+
+.device-property-value[contenteditable="true"] h1:focus {
+  background: lightgray;
+  border: 1px solid gray;
+  text-overflow: clip;
+  white-space: normal;
+  word-break: break-all;
+}
