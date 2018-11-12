@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { Switch } from 'react-router-dom';
 import KLoginIcon from '_assets/png/KLoginIcon.png';
 import { Signup, Signin } from 'scenes/AccessControl/Sign';
 import Forgot from 'scenes/AccessControl/Forgot';
 import Reset from 'scenes/AccessControl/Reset';
+import ConditionalRoute from 'util/ConditionalRoute';
 import 'scenes/AccessControl/styles.css';
 
 class AccessControl extends Component {
@@ -15,10 +16,10 @@ class AccessControl extends Component {
           <div className="knot-logo-header">KNoT Cloud</div>
         </div>
         <Switch>
-          <Route path="/signin" component={Signin} />
-          <Route path="/forgot" component={Forgot} />
-          <Route path="/signup" component={Signup} />
-          <Route path="/reset" component={Reset} />
+          <ConditionalRoute path="/signin" component={Signin} />
+          <ConditionalRoute path="/forgot" component={Forgot} />
+          <ConditionalRoute path="/signup" component={Signup} />
+          <ConditionalRoute path="/reset" component={Reset} />
         </Switch>
       </div>
     );

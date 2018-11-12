@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import NotFound from 'scenes/NotFound';
 import AccessControl from 'scenes/AccessControl';
 import Home from 'scenes/Home';
+import ConditionalRoute from 'util/ConditionalRoute';
 import 'App.css';
 
 class App extends Component {
@@ -11,7 +12,7 @@ class App extends Component {
       <div className="App">
         <BrowserRouter>
           <Switch>
-            <Route exact path="/" component={Home} />
+            <ConditionalRoute exact path="/" component={Home} />
             <Route path="/(signin|signup|forgot|reset)" component={AccessControl} />
             <Route component={NotFound} />
           </Switch>
