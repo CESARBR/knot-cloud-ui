@@ -1,0 +1,39 @@
+.card-body-title {
+  font-weight: bold;
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 210px;
+}
+
+.card-body-title:hover {
+  text-overflow: clip;
+  white-space: normal;
+  word-break: break-all;
+}
+
+.card-body-content {
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 15px;
+  max-width: 210px;
+  border: 0;
+  outline: none;
+}
+
+.card-body-content:hover {
+  text-overflow: clip;
+  white-space: normal;
+  word-break: break-all;
+  background: lightgray;
+}
+
+.card-body-content:focus {
+  background: lightgray;
+  border: 1px solid gray;
+}

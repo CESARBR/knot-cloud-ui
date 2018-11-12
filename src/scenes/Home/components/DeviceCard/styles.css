@@ -1,0 +1,32 @@
+.card-device {
+  width: 325px;
+}
+
+.card-title > input {
+  font-weight: bold;
+  padding-top: 17px;
+  padding-bottom: 16px;
+}
+
+.card-body-action {
+  float: right;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  outline: none;
+  color: black;
+  user-select: none;
+  order: 10;
+}
+
+.card-footer {
+  align-self: flex-end;
+}
+
+.card-body-action:hover {
+  cursor: pointer;
+  transform: translateY(-2px);
+}
+
+.card-body-action:active {
+  transform: translateY(1px);
+}
