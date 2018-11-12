@@ -1,12 +1,26 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import {
+  BrowserRouter, Route, Switch, Redirect
+} from 'react-router-dom';
 import KLoginIcon from '_assets/png/KLoginIcon.png';
 import { Signup, Signin } from 'scenes/Sign';
 import NotFound from 'scenes/NotFound';
 import Forgot from 'scenes/Forgot';
 import Reset from 'scenes/Reset';
 import Gateway from 'scenes/Gateways';
+import Storage from 'services/Storage';
 import 'App.css';
+
+const PrivateRoute = ({
+  component: CustomComponent, ...rest
+}) => (
+  <Route
+    {...rest}
+    render={props => (
+      Storage.getToken() ? <CustomComponent {...props} /> : <Redirect to="/login" />
+    )
+} />
+);
 
 class App extends Component {
   render() {
@@ -22,9 +36,9 @@ class App extends Component {
             <Route path="/forgot" component={Forgot} />
             <Route path="/signup" component={Signup} />
             <Route path="/reset" component={Reset} />
-            <Route path="/gateway" component={Gateway} />
-            <Route path="/dev" component={Gateway} />
-            <Route path="/admin" component={Gateway} />
+            <PrivateRoute path="/gateway" component={Gateway} />
+            <PrivateRoute path="/dev" component={Gateway} />
+            <PrivateRoute path="/admin" component={Gateway} />
             <Route component={NotFound} />
           </Switch>
         </BrowserRouter>
