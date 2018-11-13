@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f29b10fc_33a6288b",
+        "filename": "src/scenes/Home/index.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1013169
+      },
+      "writtenOn": "2018-11-13T18:28:35Z",
+      "side": 1,
+      "message": "Should not be \u0027Home\u0027 instead of \u0027NotFound\u0027?",
+      "range": {
+        "startLine": 3,
+        "startChar": 6,
+        "endLine": 3,
+        "endChar": 14
+      },
+      "revId": "e38172e62764166ee42af995985a608be89360e2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
