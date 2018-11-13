@@ -38,7 +38,7 @@ class Forgot extends Component {
           <ErrorMessage message={errorMessage} />
           <PrimaryButton name="SUBMIT" />
         </form>
-        <Link to="/">
+        <Link to="/signin">
           <SecondaryButton name="Login" />
         </Link>
       </div>
