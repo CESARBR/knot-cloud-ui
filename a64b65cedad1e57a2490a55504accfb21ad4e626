@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "419a2e82_365291fd",
+        "filename": "src/scenes/Reset/index.js",
+        "patchSetId": 4
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-11-13T20:04:01Z",
+      "side": 1,
+      "message": "It has now changed to email",
+      "range": {
+        "startLine": 30,
+        "startChar": 18,
+        "endLine": 30,
+        "endChar": 37
+      },
+      "revId": "a64b65cedad1e57a2490a55504accfb21ad4e626",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e9ece2f6_aaf7bb26",
+        "filename": "src/services/Authenticator/index.js",
+        "patchSetId": 4
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-11-13T20:04:01Z",
+      "side": 1,
+      "message": "It is email now",
+      "range": {
+        "startLine": 35,
+        "startChar": 16,
+        "endLine": 35,
+        "endChar": 20
+      },
+      "revId": "a64b65cedad1e57a2490a55504accfb21ad4e626",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
