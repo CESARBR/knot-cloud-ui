@@ -22,6 +22,30 @@
       "revId": "977ff58052994573c1a1a6082269535f9a8b8798",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8c71200b_ab138c84",
+        "filename": "src/scenes/Sign/Register/index.js",
+        "patchSetId": 3
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-11-13T17:50:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4f7f842d_8b3a99ae",
+      "range": {
+        "startLine": 26,
+        "startChar": 4,
+        "endLine": 26,
+        "endChar": 58
+      },
+      "revId": "977ff58052994573c1a1a6082269535f9a8b8798",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
