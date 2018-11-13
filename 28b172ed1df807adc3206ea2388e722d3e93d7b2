@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3aef626c_937e1f4b",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-13T18:39:17Z",
+      "side": 1,
+      "message": "Maximum of columns 72",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 75
+      },
+      "revId": "28b172ed1df807adc3206ea2388e722d3e93d7b2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e41b89f4_9c988329",
+        "filename": "src/scenes/Home/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-13T18:39:17Z",
+      "side": 1,
+      "message": "Make this change in previous commit",
+      "range": {
+        "startLine": 3,
+        "startChar": 6,
+        "endLine": 3,
+        "endChar": 10
+      },
+      "revId": "28b172ed1df807adc3206ea2388e722d3e93d7b2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
