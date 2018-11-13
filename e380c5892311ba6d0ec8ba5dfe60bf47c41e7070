@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e824601d_5e23d9bb",
+        "filename": "src/scenes/Reset/index.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-13T12:08:18Z",
+      "side": 1,
+      "message": "Make this check also in signup scene. As it also has a field confirmPassword.",
+      "revId": "e380c5892311ba6d0ec8ba5dfe60bf47c41e7070",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
