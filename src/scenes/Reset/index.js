@@ -54,7 +54,7 @@ class Reset extends Component {
     const { redirect } = this.state;
 
     if (redirect) {
-      return <Redirect to="/" />;
+      return <Redirect to="/signin" />;
     }
   }
 
