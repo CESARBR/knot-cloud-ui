@@ -5,6 +5,7 @@ import { Signup, Signin } from 'scenes/Sign';
 import NotFound from 'scenes/NotFound';
 import Forgot from 'scenes/Forgot';
 import Reset from 'scenes/Reset';
+import Home from 'scenes/Home';
 import 'App.css';
 
 class App extends Component {
@@ -17,7 +18,8 @@ class App extends Component {
         </div>
         <BrowserRouter>
           <Switch>
-            <Route exact path="/" component={Signin} />
+            <Route exact path="/" component={Home} />
+            <Route path="/signin" component={Signin} />
             <Route path="/forgot" component={Forgot} />
             <Route path="/signup" component={Signup} />
             <Route path="/reset" component={Reset} />
