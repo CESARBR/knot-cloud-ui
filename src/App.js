@@ -12,20 +12,18 @@ import Storage from 'services/Storage';
 import 'App.css';
 
 const PrivateRoute = ({
-  component, storage, ...rest
+  CustomComponent, ...rest
 }) => (
   <Route
     {...rest}
     render={props => (
-      storage.getToken() ? <Component {...props} /> : <Redirect to="/login" />
+      Storage.getToken() ? <CustomComponent {...props} /> : <Redirect to="/login" />
     )
 } />
 );
 
 class App extends Component {
   render() {
-    const storage = new Storage();
-
     return (
       <div className="App">
         <div className="knot-logo-wrapper">
@@ -38,9 +36,9 @@ class App extends Component {
             <Route path="/forgot" component={Forgot} />
             <Route path="/signup" component={Signup} />
             <Route path="/reset" component={Reset} />
-            <PrivateRoute path="/gateway" component={Gateway} storage={storage} />
-            <PrivateRoute path="/dev" component={Gateway} storage={storage} />
-            <PrivateRoute path="/admin" component={Gateway} storage={storage} />
+            <PrivateRoute path="/gateway" component={Gateway} />
+            <PrivateRoute path="/dev" component={Gateway} />
+            <PrivateRoute path="/admin" component={Gateway} />
             <Route component={NotFound} />
           </Switch>
         </BrowserRouter>
