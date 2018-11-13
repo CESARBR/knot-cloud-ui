@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4a2c28d1_b9659a76",
+        "filename": "src/services/CheckPassword/index.js",
+        "patchSetId": 4
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1013169
+      },
+      "writtenOn": "2018-11-13T18:46:30Z",
+      "side": 1,
+      "message": "Who reads this function name should wait a boolean return. In the end it hasn\u0027t single responsibility.",
+      "range": {
+        "startLine": 3,
+        "startChar": 2,
+        "endLine": 3,
+        "endChar": 14
+      },
+      "revId": "5cd937784c4eb77144448a691d8b36b8d3e71377",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b7906817_259460db",
+        "filename": "src/services/CheckPassword/index.js",
+        "patchSetId": 4
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1013169
+      },
+      "writtenOn": "2018-11-13T18:46:30Z",
+      "side": 1,
+      "message": "I think this verification should be placed on another method.",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 53
+      },
+      "revId": "5cd937784c4eb77144448a691d8b36b8d3e71377",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
