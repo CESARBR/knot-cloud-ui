@@ -1,0 +1,188 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "232ab7bd_fac9373e",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-11-13T00:18:29Z",
+      "side": 1,
+      "message": "Add Gateways scene",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 18
+      },
+      "revId": "18e715b14373685cf20563702d04c3b046bef9c1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ef51ca53_6762e29b",
+        "filename": "src/App.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-11-13T00:18:29Z",
+      "side": 1,
+      "message": "Remove these",
+      "range": {
+        "startLine": 26,
+        "startChar": 12,
+        "endLine": 27,
+        "endChar": 55
+      },
+      "revId": "18e715b14373685cf20563702d04c3b046bef9c1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3d13d9e4_7927540a",
+        "filename": "src/scenes/Gateways/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-11-13T00:18:29Z",
+      "side": 1,
+      "message": "Gateways? GatewaysScene?",
+      "range": {
+        "startLine": 9,
+        "startChar": 6,
+        "endLine": 9,
+        "endChar": 13
+      },
+      "revId": "18e715b14373685cf20563702d04c3b046bef9c1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f74dad39_78d9522d",
+        "filename": "src/scenes/Gateways/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-11-13T00:18:29Z",
+      "side": 1,
+      "message": "gateways",
+      "range": {
+        "startLine": 18,
+        "startChar": 32,
+        "endLine": 18,
+        "endChar": 39
+      },
+      "revId": "18e715b14373685cf20563702d04c3b046bef9c1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0a5c81bc_2018b598",
+        "filename": "src/scenes/Gateways/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-11-13T00:18:29Z",
+      "side": 1,
+      "message": "Remove these",
+      "range": {
+        "startLine": 19,
+        "startChar": 14,
+        "endLine": 20,
+        "endChar": 68
+      },
+      "revId": "18e715b14373685cf20563702d04c3b046bef9c1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "cb6081f8_227fafef",
+        "filename": "src/scenes/Gateways/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-11-13T00:18:29Z",
+      "side": 1,
+      "message": "gateways, gateways-scene (or something similar)",
+      "range": {
+        "startLine": 25,
+        "startChar": 24,
+        "endLine": 25,
+        "endChar": 35
+      },
+      "revId": "18e715b14373685cf20563702d04c3b046bef9c1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "66d681bc_529835b7",
+        "filename": "src/scenes/Gateways/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-11-13T00:18:29Z",
+      "side": 1,
+      "message": "Gatways",
+      "range": {
+        "startLine": 26,
+        "startChar": 13,
+        "endLine": 26,
+        "endChar": 29
+      },
+      "revId": "18e715b14373685cf20563702d04c3b046bef9c1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f5fc8927_3ae33c6f",
+        "filename": "src/scenes/Gateways/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-11-13T00:18:29Z",
+      "side": 1,
+      "message": "Instead of hard-coded, prepare this component to receive a list of card/data that generate cards",
+      "range": {
+        "startLine": 30,
+        "startChar": 10,
+        "endLine": 33,
+        "endChar": 53
+      },
+      "revId": "18e715b14373685cf20563702d04c3b046bef9c1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
