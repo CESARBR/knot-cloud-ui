@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e076117b_53c0ba23",
+        "filename": "src/App.js",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-13T17:49:55Z",
+      "side": 0,
+      "message": "Put those changes on previous commit",
+      "revId": "170fbb3b4fa70be70b29548b1e6e43b2c1efd798",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
