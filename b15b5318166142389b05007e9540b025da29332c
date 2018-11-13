@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7f5b9ae0_f80dbc1f",
+        "filename": "src/scenes/Gateways/components/Card/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-11-13T00:15:19Z",
+      "side": 1,
+      "message": "Hide the UUID and token.",
+      "range": {
+        "startLine": 30,
+        "startChar": 2,
+        "endLine": 31,
+        "endChar": 36
+      },
+      "revId": "b15b5318166142389b05007e9540b025da29332c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
