@@ -5,7 +5,7 @@ import config from 'react-global-configuration';
 import PrimaryButton from 'components/Button/PrimaryButton';
 import ErrorMessage from 'components/ErrorMessage';
 import Authenticator from 'services/Authenticator';
-import 'scenes/Sign/styles.css';
+import 'scenes/AccessControl/Sign/styles.css';
 import SmallButton from './components/SmallButton';
 
 class Signin extends Component {
