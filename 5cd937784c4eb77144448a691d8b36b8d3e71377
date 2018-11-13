@@ -117,6 +117,30 @@
       "revId": "5cd937784c4eb77144448a691d8b36b8d3e71377",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2800ec22_9fd3cd3a",
+        "filename": "src/services/CheckPassword/index.js",
+        "patchSetId": 4
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-11-13T20:32:39Z",
+      "side": 1,
+      "message": "OK. As there is no need for it to be a class, I think it\u0027s better to create only the function rather than a class, as Thiago said.",
+      "parentUuid": "f4fd673f_2c693b74",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 53
+      },
+      "revId": "5cd937784c4eb77144448a691d8b36b8d3e71377",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
