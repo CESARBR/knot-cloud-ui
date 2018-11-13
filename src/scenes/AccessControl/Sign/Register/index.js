@@ -6,7 +6,7 @@ import ErrorMessage from 'components/ErrorMessage';
 import { PrimaryButton, SecondaryButton } from 'components/Button';
 import TextInput from 'components/TextInput';
 import CheckPassword from 'services/CheckPassword';
-import 'scenes/Sign/styles.css';
+import 'scenes/AccessControl/Sign/styles.css';
 
 class Signup extends Component {
   constructor(props) {
