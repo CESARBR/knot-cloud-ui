@@ -27,5 +27,11 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
+  ],
+  "devDependencies": {
+    "pre-commit": "^1.2.2"
+  },
+  "pre-commit": [
+    "lint"
   ]
 }
