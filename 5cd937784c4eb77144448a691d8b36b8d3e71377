@@ -45,6 +45,30 @@
       "revId": "5cd937784c4eb77144448a691d8b36b8d3e71377",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "58ea04c4_15241e44",
+        "filename": "src/services/CheckPassword/index.js",
+        "patchSetId": 4
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-11-13T19:03:25Z",
+      "side": 1,
+      "message": "If we place the checks in separate functions, in the end they\u0027ll only return the check. e.g:\n\nisEmpty(password, confirmPassword) {\n  return !(password \u0026\u0026 confirmPassword);\n}\n\nmatch(password, confirmPassword) {\n  return (password \u003d\u003d\u003d confirmPassword);\n}\n\nAnd if we\u0027re creating a function just to perform comparison, it could be done wherever they\u0027re called, avoiding the need to construct the object for the class.\n\nIMO, there are two options:\n- Drop the service approach and perform the comparisons inline\n- Change the function name to better identify its purpose (suggestions?)",
+      "parentUuid": "b7906817_259460db",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 53
+      },
+      "revId": "5cd937784c4eb77144448a691d8b36b8d3e71377",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
