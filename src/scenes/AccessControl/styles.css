@@ -1,0 +1,30 @@
+.knot-logo-wrapper {
+  padding-top: 85px;
+  padding-bottom: 85px;
+}
+
+.knot-logo-image {
+  width: 77px;
+  height: 90px;
+  margin-bottom: 30px;
+}
+
+.knot-logo-header {
+  color: white;
+  font-weight: normal;
+  font-size: 25pt;
+  opacity: 1;
+}
+
+.page-title {
+  color: white;
+  font-weight: normal;
+  font-size: 25pt;
+  margin-bottom: 25px;
+  margin-top: 0;
+}
+
+.sign-form {
+  display: inline-block;
+  width: 480px;
+}
