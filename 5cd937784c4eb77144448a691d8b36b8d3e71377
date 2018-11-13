@@ -93,6 +93,30 @@
       "revId": "5cd937784c4eb77144448a691d8b36b8d3e71377",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f4fd673f_2c693b74",
+        "filename": "src/services/CheckPassword/index.js",
+        "patchSetId": 4
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-11-13T20:03:04Z",
+      "side": 1,
+      "message": "I\u0027ve seen in examples the creation of functions instead of classes. This can be a good use case.",
+      "parentUuid": "107f1898_10e89f98",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 53
+      },
+      "revId": "5cd937784c4eb77144448a691d8b36b8d3e71377",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
