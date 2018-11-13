@@ -25,6 +25,23 @@
     },
     {
       "key": {
+        "uuid": "05b251eb_dacf15de",
+        "filename": "src/scenes/AccessControl/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1013169
+      },
+      "writtenOn": "2018-11-13T21:39:15Z",
+      "side": 1,
+      "message": "If you create another BrowserRouter it will keep the browser history in another memory cache making the redirect from \u0027/login\u0027 to \u0027/\u0027 not possible. Please, keep only the \u003cSwitch\u003e\u003c/Switch\u003e.",
+      "revId": "28b172ed1df807adc3206ea2388e722d3e93d7b2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "e41b89f4_9c988329",
         "filename": "src/scenes/Home/index.js",
         "patchSetId": 1
