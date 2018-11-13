@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8921c680_21f6a080",
+        "filename": "src/App.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-13T17:47:47Z",
+      "side": 1,
+      "message": "Storage",
+      "range": {
+        "startLine": 20,
+        "startChar": 6,
+        "endLine": 20,
+        "endChar": 13
+      },
+      "revId": "170fbb3b4fa70be70b29548b1e6e43b2c1efd798",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0205919f_7ec5c09e",
+        "filename": "src/App.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-13T17:47:47Z",
+      "side": 1,
+      "message": "you don\u0027t need to create an instance as all the class\u0027 methods are static",
+      "range": {
+        "startLine": 27,
+        "startChar": 4,
+        "endLine": 27,
+        "endChar": 34
+      },
+      "revId": "170fbb3b4fa70be70b29548b1e6e43b2c1efd798",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
