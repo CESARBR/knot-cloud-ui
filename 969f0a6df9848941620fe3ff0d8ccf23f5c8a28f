@@ -70,6 +70,30 @@
       "revId": "969f0a6df9848941620fe3ff0d8ccf23f5c8a28f",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9a99e925_7b82584e",
+        "filename": "src/scenes/Sign/Login/index.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1013169
+      },
+      "writtenOn": "2018-11-14T18:44:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6a903ead_663b0385",
+      "range": {
+        "startLine": 37,
+        "startChar": 8,
+        "endLine": 37,
+        "endChar": 36
+      },
+      "revId": "969f0a6df9848941620fe3ff0d8ccf23f5c8a28f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
     }
   ]
 }
