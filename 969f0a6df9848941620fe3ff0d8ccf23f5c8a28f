@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f982bb38_a706af85",
+        "filename": "src/scenes/Sign/Login/index.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-11-14T01:21:52Z",
+      "side": 1,
+      "message": "Is there a specific reason to store only the token?",
+      "range": {
+        "startLine": 37,
+        "startChar": 8,
+        "endLine": 37,
+        "endChar": 36
+      },
+      "revId": "969f0a6df9848941620fe3ff0d8ccf23f5c8a28f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
