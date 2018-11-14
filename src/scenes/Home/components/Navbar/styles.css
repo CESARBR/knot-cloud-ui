@@ -1,0 +1,55 @@
+.navbar {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  width: 98%;
+  height: 89px;
+  margin-left: 1%;
+  background-color: #4CAF50;
+  border-radius: 45px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.navbar-logo {
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  text-align: left;
+  font-weight: normal;
+  font-size: 25pt;
+  width: 25%;
+}
+
+.knot-logo {
+  position: absolute;
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 2.5%;
+  -ms-transform: translate(50%, 50%); /* IE 9 */
+  -webkit-transform: translate(50, 50%); /* Safari */
+  transform: translate(50%, 50%);
+}
+
+.knot-cloud {
+  position: absolute;
+  display: inline-block;
+  color: white;
+  margin-left: 50px;
+  margin-top: 2.5%;
+  -ms-transform: translate(50%, 50%); /* IE 9 */
+  -webkit-transform: translate(50%, 50%); /* Safari */
+  transform: translate(50%, 50%);
+}
+
+.navbar-actions {
+  height: 100%;
+  display: inline-block;
+  text-align: center;
+}
+
+.navbar-logout {
+  height: 100%;
+  position: absolute;
+  display: inline-block;
+  right: 0;
+}

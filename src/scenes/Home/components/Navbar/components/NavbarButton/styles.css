@@ -1,0 +1,17 @@
+.btn-navbar {
+  height: 100%;
+  min-width: 160px;
+  width: auto;
+  margin: auto;
+  border-radius: 45px;
+  margin-left: 5px;
+}
+
+.btn-navbar:hover {
+  color: black;
+}
+
+.current {
+  background-color: white;
+  color: black;
+}
