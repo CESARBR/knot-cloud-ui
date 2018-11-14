@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "84199c5f_e79b9e35",
+        "filename": "src/scenes/AccessControl/index.js",
+        "patchSetId": 4
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1013169
+      },
+      "writtenOn": "2018-11-14T18:38:50Z",
+      "side": 1,
+      "message": "I fix it here just for testing, when I rebase with Paulo\u0027s patches it will no longer be a change of this patch.",
+      "range": {
+        "startLine": 19,
+        "startChar": 35,
+        "endLine": 19,
+        "endChar": 41
+      },
+      "revId": "6292988840ade202986a92e49e178840a7aca9cf",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
