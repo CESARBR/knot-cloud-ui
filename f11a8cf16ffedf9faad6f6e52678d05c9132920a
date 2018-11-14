@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "42de8710_a2d03214",
+        "filename": "src/scenes/Home/index.js",
+        "patchSetId": 3
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-11-14T17:34:51Z",
+      "side": 1,
+      "message": "We can omit Home",
+      "range": {
+        "startLine": 7,
+        "startChar": 26,
+        "endLine": 7,
+        "endChar": 30
+      },
+      "revId": "f11a8cf16ffedf9faad6f6e52678d05c9132920a",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
