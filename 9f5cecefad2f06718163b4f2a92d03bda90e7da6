@@ -22,6 +22,30 @@
       "revId": "9f5cecefad2f06718163b4f2a92d03bda90e7da6",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "57c32bbf_cee9f9a3",
+        "filename": "src/scenes/AccessControl/index.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-11-14T23:24:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "88f56dd7_c12d8eec",
+      "range": {
+        "startLine": 18,
+        "startChar": 24,
+        "endLine": 18,
+        "endChar": 29
+      },
+      "revId": "9f5cecefad2f06718163b4f2a92d03bda90e7da6",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
