@@ -22,6 +22,30 @@
       "revId": "969f0a6df9848941620fe3ff0d8ccf23f5c8a28f",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fe81132e_c7117b65",
+        "filename": "src/scenes/Sign/Login/index.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1013169
+      },
+      "writtenOn": "2018-11-14T12:52:54Z",
+      "side": 1,
+      "message": "As I have talked with Figueredo, we storage only the token because it aims to indicate that a user is logged-in. We can make improvements in the future and add more data if it needed.",
+      "parentUuid": "f982bb38_a706af85",
+      "range": {
+        "startLine": 37,
+        "startChar": 8,
+        "endLine": 37,
+        "endChar": 36
+      },
+      "revId": "969f0a6df9848941620fe3ff0d8ccf23f5c8a28f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
     }
   ]
 }
