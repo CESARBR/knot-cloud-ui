@@ -1,0 +1,9 @@
+.btn-navbar {
+  width: 118px;
+  margin: auto;
+}
+
+.current {
+  background-color: white;
+  color: #07790d;
+}
