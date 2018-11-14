@@ -1,0 +1,159 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "62b9b194_928a70df",
+        "filename": "src/scenes/Reset/index.js",
+        "patchSetId": 5
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-11-14T17:26:43Z",
+      "side": 1,
+      "message": "isPasswordValid, doPasswordsMatch",
+      "range": {
+        "startLine": 14,
+        "startChar": 6,
+        "endLine": 14,
+        "endChar": 19
+      },
+      "revId": "80b74603031d3a35e2a3159953ac80c0414f74ef",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a1c4ca82_7dacba63",
+        "filename": "src/scenes/Reset/index.js",
+        "patchSetId": 5
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-11-14T17:26:43Z",
+      "side": 1,
+      "message": "If the passwords are empty, it will allow the submission.",
+      "range": {
+        "startLine": 22,
+        "startChar": 8,
+        "endLine": 22,
+        "endChar": 21
+      },
+      "revId": "80b74603031d3a35e2a3159953ac80c0414f74ef",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6bc5805c_8c22e71e",
+        "filename": "src/scenes/Reset/index.js",
+        "patchSetId": 5
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-11-14T17:26:43Z",
+      "side": 1,
+      "message": "checkPasswordsMatch, checkPasswordsValid?",
+      "range": {
+        "startLine": 31,
+        "startChar": 2,
+        "endLine": 31,
+        "endChar": 17
+      },
+      "revId": "80b74603031d3a35e2a3159953ac80c0414f74ef",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "17546e11_4d9fd653",
+        "filename": "src/scenes/Reset/index.js",
+        "patchSetId": 5
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-11-14T17:26:43Z",
+      "side": 1,
+      "message": "The password comparison should include the emptiness test below. Passwords match only if they are equal and not empty. This would solve the problem above, of submitting when passwords and empty.",
+      "range": {
+        "startLine": 32,
+        "startChar": 26,
+        "endLine": 32,
+        "endChar": 71
+      },
+      "revId": "80b74603031d3a35e2a3159953ac80c0414f74ef",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c3276d8f_163988ff",
+        "filename": "src/scenes/Reset/index.js",
+        "patchSetId": 5
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-11-14T17:26:43Z",
+      "side": 1,
+      "message": "This comment can be replaced with a function: shouldShowError(), for instance. It should show error only when passwords don\u0027t match and not empty.",
+      "range": {
+        "startLine": 34,
+        "startChar": 4,
+        "endLine": 35,
+        "endChar": 23
+      },
+      "revId": "80b74603031d3a35e2a3159953ac80c0414f74ef",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "313daf25_5e1db1fc",
+        "filename": "src/scenes/Reset/index.js",
+        "patchSetId": 5
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-11-14T17:26:43Z",
+      "side": 1,
+      "message": "password",
+      "range": {
+        "startLine": 83,
+        "startChar": 72,
+        "endLine": 83,
+        "endChar": 80
+      },
+      "revId": "80b74603031d3a35e2a3159953ac80c0414f74ef",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bd13c60f_0faa3fb8",
+        "filename": "src/util/checkPassword.js",
+        "patchSetId": 5
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-11-14T17:26:43Z",
+      "side": 1,
+      "message": "I\u0027m thinking that in the end these functions aren\u0027t the core of what is being reused. They could be moved to the Components and perhaps what needs to be extracted is a component that has this behavior of comparing two text inputs and it be reused by the two scenes... What do you think?",
+      "revId": "80b74603031d3a35e2a3159953ac80c0414f74ef",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
