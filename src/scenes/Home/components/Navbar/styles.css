@@ -1,0 +1,47 @@
+.navbar {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  width: 98%;
+  margin-left: 1%;
+  background-color: #4CAF50;
+  border-radius: 45px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.navbar-logo {
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  text-align: left;
+  font-weight: normal;
+  font-size: 25pt;
+  width: 25%;
+}
+
+.knot-logo {
+  position: absolute;
+  display: inline-block;
+  margin-left: 5%;
+  margin-top: 2.5%;
+
+}
+
+.knot-cloud {
+  position: absolute;
+  display: inline-block;
+  color: white;
+  margin-left: 20%;
+  margin-top: 2.5%;
+}
+
+.navbar-actions {
+  display: inline-block;
+  text-align: center;
+}
+
+.navbar-logout {
+  position: absolute;
+  display: inline-block;
+  right: 0;
+}
