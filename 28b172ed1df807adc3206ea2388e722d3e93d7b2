@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "548cefca_e80cc5fd",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-11-14T01:03:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3aef626c_937e1f4b",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 75
+      },
+      "revId": "28b172ed1df807adc3206ea2388e722d3e93d7b2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "05b251eb_dacf15de",
         "filename": "src/scenes/AccessControl/index.js",
         "patchSetId": 1
@@ -36,6 +60,24 @@
       "writtenOn": "2018-11-13T21:39:15Z",
       "side": 1,
       "message": "If you create another BrowserRouter it will keep the browser history in another memory cache making the redirect from \u0027/login\u0027 to \u0027/\u0027 not possible. Please, keep only the \u003cSwitch\u003e\u003c/Switch\u003e.",
+      "revId": "28b172ed1df807adc3206ea2388e722d3e93d7b2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "64d838af_bfdd90e0",
+        "filename": "src/scenes/AccessControl/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-11-14T01:03:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "05b251eb_dacf15de",
       "revId": "28b172ed1df807adc3206ea2388e722d3e93d7b2",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
@@ -62,6 +104,30 @@
       "revId": "28b172ed1df807adc3206ea2388e722d3e93d7b2",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9c7e8dfc_6f8ff643",
+        "filename": "src/scenes/Home/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-11-14T01:03:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e41b89f4_9c988329",
+      "range": {
+        "startLine": 3,
+        "startChar": 6,
+        "endLine": 3,
+        "endChar": 10
+      },
+      "revId": "28b172ed1df807adc3206ea2388e722d3e93d7b2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
