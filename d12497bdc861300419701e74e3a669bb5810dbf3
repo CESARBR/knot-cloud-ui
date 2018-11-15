@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "018ea69f_a59bfc61",
+        "filename": "src/scenes/Reset/index.js",
+        "patchSetId": 6
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-11-15T15:06:51Z",
+      "side": 1,
+      "message": "The name shouldShowError gives the idea that it will return true/false. In this case, it could be something like:\n\n```\nshouldShowError(doPasswordsMatch, emptyFields) {\n  return !doPasswordsMatch \u0026\u0026 !emptyFields\n}\n\ncheckPasswordsValid(...) {\n  ...\n  const errorMessage \u003d this.shouldShowError(...) ? \"...\" : \u0027\u0027;\n  this.setState({\n    isPasswordValid,\n    errorMessage,\n  });\n}\n```\n\nBut for now it is good. I\u0027m going to integrate it and when this code is extracted into a common component/service, we can make such change.",
+      "range": {
+        "startLine": 30,
+        "startChar": 2,
+        "endLine": 30,
+        "endChar": 17
+      },
+      "revId": "d12497bdc861300419701e74e3a669bb5810dbf3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
