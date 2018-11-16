@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Redirect } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import AddButton from './components/AddButton';
 import './styles.css';
 
 class Home extends Component {
@@ -12,6 +13,7 @@ class Home extends Component {
     };
     this.updateCurrentScente = this.updateCurrentScente.bind(this);
     this.logout = this.logout.bind(this);
+    this.addDevice = this.addDevice.bind(this);
   }
 
   updateCurrentScente(newScene) {
@@ -26,6 +28,12 @@ class Home extends Component {
     this.setState({
       redirect: true
     });
+  }
+
+  addDevice() {
+    const { currentScene } = this.state;
+
+    window.alert(`Add new device on ${currentScene}`); // eslint-disable-line no-alert
   }
 
   showRegisteredDevices() {
@@ -58,6 +66,7 @@ class Home extends Component {
           onSceneChange={this.updateCurrentScente}
           onLogout={this.logout}
         />
+        <AddButton id="add-device" onClick={this.addDevice} />
         {this.showRegisteredDevices()}
         {this.renderRedirect()}
       </div>
