@@ -4,6 +4,7 @@ import Authenticator from 'services/Authenticator';
 import ErrorMessage from 'components/ErrorMessage';
 import { PrimaryButton, SecondaryButton } from 'components/Button';
 import TextInput from 'components/TextInput';
+import PasswordInput from 'components/PasswordInput';
 import 'scenes/Sign/styles.css';
 
 class Signup extends Component {
@@ -17,6 +18,7 @@ class Signup extends Component {
     };
     this.handleChange = this.handleChange.bind(this);
     this.handleSignup = this.handleSignup.bind(this);
+    this.handlePasswordChange = this.handlePasswordChange.bind(this);
   }
 
   handleChange(e) {
@@ -39,47 +41,11 @@ class Signup extends Component {
     }
   }
 
-  shouldShowError(doPasswordsMatch, emptyFields) {
-    const errorMessage = (!doPasswordsMatch && !emptyFields) ? "Passwords don't match!" : '';
-
+  handlePasswordChange(isPasswordValid, errorMessage) {
     this.setState({
+      isPasswordValid,
       errorMessage
     });
-  }
-
-  checkPasswordsValid(password, confirmPassword) {
-    const doPasswordsMatch = (password === confirmPassword);
-    const emptyFields = !(password && confirmPassword);
-    const isPasswordValid = (doPasswordsMatch && !emptyFields);
-
-    this.shouldShowError(doPasswordsMatch, emptyFields);
-    this.setState({
-      isPasswordValid
-    });
-  }
-
-  updatePassword(e) {
-    const { confirmPassword } = this.state;
-    const password = e.target.value;
-
-    this.setState({
-      password
-    });
-    this.checkPasswordsValid(password, confirmPassword);
-
-    e.preventDefault();
-  }
-
-  updateConfirmPassword(e) {
-    const { password } = this.state;
-    const confirmPassword = e.target.value;
-
-    this.setState({
-      confirmPassword
-    });
-    this.checkPasswordsValid(password, confirmPassword);
-
-    e.preventDefault();
   }
 
   renderRedirect() { // eslint-disable-line consistent-return
@@ -95,8 +61,7 @@ class Signup extends Component {
       <div className="sign-form">
         <form onSubmit={e => this.handleSignup(e)}>
           <TextInput type="email" id="email" placeholder="Email" onChange={this.handleChange} />
-          <TextInput type="password" id="password" placeholder="Password" onChange={e => this.updatePassword(e)} />
-          <TextInput type="password" id="confirmPassword" placeholder="Confirm Password" onChange={e => this.updateConfirmPassword(e)} />
+          <PasswordInput id="password-input-wrapper" onChange={this.handlePasswordChange} />
           <ErrorMessage message={errorMessage} />
           <PrimaryButton name="Sign up" />
         </form>
