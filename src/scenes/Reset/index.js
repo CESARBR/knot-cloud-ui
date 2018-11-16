@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Redirect } from 'react-router-dom';
-import TextInput from 'components/TextInput';
+import PasswordInput from 'components/PasswordInput';
 import PrimaryButton from 'components/Button/PrimaryButton';
 import ErrorMessage from 'components/ErrorMessage';
 import Authenticator from 'services/Authenticator';
@@ -16,6 +16,8 @@ class Reset extends Component {
       isPasswordValid: false,
       errorMessage: ''
     };
+
+    this.handlePasswordChange = this.handlePasswordChange.bind(this);
   }
 
   handleSubmit(e) {
@@ -41,47 +43,11 @@ class Reset extends Component {
     e.preventDefault();
   }
 
-  shouldShowError(doPasswordsMatch, emptyFields) {
-    const errorMessage = (!doPasswordsMatch && !emptyFields) ? "Passwords don't match!" : '';
-
+  handlePasswordChange(isPasswordValid, errorMessage) {
     this.setState({
+      isPasswordValid,
       errorMessage
     });
-  }
-
-  checkPasswordsValid(password, confirmPassword) {
-    const doPasswordsMatch = (password === confirmPassword);
-    const emptyFields = !(password && confirmPassword);
-    const isPasswordValid = (doPasswordsMatch && !emptyFields);
-
-    this.shouldShowError(doPasswordsMatch, emptyFields);
-    this.setState({
-      isPasswordValid
-    });
-  }
-
-  updatePassword(e) {
-    const { confirmPassword } = this.state;
-    const password = e.target.value;
-
-    this.setState({
-      password
-    });
-    this.checkPasswordsValid(password, confirmPassword);
-
-    e.preventDefault();
-  }
-
-  updateConfirmPassword(e) {
-    const { password } = this.state;
-    const confirmPassword = e.target.value;
-
-    this.setState({
-      confirmPassword
-    });
-    this.checkPasswordsValid(password, confirmPassword);
-
-    e.preventDefault();
   }
 
   renderRedirect() { // eslint-disable-line consistent-return
@@ -99,8 +65,7 @@ class Reset extends Component {
       <div className="reset-pwd-wrapper">
         <h3 className="page-title"> RESET PASSWORD </h3>
         <form className="reset-form" onSubmit={e => this.handleSubmit(e)}>
-          <TextInput type="password" id="new-password" placeholder="New Password" onChange={e => this.updatePassword(e)} />
-          <TextInput type="password" id="new-password-confirm" placeholder="Confirm new password" onChange={e => this.updateConfirmPassword(e)} />
+          <PasswordInput id="password-input-wrapper" onChange={this.handlePasswordChange} />
           <ErrorMessage message={errorMessage} />
           <PrimaryButton name="SUBMIT" />
         </form>
