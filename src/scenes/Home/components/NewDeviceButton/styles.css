@@ -1,0 +1,27 @@
+.btn-new-device {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: 0px solid #db4437;
+  background-color: #db4437;
+  padding: 0;
+  cursor: pointer;
+  box-shadow: 0px 2px 5px #666;
+}
+
+.plus{
+  color: white;
+  position: absolute;
+  top: 0;
+  display: block;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  line-height: 55px;
+  font-size: 38px;
+  font-family: 'Roboto';
+  font-weight: 300;
+}

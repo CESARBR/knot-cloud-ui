@@ -3,3 +3,9 @@
   width: 100%;
   top: 85px;
 }
+
+#add-device {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
