@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "4d7c2051_72533a8a",
+        "filename": "src/App.js",
+        "patchSetId": 4
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-11-16T22:45:35Z",
+      "side": 1,
+      "message": "Why break this lines here?",
+      "range": {
+        "startLine": 2,
+        "startChar": 0,
+        "endLine": 4,
+        "endChar": 26
+      },
+      "revId": "6292988840ade202986a92e49e178840a7aca9cf",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "84199c5f_e79b9e35",
         "filename": "src/scenes/AccessControl/index.js",
         "patchSetId": 4
@@ -22,6 +45,52 @@
       "revId": "6292988840ade202986a92e49e178840a7aca9cf",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4a0e1177_a3c83a34",
+        "filename": "src/util/ConditionalRoute.js",
+        "patchSetId": 4
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-11-16T22:45:35Z",
+      "side": 1,
+      "message": "Shouldn\u0027t the user be redirected to \u0027/\u0027 regardless of the path if (s)he is authenticated?\nIMO if the user has the session and tries to do something like signup|forgot|reset, it shouldn\u0027t be allowed. He\u0027d have to sign out prior to that.\nThinking about how google account works, if you\u0027re logged and tries to access gmail you\u0027d be redirected to you inbox.\n\nMaybe not all that routes should follow that rule, but I\u0027d guess at least signup and forgot should. What do you think?",
+      "range": {
+        "startLine": 13,
+        "startChar": 10,
+        "endLine": 13,
+        "endChar": 28
+      },
+      "revId": "6292988840ade202986a92e49e178840a7aca9cf",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fbda64ae_2633d5ff",
+        "filename": "src/util/ConditionalRoute.js",
+        "patchSetId": 4
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-11-16T22:45:35Z",
+      "side": 1,
+      "message": "If we create any other internal route, such as /devices we would be able to access it without having credentials.\nFor now it\u0027s OK, but this must be changed if we have this scenario at any point.",
+      "range": {
+        "startLine": 16,
+        "startChar": 10,
+        "endLine": 16,
+        "endChar": 22
+      },
+      "revId": "6292988840ade202986a92e49e178840a7aca9cf",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
     }
   ]
 }
