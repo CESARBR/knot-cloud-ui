@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a289b603_f29dddab",
+        "filename": "src/scenes/Home/components/Card/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-11-17T17:26:18Z",
+      "side": 1,
+      "message": "Rather than having the array as key, what could be a problem according to the eslint rule: \n\n\"It\u0027s a bad idea to use the array index since it doesn\u0027t uniquely identify your elements. In cases where the array is sorted or an element is added to the beginning of the array, the index will be changed even though the element representing that index may be the same. This results in unnecessary renders.\"\nhttps://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-array-index-key.md\n\nCould we have an required property passed to the card to use as key? Or even use the propType id.\n\nconst { body, id } \u003d this.props;\n[...]\n\u003cdiv className\u003d\"card-body-field\" key\u003d{id}\u003e",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 11,
+        "endChar": 1
+      },
+      "revId": "11d63750fee6932d95a10eee2c0ebd5c171e0124",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "596bc884_bf9c6315",
+        "filename": "src/scenes/Home/components/Card/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-11-17T17:26:18Z",
+      "side": 1,
+      "message": "Is this necessary?",
+      "range": {
+        "startLine": 61,
+        "startChar": 0,
+        "endLine": 63,
+        "endChar": 2
+      },
+      "revId": "11d63750fee6932d95a10eee2c0ebd5c171e0124",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "671c2a7e_ec396d62",
+        "filename": "src/scenes/Home/components/CardBoard/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-11-17T17:26:18Z",
+      "side": 1,
+      "message": "Perhaps change to cards, cardList or something similar?",
+      "range": {
+        "startLine": 8,
+        "startChar": 12,
+        "endLine": 8,
+        "endChar": 20
+      },
+      "revId": "11d63750fee6932d95a10eee2c0ebd5c171e0124",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "99594370_d57eab1f",
+        "filename": "src/scenes/Home/components/CardBoard/styles.css",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-11-17T17:26:18Z",
+      "side": 1,
+      "message": "Why is this width fixed?",
+      "range": {
+        "startLine": 2,
+        "startChar": 0,
+        "endLine": 2,
+        "endChar": 16
+      },
+      "revId": "11d63750fee6932d95a10eee2c0ebd5c171e0124",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
