@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "0dd5c10d_3caec990",
+        "filename": "src/scenes/Home/components/Navbar/components/NavbarButton/styles.css",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-11-19T19:51:42Z",
+      "side": 1,
+      "message": "As the button is clicked, it translates on Y axis by 2 pixels. Is that what you refer to?\nThis issue will happen with every button, but IMO it is a very fast change and is only there to provide the feeling of \"clicked\". \nWe could have other form of show that the button was clicked, but this is how it\u0027s done in every button so far. \n\nDon\u0027t know if this is the issue you were addressing, but if it is, I think this does not require an immediate fix.",
+      "parentUuid": "146b6bb1_a50d9392",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 4,
+        "endChar": 1
+      },
+      "revId": "4e2e5bb2a7712f347e48a3ff63c2c37cf8882191",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "532fca33_bd94e6c6",
         "filename": "src/scenes/Home/components/Navbar/styles.css",
         "patchSetId": 1
@@ -59,6 +83,30 @@
       "writtenOn": "2018-11-19T17:15:56Z",
       "side": 1,
       "message": "Why this element is separated from the others (in the end of navbar)?",
+      "range": {
+        "startLine": 43,
+        "startChar": 0,
+        "endLine": 47,
+        "endChar": 1
+      },
+      "revId": "4e2e5bb2a7712f347e48a3ff63c2c37cf8882191",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f804810c_5c1cd892",
+        "filename": "src/scenes/Home/components/Navbar/styles.css",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-11-19T19:51:42Z",
+      "side": 1,
+      "message": "This is the logout button, placed in the rightmost of the navbar to avoid missclicks from the user and where buttons like settings and/or logout are usually placed as far as I\u0027ve seen.\n\nAny other suggestions on the placement and or what should be on the button? I\u0027d rather have some kind of image or a smaller button, but could not come with any better solution.",
+      "parentUuid": "4d8acf35_646fbe60",
       "range": {
         "startLine": 43,
         "startChar": 0,
