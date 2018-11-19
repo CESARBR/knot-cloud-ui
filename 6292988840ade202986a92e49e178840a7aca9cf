@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "3d491e71_10cb1d01",
+        "filename": "src/App.js",
+        "patchSetId": 4
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1013169
+      },
+      "writtenOn": "2018-11-19T15:57:57Z",
+      "side": 1,
+      "message": "This isn\u0027t need anymore.",
+      "parentUuid": "4d7c2051_72533a8a",
+      "range": {
+        "startLine": 2,
+        "startChar": 0,
+        "endLine": 4,
+        "endChar": 26
+      },
+      "revId": "6292988840ade202986a92e49e178840a7aca9cf",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "84199c5f_e79b9e35",
         "filename": "src/scenes/AccessControl/index.js",
         "patchSetId": 4
@@ -71,6 +95,30 @@
     },
     {
       "key": {
+        "uuid": "73110fbf_bdecb09a",
+        "filename": "src/util/ConditionalRoute.js",
+        "patchSetId": 4
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1013169
+      },
+      "writtenOn": "2018-11-19T15:57:57Z",
+      "side": 1,
+      "message": "\"Shouldn\u0027t the user be redirected to \u0027/\u0027 regardless of the path if (s)he is authenticated?\"\n\nI\u0027m already doing this for the \u0027signin\u0027 route. On the other hand, I think you are right... maybe it is better to block the other routes unless there is a reason not to do this.",
+      "parentUuid": "4a0e1177_a3c83a34",
+      "range": {
+        "startLine": 13,
+        "startChar": 10,
+        "endLine": 13,
+        "endChar": 28
+      },
+      "revId": "6292988840ade202986a92e49e178840a7aca9cf",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "fbda64ae_2633d5ff",
         "filename": "src/util/ConditionalRoute.js",
         "patchSetId": 4
@@ -82,6 +130,30 @@
       "writtenOn": "2018-11-16T22:45:35Z",
       "side": 1,
       "message": "If we create any other internal route, such as /devices we would be able to access it without having credentials.\nFor now it\u0027s OK, but this must be changed if we have this scenario at any point.",
+      "range": {
+        "startLine": 16,
+        "startChar": 10,
+        "endLine": 16,
+        "endChar": 22
+      },
+      "revId": "6292988840ade202986a92e49e178840a7aca9cf",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "93ae417f_338c99d8",
+        "filename": "src/util/ConditionalRoute.js",
+        "patchSetId": 4
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1013169
+      },
+      "writtenOn": "2018-11-19T15:57:57Z",
+      "side": 1,
+      "message": "Yes, I got it. For now I think this is the expected behaviour. If we create a new endpoint that needs to be protected, we should modify the rules of this HOC (High Order Component).",
+      "parentUuid": "fbda64ae_2633d5ff",
       "range": {
         "startLine": 16,
         "startChar": 10,
