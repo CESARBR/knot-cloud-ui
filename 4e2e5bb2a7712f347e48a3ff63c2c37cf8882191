@@ -2,6 +2,75 @@
   "comments": [
     {
       "key": {
+        "uuid": "146b6bb1_a50d9392",
+        "filename": "src/scenes/Home/components/Navbar/components/NavbarButton/styles.css",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1013169
+      },
+      "writtenOn": "2018-11-19T17:15:56Z",
+      "side": 1,
+      "message": "When clicked, this button element increase in size and it wind up out of the navbar.",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 4,
+        "endChar": 1
+      },
+      "revId": "4e2e5bb2a7712f347e48a3ff63c2c37cf8882191",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "532fca33_bd94e6c6",
+        "filename": "src/scenes/Home/components/Navbar/styles.css",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1013169
+      },
+      "writtenOn": "2018-11-19T17:15:56Z",
+      "side": 1,
+      "message": "This element looks unresponsive, i.e. when the page is resized the name \u0027KNoT Cloud\u0027 doesn\u0027t fill in the navbar.",
+      "range": {
+        "startLine": 30,
+        "startChar": 0,
+        "endLine": 36,
+        "endChar": 1
+      },
+      "revId": "4e2e5bb2a7712f347e48a3ff63c2c37cf8882191",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4d8acf35_646fbe60",
+        "filename": "src/scenes/Home/components/Navbar/styles.css",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1013169
+      },
+      "writtenOn": "2018-11-19T17:15:56Z",
+      "side": 1,
+      "message": "Why this element is separated from the others (in the end of navbar)?",
+      "range": {
+        "startLine": 43,
+        "startChar": 0,
+        "endLine": 47,
+        "endChar": 1
+      },
+      "revId": "4e2e5bb2a7712f347e48a3ff63c2c37cf8882191",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "cfdf04a1_a6dc705b",
         "filename": "src/scenes/Home/styles.css",
         "patchSetId": 1
