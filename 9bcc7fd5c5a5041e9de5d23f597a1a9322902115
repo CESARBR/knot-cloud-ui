@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b829b7d0_3b71bf78",
+        "filename": "src/util/ConditionalRoute.js",
+        "patchSetId": 5
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-11-19T22:29:37Z",
+      "side": 1,
+      "message": "Create a function or variable to do this comparison and then use it inside if.\nconst x \u003d (path \u003d\u003d\u003d \u0027/signin\u0027 || path \u003d\u003d\u003d \u0027/signup\u0027 || path \u003d\u003d\u003d \u0027/forgot\u0027 || path \u003d\u003d\u003d \u0027/reset\u0027)\n\nif(x \u0026\u0026 Storage.credentialsExists())",
+      "range": {
+        "startLine": 11,
+        "startChar": 10,
+        "endLine": 11,
+        "endChar": 95
+      },
+      "revId": "9bcc7fd5c5a5041e9de5d23f597a1a9322902115",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
