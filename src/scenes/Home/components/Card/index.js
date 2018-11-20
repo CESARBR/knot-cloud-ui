@@ -15,8 +15,8 @@ function putArrayIndexAsId(array) {
 class Card extends Component {
   constructor(props) {
     super(props);
-    const { body } = this.props;
-    this.state = { body };
+    const { header, body } = this.props;
+    this.state = { header, body };
   }
 
   generateDownloadLink() {
@@ -91,11 +91,21 @@ class Card extends Component {
   }
 
   render() {
-    const { header, id } = this.props;
+    const { id, onHeaderChange } = this.props;
+    const { header } = this.state;
     return (
       <div id={id} className="card">
         <div className="card-header">
-          {header}
+          <input
+            type="text"
+            onChange={(e) => {
+              const headerChange = e.target.value;
+              this.setState({ header: headerChange });
+              e.target.onblur = () => onHeaderChange(headerChange);
+            }}
+            onKeyPress={(e) => { if (e.key === 'Enter') { e.target.blur(); } }}
+            value={header}
+          />
         </div>
         <ul className="card-body">
           {this.renderBody()}
@@ -113,7 +123,8 @@ Card.defaultProps = {
   header: 'No Header',
   body: [],
   action: null,
-  onBodyChange: () => {}
+  onBodyChange: () => {},
+  onHeaderChange: () => {}
 };
 
 Card.propTypes = {
@@ -130,7 +141,8 @@ Card.propTypes = {
     icon: PropTypes.node.isRequired // This icon is based in material css names
   }),
   id: PropTypes.string.isRequired,
-  onBodyChange: PropTypes.func
+  onBodyChange: PropTypes.func,
+  onHeaderChange: PropTypes.func
 };
 
 export default Card;
