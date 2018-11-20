@@ -18,8 +18,8 @@ function putArrayIndexAsId(array) {
 class DeviceCard extends Component {
   constructor(props) {
     super(props);
-    const { properties } = this.props;
-    this.state = { properties };
+    const { title, properties } = this.props;
+    this.state = { title, properties };
   }
 
   generateDownloadLink() {
@@ -94,12 +94,22 @@ class DeviceCard extends Component {
   }
 
   render() {
-    const { id, title } = this.props;
+    const { id, onTitleChange } = this.props;
+    const { title } = this.state;
     return (
       <div id={id} className="card-device">
         <Card>
           <CardTitle>
-            <h1>{title}</h1>
+            <input
+              type="text"
+              onChange={(e) => {
+                const titleChange = e.target.value;
+                this.setState({ title: titleChange });
+                e.target.onblur = () => onTitleChange(titleChange);
+              }}
+              onKeyPress={(e) => { if (e.key === 'Enter') { e.target.blur(); } }}
+              value={title}
+            />
           </CardTitle>
           <CardBody>
             {this.renderBody()}
@@ -118,7 +128,8 @@ DeviceCard.defaultProps = {
   title: 'No title',
   properties: [],
   action: null,
-  onPropertyChange: () => {}
+  onPropertyChange: () => {},
+  onTitleChange: () => {}
 };
 
 DeviceCard.propTypes = {
@@ -135,7 +146,8 @@ DeviceCard.propTypes = {
     icon: PropTypes.node.isRequired // This icon is based in material css names
   }),
   id: PropTypes.string.isRequired,
-  onPropertyChange: PropTypes.func
+  onPropertyChange: PropTypes.func,
+  onTitleChange: PropTypes.func
 };
 
 export default DeviceCard;

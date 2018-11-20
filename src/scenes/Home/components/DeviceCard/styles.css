@@ -2,9 +2,12 @@
   width: 325px;
 }
 
-.card-title > h1 {
+.card-title > input {
   float: left;
   color: white;
+  background: #212121;
+  border: 0;
+  border-radius: 30px;
   font-size: 20px;
   font-weight: bold;
   padding-left: 15px;
