@@ -1,0 +1,9 @@
+.close-button {
+  color: white;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  outline: 0;
+  box-shadow: 0 0 0.625rem, rgba(0, 0, 0, 0.2);
+  font-size: 25px;
+}

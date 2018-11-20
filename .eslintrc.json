@@ -5,7 +5,8 @@
     "react/prefer-stateless-function": [0, { "ignorePureComponents": true }],
     "no-param-reassign": [2, { "props": false }],
     "comma-dangle":[2,"never"],
-    "class-methods-use-this": "off"
+    "class-methods-use-this": "off",
+    "jsx-a11y/label-has-for": "off"
   },
   "settings": {
     "import/resolver": {
