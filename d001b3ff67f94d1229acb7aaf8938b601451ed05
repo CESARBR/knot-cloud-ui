@@ -1,0 +1,188 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c4e94fa0_3c7be745",
+        "filename": "src/scenes/Home/components/Navbar/components/NavbarButton/index.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-20T17:38:54Z",
+      "side": 1,
+      "message": "remove this part. The prefix `on` already shows that it is a callback",
+      "range": {
+        "startLine": 14,
+        "startChar": 123,
+        "endLine": 14,
+        "endChar": 131
+      },
+      "revId": "d001b3ff67f94d1229acb7aaf8938b601451ed05",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e4200cb6_42108a7c",
+        "filename": "src/scenes/Home/components/Navbar/components/NavbarButton/index.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-20T17:38:54Z",
+      "side": 1,
+      "message": "same here",
+      "range": {
+        "startLine": 22,
+        "startChar": 9,
+        "endLine": 22,
+        "endChar": 17
+      },
+      "revId": "d001b3ff67f94d1229acb7aaf8938b601451ed05",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0d21befd_76d8a9cc",
+        "filename": "src/scenes/Home/components/Navbar/index.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-20T17:38:54Z",
+      "side": 1,
+      "message": "onSceneChange",
+      "range": {
+        "startLine": 10,
+        "startChar": 12,
+        "endLine": 10,
+        "endChar": 31
+      },
+      "revId": "d001b3ff67f94d1229acb7aaf8938b601451ed05",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c7b8a925_42dc2f83",
+        "filename": "src/scenes/Home/components/Navbar/index.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-20T17:38:54Z",
+      "side": 1,
+      "message": "Change here as I comment in the another file",
+      "range": {
+        "startLine": 21,
+        "startChar": 47,
+        "endLine": 21,
+        "endChar": 55
+      },
+      "revId": "d001b3ff67f94d1229acb7aaf8938b601451ed05",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fd9b3692_f1eb0119",
+        "filename": "src/scenes/Home/components/Navbar/index.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-20T17:38:54Z",
+      "side": 1,
+      "message": "same here",
+      "range": {
+        "startLine": 22,
+        "startChar": 43,
+        "endLine": 22,
+        "endChar": 51
+      },
+      "revId": "d001b3ff67f94d1229acb7aaf8938b601451ed05",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0dc4d500_e0c119b2",
+        "filename": "src/scenes/Home/components/Navbar/index.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-20T17:38:54Z",
+      "side": 1,
+      "message": "and here too",
+      "range": {
+        "startLine": 25,
+        "startChar": 45,
+        "endLine": 25,
+        "endChar": 53
+      },
+      "revId": "d001b3ff67f94d1229acb7aaf8938b601451ed05",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "02380e93_f176818f",
+        "filename": "src/scenes/Home/components/Navbar/index.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-20T17:38:54Z",
+      "side": 1,
+      "message": "OnSceneChange",
+      "range": {
+        "startLine": 34,
+        "startChar": 2,
+        "endLine": 34,
+        "endChar": 21
+      },
+      "revId": "d001b3ff67f94d1229acb7aaf8938b601451ed05",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ac536ed7_88a17d54",
+        "filename": "src/scenes/Home/index.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-20T17:38:54Z",
+      "side": 1,
+      "message": "OnSceneChange",
+      "range": {
+        "startLine": 59,
+        "startChar": 10,
+        "endLine": 59,
+        "endChar": 29
+      },
+      "revId": "d001b3ff67f94d1229acb7aaf8938b601451ed05",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}

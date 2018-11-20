@@ -2,6 +2,52 @@
   "comments": [
     {
       "key": {
+        "uuid": "eaece8f0_5186db70",
+        "filename": "src/scenes/Home/components/Navbar/components/NavbarButton/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-20T17:38:54Z",
+      "side": 1,
+      "message": "isSelected or isCurrent",
+      "range": {
+        "startLine": 11,
+        "startChar": 12,
+        "endLine": 11,
+        "endChar": 24
+      },
+      "revId": "4e2e5bb2a7712f347e48a3ff63c2c37cf8882191",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5e83afbb_ac686770",
+        "filename": "src/scenes/Home/components/Navbar/components/NavbarButton/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-20T17:38:54Z",
+      "side": 1,
+      "message": "isSelected or isCurrent",
+      "range": {
+        "startLine": 14,
+        "startChar": 56,
+        "endLine": 14,
+        "endChar": 70
+      },
+      "revId": "4e2e5bb2a7712f347e48a3ff63c2c37cf8882191",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "146b6bb1_a50d9392",
         "filename": "src/scenes/Home/components/Navbar/components/NavbarButton/styles.css",
         "patchSetId": 1
