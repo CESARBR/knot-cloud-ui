@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "7026848b_2ec6423f",
+        "filename": "src/scenes/Home/components/NewDeviceButton/index.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-11-20T19:06:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5e3e33ce_5230fa6a",
+      "range": {
+        "startLine": 8,
+        "startChar": 12,
+        "endLine": 8,
+        "endChar": 21
+      },
+      "revId": "a633217f454804b17500946ac407525e2a35d763",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "e5f6e2da_9a694cfd",
         "filename": "src/scenes/Home/components/NewDeviceButton/index.js",
         "patchSetId": 2
@@ -45,6 +69,30 @@
       "revId": "a633217f454804b17500946ac407525e2a35d763",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1d3af31c_5c9ca6f5",
+        "filename": "src/scenes/Home/components/NewDeviceButton/index.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-11-20T19:06:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e5f6e2da_9a694cfd",
+      "range": {
+        "startLine": 20,
+        "startChar": 0,
+        "endLine": 20,
+        "endChar": 15
+      },
+      "revId": "a633217f454804b17500946ac407525e2a35d763",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     },
     {
       "key": {
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "4382f7fd_0c8f431d",
+        "filename": "src/scenes/Home/components/NewDeviceButton/index.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-11-20T19:06:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bc5334a8_41de994e",
+      "range": {
+        "startLine": 22,
+        "startChar": 2,
+        "endLine": 22,
+        "endChar": 11
+      },
+      "revId": "a633217f454804b17500946ac407525e2a35d763",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7497f3a6_1524194a",
         "filename": "src/scenes/Home/index.js",
         "patchSetId": 2
@@ -91,6 +163,30 @@
       "revId": "a633217f454804b17500946ac407525e2a35d763",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "dc8818e6_2486f62b",
+        "filename": "src/scenes/Home/index.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-11-20T19:06:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7497f3a6_1524194a",
+      "range": {
+        "startLine": 70,
+        "startChar": 41,
+        "endLine": 70,
+        "endChar": 50
+      },
+      "revId": "a633217f454804b17500946ac407525e2a35d763",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
