@@ -1,0 +1,44 @@
+/* Prevent page scrolling when modal is open */
+body {
+  overflow: hidden
+}
+
+.modal-overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 9999;
+  opacity: 1;
+  animation: show .5s ease;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/* Modal itself */
+.modal {
+  width: 100%;
+  background-color: lightgray;
+  box-shadow: 0, 0, 0.625rem, rgba(0, 0, 0, 0.2);
+}
+
+.close-button {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: lightgray;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+  outline: 0;
+  box-shadow: 0, 0, 0.625rem, rgba(0, 0, 0, 0.2);
+  font-size: 20pt;
+}
