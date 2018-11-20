@@ -12,12 +12,21 @@
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   background: rgb(21, 21, 21);
-  color: white;
-  font-size: 20;
-  font-weight: bold;
   padding-left: 15px;
   padding-top: 17px;
   padding-bottom: 17px;
+}
+
+.card-header > input {
+  font-weight: bold;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  background: rgb(21, 21, 21);
+  color: white;
+  border: 0;
+  outline: none;
+  text-align: center;
 }
 
 .card-body {
