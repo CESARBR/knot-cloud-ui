@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5e1e37c7_d069f368",
+        "filename": "src/services/Storage/index.js",
+        "patchSetId": 5
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-20T17:48:49Z",
+      "side": 1,
+      "message": "We are just using this in the next patch",
+      "range": {
+        "startLine": 7,
+        "startChar": 2,
+        "endLine": 21,
+        "endChar": 3
+      },
+      "revId": "9c3ef27c5c7750411cd868db6b5f4b1749d3eb34",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
