@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f2d024ee_0e273ee2",
+        "filename": "src/scenes/Reset/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1013169
+      },
+      "writtenOn": "2018-11-21T19:04:34Z",
+      "side": 1,
+      "message": "I think this name doesn\u0027t describe what the function is and what it does. Maybe it could be \u0027onPasswordStatusChanged\u0027, what do you think?",
+      "range": {
+        "startLine": 47,
+        "startChar": 2,
+        "endLine": 47,
+        "endChar": 16
+      },
+      "revId": "7069488f8a9c6f85f482a07f68e4814a7a4c88a2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
