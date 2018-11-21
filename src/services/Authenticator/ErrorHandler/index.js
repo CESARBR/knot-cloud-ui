@@ -11,7 +11,7 @@ class ErrorHandler {
 
         switch (status) {
           case 400:
-            throw Error('Bad request');
+            throw Error(dataMessage);
           case 500:
             throw Error('System error');
           default:
