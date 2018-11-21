@@ -10,10 +10,9 @@ class ErrorHandler {
         const { status, data: { message: dataMessage } } = error.response;
 
         switch (status) {
-          case 400:
-            throw Error('Bad request');
           case 500:
             throw Error('System error');
+          case 400:
           default:
             throw Error(dataMessage);
         }
