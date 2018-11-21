@@ -1,0 +1,136 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "eea9fc61_fb36e9be",
+        "filename": "src/components/Modal/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-21T12:21:54Z",
+      "side": 1,
+      "message": "I didn\u0027t understand the need of this dependency. Can\u0027t we just compare with null or undefined in the sentence bellow?\nIf we really need it add it to the package.json",
+      "range": {
+        "startLine": 3,
+        "startChar": 19,
+        "endLine": 3,
+        "endChar": 34
+      },
+      "revId": "9faedfc3de46a905d69b49a7f8521af06daba232",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0c3741e6_adedfb31",
+        "filename": "src/components/Modal/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-21T12:21:54Z",
+      "side": 1,
+      "message": "Can\u0027t we just compare with null or undefined?",
+      "range": {
+        "startLine": 40,
+        "startChar": 8,
+        "endLine": 40,
+        "endChar": 26
+      },
+      "revId": "9faedfc3de46a905d69b49a7f8521af06daba232",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e1fc310d_94925b95",
+        "filename": "src/components/Modal/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-21T12:21:54Z",
+      "side": 1,
+      "message": "modal-overlay",
+      "range": {
+        "startLine": 52,
+        "startChar": 22,
+        "endLine": 52,
+        "endChar": 34
+      },
+      "revId": "9faedfc3de46a905d69b49a7f8521af06daba232",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ed144e73_7f46e6a4",
+        "filename": "src/components/Modal/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-21T12:21:54Z",
+      "side": 1,
+      "message": "modal-content",
+      "range": {
+        "startLine": 57,
+        "startChar": 26,
+        "endLine": 57,
+        "endChar": 38
+      },
+      "revId": "9faedfc3de46a905d69b49a7f8521af06daba232",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "52f30dcd_da1346b8",
+        "filename": "src/components/Modal/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-21T12:21:54Z",
+      "side": 1,
+      "message": "close-button",
+      "range": {
+        "startLine": 64,
+        "startChar": 21,
+        "endLine": 64,
+        "endChar": 32
+      },
+      "revId": "9faedfc3de46a905d69b49a7f8521af06daba232",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d453d1b1_1221526e",
+        "filename": "src/components/Modal/styles.css",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-21T12:21:54Z",
+      "side": 1,
+      "message": "Change this file as I describe in js file",
+      "revId": "9faedfc3de46a905d69b49a7f8521af06daba232",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
