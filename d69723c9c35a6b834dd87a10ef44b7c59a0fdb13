@@ -22,6 +22,29 @@
       "revId": "d69723c9c35a6b834dd87a10ef44b7c59a0fdb13",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "cbcb22a1_f2828135",
+        "filename": "src/scenes/Home/components/AddButton/index.js",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1013169
+      },
+      "writtenOn": "2018-11-21T18:07:22Z",
+      "side": 1,
+      "message": "Put this in one line.\n`const { onClick, id } \u003d this.props;`",
+      "range": {
+        "startLine": 8,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 30
+      },
+      "revId": "d69723c9c35a6b834dd87a10ef44b7c59a0fdb13",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
