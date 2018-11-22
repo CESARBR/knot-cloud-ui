@@ -22,6 +22,30 @@
       "revId": "7069488f8a9c6f85f482a07f68e4814a7a4c88a2",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7f0e9f4a_0291c871",
+        "filename": "src/scenes/Reset/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-11-22T11:16:33Z",
+      "side": 1,
+      "message": "Agree on the name not being descriptive. \nHowever, trying to comply with how it seems to be the standard, the PasswordInput component will receive a callback named onChange and the components that implement this cb will have it named handlePasswordChange, is that OK?",
+      "parentUuid": "f2d024ee_0e273ee2",
+      "range": {
+        "startLine": 47,
+        "startChar": 2,
+        "endLine": 47,
+        "endChar": 16
+      },
+      "revId": "7069488f8a9c6f85f482a07f68e4814a7a4c88a2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
