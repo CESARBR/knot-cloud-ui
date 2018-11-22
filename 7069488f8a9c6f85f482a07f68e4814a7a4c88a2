@@ -46,6 +46,30 @@
       "revId": "7069488f8a9c6f85f482a07f68e4814a7a4c88a2",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1f4a27d7_cba6ff96",
+        "filename": "src/scenes/Reset/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1013169
+      },
+      "writtenOn": "2018-11-22T13:47:21Z",
+      "side": 1,
+      "message": "Yes, I agree. Keep up with the standard.",
+      "parentUuid": "7f0e9f4a_0291c871",
+      "range": {
+        "startLine": 47,
+        "startChar": 2,
+        "endLine": 47,
+        "endChar": 16
+      },
+      "revId": "7069488f8a9c6f85f482a07f68e4814a7a4c88a2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
