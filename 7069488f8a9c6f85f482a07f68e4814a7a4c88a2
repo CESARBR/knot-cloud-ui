@@ -70,6 +70,30 @@
       "revId": "7069488f8a9c6f85f482a07f68e4814a7a4c88a2",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "af72e261_f0444c18",
+        "filename": "src/scenes/Reset/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-11-22T17:39:20Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1f4a27d7_cba6ff96",
+      "range": {
+        "startLine": 47,
+        "startChar": 2,
+        "endLine": 47,
+        "endChar": 16
+      },
+      "revId": "7069488f8a9c6f85f482a07f68e4814a7a4c88a2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }

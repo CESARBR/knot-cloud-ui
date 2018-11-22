@@ -48,6 +48,30 @@
     },
     {
       "key": {
+        "uuid": "afdbf4b2_09e4cdef",
+        "filename": "src/components/PasswordInput/index.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-11-22T17:39:20Z",
+      "side": 1,
+      "message": "Removed the bind and kept the function call.",
+      "parentUuid": "587b98e7_b2a53d81",
+      "range": {
+        "startLine": 12,
+        "startChar": 4,
+        "endLine": 13,
+        "endChar": 71
+      },
+      "revId": "056d355da6c074fe84a58370711e91ff7eaceec2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "8d6188a2_2fe730d2",
         "filename": "src/components/PasswordInput/index.js",
         "patchSetId": 2
@@ -71,6 +95,30 @@
     },
     {
       "key": {
+        "uuid": "08a282fe_5c5f20f0",
+        "filename": "src/components/PasswordInput/index.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-11-22T17:39:20Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "8d6188a2_2fe730d2",
+      "range": {
+        "startLine": 56,
+        "startChar": 90,
+        "endLine": 56,
+        "endChar": 117
+      },
+      "revId": "056d355da6c074fe84a58370711e91ff7eaceec2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "14a3880d_b50a0a12",
         "filename": "src/components/PasswordInput/index.js",
         "patchSetId": 2
@@ -91,6 +139,30 @@
       "revId": "056d355da6c074fe84a58370711e91ff7eaceec2",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "08875bc6_82607718",
+        "filename": "src/components/PasswordInput/index.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-11-22T17:39:20Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "14a3880d_b50a0a12",
+      "range": {
+        "startLine": 57,
+        "startChar": 106,
+        "endLine": 57,
+        "endChar": 140
+      },
+      "revId": "056d355da6c074fe84a58370711e91ff7eaceec2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
