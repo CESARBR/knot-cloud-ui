@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { Redirect } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import AddButton from './components/AddButton';
+import CardBoard from './components/CardBoard';
+import Card from './components/Card';
 import './styles.css';
 
 class Home extends Component {
@@ -9,6 +11,8 @@ class Home extends Component {
     super(props);
     this.state = {
       currentScene: 'Gateways',
+      listGateways: [], // TODO: Initialize thoses lists with service getDevices
+      listApps: [],
       redirect: false
     };
     this.updateCurrentScente = this.updateCurrentScente.bind(this);
@@ -30,22 +34,102 @@ class Home extends Component {
     });
   }
 
-  addDevice() {
-    const { currentScene } = this.state;
+  updateInCloud(uuid, title, content) {
+    const { currentScene, listGateways, listApps } = this.state;
+    const list = currentScene === 'Gateways' ? listGateways : listApps;
+    const device = list.find(dev => dev.uuid === uuid);
+    device[title] = content;
+    // TODO: request to service
+    if (currentScene === 'Gateways') {
+      this.setState({ listGateways: list });
+    } else if (currentScene === 'Apps') {
+      this.setState({ listApps: list });
+    }
+  }
 
-    window.alert(`Add new device on ${currentScene}`); // eslint-disable-line no-alert
+  removeFromCloud(uuid) {
+    const { currentScene, listGateways, listApps } = this.state;
+    const list = currentScene === 'Gateways' ? listGateways : listApps;
+
+    // TODO: request to service
+    list.splice(list.findIndex(i => i.uuid === uuid), 1);
+    if (currentScene === 'Gateways') {
+      this.setState({ listGateways: list });
+    } else if (currentScene === 'Apps') {
+      this.setState({ listApps: list });
+    }
+  }
+
+  addInCloud(device) {
+    // TODO: request to service
+    const { currentScene, listGateways, listApps } = this.state;
+    const list = currentScene === 'Gateways' ? listGateways : listApps;
+    list.push(device);
+    if (currentScene === 'Gateways') {
+      this.setState({ listGateways: list });
+    } else if (currentScene === 'Apps') {
+      this.setState({ listApps: list });
+    }
+  }
+
+  addDevice() {
+    // TODO: objModal comes from the modal callback
+    const objModal = {
+      name: 'Raspberry1',
+      uuid: Math.floor(Math.random() * 10000),
+      token: 'secret'
+    };
+
+    this.addInCloud(objModal);
+  }
+
+  showCardsInList(list) {
+    const cardList = [];
+    let body;
+    let header;
+    list.forEach((device) => {
+      const fieldsToHide = ['uuid', 'token', 'name'];
+      if (device.name) {
+        header = device.name;
+      }
+      body = Object.keys(device).map(i => ({ title: i, content: `${device[i]}`, isHidden: false }));
+      body.forEach((i) => { // Hide fields in body
+        if (fieldsToHide.includes(i.title)) {
+          i.isHidden = true;
+        }
+      });
+      cardList.push(<Card
+        header={header}
+        onHeaderChange={(headerChange) => { this.updateInCloud(device.uuid, 'name', headerChange); }}
+        body={body}
+        onBodyChange={(title, content) => this.updateInCloud(device.uuid, title, content)}
+        action={{ click: () => { this.removeFromCloud(device.uuid); }, icon: 'delete' }}
+        key={`${device.uuid}`}
+        id={`${device.uuid}`}
+      />);
+    });
+    return cardList;
   }
 
   showRegisteredDevices() {
-    const { currentScene } = this.state;
+    const { currentScene, listGateways, listApps } = this.state;
 
     switch (currentScene) {
       case 'Gateways':
-        return (<div> Gateways </div>);
+        return (
+          <CardBoard>
+            {this.showCardsInList(listGateways)}
+          </CardBoard>);
       case 'Apps':
-        return (<div> Apps </div>);
+        return (
+          <CardBoard>
+            {this.showCardsInList(listApps)}
+          </CardBoard>);
       default:
-        return (<div> Gateways </div>);
+        return (
+          <CardBoard>
+            {this.showCardsInList(listGateways)}
+          </CardBoard>);
     }
   }
 
