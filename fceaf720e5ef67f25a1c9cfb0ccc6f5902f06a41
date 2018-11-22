@@ -22,6 +22,30 @@
       "revId": "fceaf720e5ef67f25a1c9cfb0ccc6f5902f06a41",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f7b364c8_5dfad0b7",
+        "filename": "src/scenes/Home/components/Card/index.js",
+        "patchSetId": 3
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-22T16:40:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "79c3e31e_678ae2b7",
+      "range": {
+        "startLine": 8,
+        "startChar": 0,
+        "endLine": 8,
+        "endChar": 71
+      },
+      "revId": "fceaf720e5ef67f25a1c9cfb0ccc6f5902f06a41",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
