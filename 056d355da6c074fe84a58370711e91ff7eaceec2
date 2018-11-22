@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "938e3750_91b38e74",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-22T12:21:19Z",
+      "side": 1,
+      "message": "Create",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 6
+      },
+      "revId": "056d355da6c074fe84a58370711e91ff7eaceec2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "587b98e7_b2a53d81",
+        "filename": "src/components/PasswordInput/index.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-22T12:21:19Z",
+      "side": 1,
+      "message": "The bind are just need if you want to pass function in the components in this way: `\u003cComponent onClick\u003d{this.someFunction}\u003e`\nIf you don\u0027t want to use the bind you can use the approach use in function render: `\u003cComponent onClick\u003d{(e) \u003d\u003e this.someFunction(e)}\u003e`",
+      "range": {
+        "startLine": 12,
+        "startChar": 4,
+        "endLine": 13,
+        "endChar": 71
+      },
+      "revId": "056d355da6c074fe84a58370711e91ff7eaceec2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8d6188a2_2fe730d2",
+        "filename": "src/components/PasswordInput/index.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-22T12:21:19Z",
+      "side": 1,
+      "message": "If you are using bind in the constructor you can change this statement to: {this.updatePassword}",
+      "range": {
+        "startLine": 56,
+        "startChar": 90,
+        "endLine": 56,
+        "endChar": 117
+      },
+      "revId": "056d355da6c074fe84a58370711e91ff7eaceec2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "14a3880d_b50a0a12",
+        "filename": "src/components/PasswordInput/index.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-22T12:21:19Z",
+      "side": 1,
+      "message": "The same argument here.\n{this.updateConfirmpassword}",
+      "range": {
+        "startLine": 57,
+        "startChar": 106,
+        "endLine": 57,
+        "endChar": 140
+      },
+      "revId": "056d355da6c074fe84a58370711e91ff7eaceec2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
