@@ -1,7 +1,6 @@
 .home-wrapper {
-  position: fixed;
   width: 100%;
-  top: 85px;
+  margin-top: 85px;
 }
 
 #add-device {
