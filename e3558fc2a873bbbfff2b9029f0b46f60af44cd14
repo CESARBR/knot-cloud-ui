@@ -25,6 +25,29 @@
     },
     {
       "key": {
+        "uuid": "9a61ee50_6cb57693",
+        "filename": "src/scenes/Home/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-11-23T21:48:58Z",
+      "side": 1,
+      "message": "Although this is a mock-up function, this does not seem correct.\nThe Modal won\u0027t have uuid and token information, as the device is not yet created. The modal callback will call the \u0027register\u0027 endpoint and that\u0027s it, the Home component is supposed to be listening for new devices and add them in the list to be rendered. Or did I misunderstand something?",
+      "range": {
+        "startLine": 79,
+        "startChar": 0,
+        "endLine": 80,
+        "endChar": 21
+      },
+      "revId": "e3558fc2a873bbbfff2b9029f0b46f60af44cd14",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "49ab28b7_e5a45002",
         "filename": "src/scenes/Home/index.js",
         "patchSetId": 1
