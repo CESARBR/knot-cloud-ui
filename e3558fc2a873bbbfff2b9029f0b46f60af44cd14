@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c0b37f55_82effe18",
+        "filename": "src/scenes/Home/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-11-23T19:02:57Z",
+      "side": 1,
+      "message": "This gives me the sense of a function that will list the gateways. Perhaps change to gatewaysList and appsList, what do you think?",
+      "range": {
+        "startLine": 14,
+        "startChar": 5,
+        "endLine": 15,
+        "endChar": 19
+      },
+      "revId": "e3558fc2a873bbbfff2b9029f0b46f60af44cd14",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "49ab28b7_e5a45002",
+        "filename": "src/scenes/Home/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-11-23T19:02:57Z",
+      "side": 1,
+      "message": "showCards or showCardsFromList, since where getting the data FROM a list. Or is it meant to show the cards in a list form?",
+      "range": {
+        "startLine": 86,
+        "startChar": 2,
+        "endLine": 86,
+        "endChar": 17
+      },
+      "revId": "e3558fc2a873bbbfff2b9029f0b46f60af44cd14",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "04275ac6_77065ce6",
+        "filename": "src/scenes/Home/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-11-23T19:02:57Z",
+      "side": 1,
+      "message": "Why not \"cards\" only?",
+      "range": {
+        "startLine": 87,
+        "startChar": 10,
+        "endLine": 87,
+        "endChar": 18
+      },
+      "revId": "e3558fc2a873bbbfff2b9029f0b46f60af44cd14",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "25517d85_fe9c5a04",
+        "filename": "src/scenes/Home/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-11-23T19:02:57Z",
+      "side": 1,
+      "message": "Move this closer to the default and avoid re-write code.\nActually, I\u0027ll fix in the previous patch and a rebase will be needed.",
+      "range": {
+        "startLine": 118,
+        "startChar": 3,
+        "endLine": 122,
+        "endChar": 24
+      },
+      "revId": "e3558fc2a873bbbfff2b9029f0b46f60af44cd14",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
