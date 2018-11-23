@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f029e500_84031bc8",
+        "filename": "src/services/Authenticator/ErrorHandler/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-11-23T18:42:05Z",
+      "side": 1,
+      "message": "Move the case 400 and default closer, since they the same behavior.\nI\u0027d keep the 400 for legibility.\n\ncase 400:\ndefault:\n  throw Error(dataMessage);",
+      "range": {
+        "startLine": 13,
+        "startChar": 3,
+        "endLine": 14,
+        "endChar": 37
+      },
+      "revId": "700ed7e637c44a908257070e52051d2580f904e2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
