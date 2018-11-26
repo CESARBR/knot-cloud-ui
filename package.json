@@ -1,6 +1,6 @@
 {
   "name": "@cesarbr/knot-cloud-ui",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "KNoT Cloud UI",
   "private": true,
   "dependencies": {
