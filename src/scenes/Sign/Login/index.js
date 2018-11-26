@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import TextInput from 'components/TextInput';
-import config from 'react-global-configuration';
 import PrimaryButton from 'components/Button/PrimaryButton';
 import ErrorMessage from 'components/ErrorMessage';
 import Authenticator from 'services/Authenticator';
@@ -27,7 +26,7 @@ class Signin extends Component {
 
   handleSignin(e) {
     const { email, password } = this.state;
-    const authService = new Authenticator(config.get('authenticator.host'), config.get('authenticator.port'));
+    const authService = new Authenticator();
     e.preventDefault();
     authService.authenticate(email, password)
       .then((res) => {

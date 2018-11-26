@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import TextInput from 'components/TextInput';
-import config from 'react-global-configuration';
 import { PrimaryButton, SecondaryButton } from 'components/Button';
 import ErrorMessage from 'components/ErrorMessage';
 import Authenticator from 'services/Authenticator';
@@ -18,7 +17,7 @@ class Forgot extends Component {
 
   handleSubmit(e) {
     const { email } = this.state;
-    const authService = new Authenticator(config.get('authenticator.host'), config.get('authenticator.port'));
+    const authService = new Authenticator();
     authService.forgotPassword(email)
       .then(() => {
         alert(`Reset e-mail sent to ${email}`); // eslint-disable-line no-alert

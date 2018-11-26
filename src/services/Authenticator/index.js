@@ -2,40 +2,28 @@ import axios from 'axios';
 import ErrorHandler from 'services/Authenticator/ErrorHandler';
 
 class Authenticator {
-  constructor(hostname, port) {
-    this.baseUrl = `http://${hostname}:${port}`;
-  }
-
   createUser(email, password) {
-    const url = `${this.baseUrl}/users`;
-
-    return ErrorHandler.execute(axios.post(url, {
+    return ErrorHandler.execute(axios.post('/api/users', {
       email,
       password
     }));
   }
 
   forgotPassword(email) {
-    const url = `${this.baseUrl}/forgot`;
-
-    return ErrorHandler.execute(axios.post(url, {
+    return ErrorHandler.execute(axios.post('/api/forgot', {
       email
     }));
   }
 
   authenticate(email, password) {
-    const url = `${this.baseUrl}/auth`;
-
-    return ErrorHandler.execute(axios.post(url, {
+    return ErrorHandler.execute(axios.post('/api/auth', {
       email,
       password
     }));
   }
 
   resetPassword(email, token, password) {
-    const url = `${this.baseUrl}/reset`;
-
-    return ErrorHandler.execute(axios.post(url, {
+    return ErrorHandler.execute(axios.post('/api/reset', {
       email,
       token,
       password

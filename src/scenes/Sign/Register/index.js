@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import config from 'react-global-configuration';
 import { Link, Redirect } from 'react-router-dom';
 import Authenticator from 'services/Authenticator';
 import ErrorMessage from 'components/ErrorMessage';
@@ -26,7 +25,7 @@ class Signup extends Component {
 
   handleSignup(e) {
     const { email, password, isPasswordValid } = this.state;
-    const authService = new Authenticator(config.get('authenticator.host'), config.get('authenticator.port'));
+    const authService = new Authenticator();
 
     e.preventDefault();
     if (isPasswordValid) {

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Redirect } from 'react-router-dom';
-import config from 'react-global-configuration';
 import TextInput from 'components/TextInput';
 import PrimaryButton from 'components/Button/PrimaryButton';
 import ErrorMessage from 'components/ErrorMessage';
@@ -23,7 +22,7 @@ class Reset extends Component {
     const { password, isPasswordValid } = this.state;
     const { location: { search } } = this.props;
     const { email, token } = queryString.parse(search);
-    const authService = new Authenticator(config.get('authenticator.host'), config.get('authenticator.port'));
+    const authService = new Authenticator();
 
     if (isPasswordValid) {
       authService.resetPassword(email, token, password)
