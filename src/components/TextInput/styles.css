@@ -8,3 +8,7 @@
   border: 0;
   padding-left: 20px;
 }
+
+textarea:focus, input:focus{
+  outline: none;
+}
