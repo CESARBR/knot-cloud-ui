@@ -3515,6 +3515,11 @@ expect@^23.6.0:
     jest-message-util "^23.4.0"
     jest-regex-util "^23.3.0"
 
+express-meshblu-healthcheck@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/express-meshblu-healthcheck/-/express-meshblu-healthcheck-1.0.6.tgz#8624b788ba4094ee9a5e08605dadcad63c34f71a"
+  integrity sha512-BX+cGqXYKF2fudfwo5Hc9/qvTDzerM6wVt2aiR1NS+YzYAKL97IGcYx/R3cS1ZtAZRklHBm1XxhQnNFcHQe8eQ==
+
 express@^4.16.2, express@^4.16.4:
   version "4.16.4"
   resolved "https://registry.yarnpkg.com/express/-/express-4.16.4.tgz#fddef61926109e24c515ea97fd2f1bdbf62df12e"

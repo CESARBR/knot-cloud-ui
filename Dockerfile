@@ -9,5 +9,6 @@ COPY . .
 RUN yarn build
 
 EXPOSE 80
+HEALTHCHECK CMD curl --fail http://localhost:80/healthcheck || exit 1
 
 CMD ["yarn", "start:server"]

@@ -1,11 +1,13 @@
 const express = require('express');
 const morgan = require('morgan');
 const path = require('path');
+const healthcheck = require('express-meshblu-healthcheck');
 const setupProxy = require('../src/setupProxy');
 
 const app = express();
 
 app.use(morgan(':remote-addr - :remote-user [:date[clf]] ":method :url HTTP/:http-version" :status :res[content-length] :response-time ms'));
+app.use(healthcheck());
 
 setupProxy(app);
 
