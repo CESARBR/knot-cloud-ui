@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "912a0db4_f3155a8c",
+        "filename": "src/scenes/Home/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-29T11:40:29Z",
+      "side": 1,
+      "message": "missing newDeviceName",
+      "range": {
+        "startLine": 15,
+        "startChar": 21,
+        "endLine": 15,
+        "endChar": 22
+      },
+      "revId": "518fc883a02568e69ba4d9736b91bcbc70f7dc16",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c01793ce_e638ae31",
+        "filename": "src/scenes/Home/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-29T11:40:29Z",
+      "side": 1,
+      "message": "This state wasn\u0027t declared in constructor",
+      "range": {
+        "startLine": 60,
+        "startChar": 12,
+        "endLine": 60,
+        "endChar": 25
+      },
+      "revId": "518fc883a02568e69ba4d9736b91bcbc70f7dc16",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4b1cd85e_7a5f1815",
+        "filename": "src/scenes/Home/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-11-29T11:40:29Z",
+      "side": 1,
+      "message": "Is there a reason to use this statement?\nI would prefer that showModal become a function renderModal in the prop onClick of AddButton.\n\nSomething like:\n```return (\n  \u003cModal ...\u003e\n    {this.createModalContent}\n  \u003c/Modal\u003e);\n```",
+      "range": {
+        "startLine": 105,
+        "startChar": 8,
+        "endLine": 110,
+        "endChar": 9
+      },
+      "revId": "518fc883a02568e69ba4d9736b91bcbc70f7dc16",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
