@@ -48,6 +48,30 @@
     },
     {
       "key": {
+        "uuid": "a55446d1_6015929b",
+        "filename": "src/scenes/Home/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-11-29T14:54:19Z",
+      "side": 1,
+      "message": "As addDevice is only called after submitting the form inside the modal and the state is created/updated onChange of the TextInput, it is not necessary to declare in the constructor. It will never be used uninitialized. \nI can put it there, if it\u0027s the standard.",
+      "parentUuid": "c01793ce_e638ae31",
+      "range": {
+        "startLine": 60,
+        "startChar": 12,
+        "endLine": 60,
+        "endChar": 25
+      },
+      "revId": "518fc883a02568e69ba4d9736b91bcbc70f7dc16",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "4b1cd85e_7a5f1815",
         "filename": "src/scenes/Home/index.js",
         "patchSetId": 1
@@ -59,6 +83,30 @@
       "writtenOn": "2018-11-29T11:40:29Z",
       "side": 1,
       "message": "Is there a reason to use this statement?\nI would prefer that showModal become a function renderModal in the prop onClick of AddButton.\n\nSomething like:\n```return (\n  \u003cModal ...\u003e\n    {this.createModalContent}\n  \u003c/Modal\u003e);\n```",
+      "range": {
+        "startLine": 105,
+        "startChar": 8,
+        "endLine": 110,
+        "endChar": 9
+      },
+      "revId": "518fc883a02568e69ba4d9736b91bcbc70f7dc16",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c0b19152_09d1cafa",
+        "filename": "src/scenes/Home/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-11-29T14:54:19Z",
+      "side": 1,
+      "message": "Agree on create a renderModal function. However have it called from the onClick in add would cause some problems when handling the close.\nCompromised half-way by creating the function and changing to {showModal \u0026\u0026 this.renderModal()}. As a matter of fact, same thing could be done with renderRedirect function and avoid the need for the eslint-disable.",
+      "parentUuid": "4b1cd85e_7a5f1815",
       "range": {
         "startLine": 105,
         "startChar": 8,
