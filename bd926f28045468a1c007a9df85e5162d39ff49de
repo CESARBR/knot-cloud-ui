@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5017d743_78ca200d",
+        "filename": "src/scenes/Home/index.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-12-07T17:46:34Z",
+      "side": 1,
+      "message": "use as you said in comment about renderModal",
+      "range": {
+        "startLine": 116,
+        "startChar": 9,
+        "endLine": 116,
+        "endChar": 29
+      },
+      "revId": "bd926f28045468a1c007a9df85e5162d39ff49de",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
