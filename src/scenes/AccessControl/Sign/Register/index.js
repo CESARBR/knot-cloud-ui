@@ -41,8 +41,9 @@ class Signup extends Component {
     }
   }
 
-  handlePasswordChange(isPasswordValid, errorMessage) {
+  handlePasswordChange(password, isPasswordValid, errorMessage) {
     this.setState({
+      password,
       isPasswordValid,
       errorMessage
     });
