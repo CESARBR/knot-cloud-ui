@@ -22,6 +22,30 @@
       "revId": "4ec742cd27bc0d9f718377b3af779eeb372731d0",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "560abce9_9720bc87",
+        "filename": "src/components/PasswordInput/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-12-11T21:20:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5e578162_1654e977",
+      "range": {
+        "startLine": 16,
+        "startChar": 10,
+        "endLine": 16,
+        "endChar": 16
+      },
+      "revId": "4ec742cd27bc0d9f718377b3af779eeb372731d0",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
