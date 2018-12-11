@@ -1,0 +1,228 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "af4b6c8b_146a3248",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 5
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-12-11T21:35:32Z",
+      "side": 1,
+      "message": "Invert the order: Card and CardBoard components",
+      "range": {
+        "startLine": 7,
+        "startChar": 4,
+        "endLine": 7,
+        "endChar": 33
+      },
+      "revId": "16625c15f334293f75818cd7570fa4fe4833a1d4",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7a212a98_8089854e",
+        "filename": "src/scenes/Home/components/Card/styles.css",
+        "patchSetId": 5
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-12-11T21:35:32Z",
+      "side": 1,
+      "message": "Roundness is 30px",
+      "range": {
+        "startLine": 2,
+        "startChar": 0,
+        "endLine": 2,
+        "endChar": 22
+      },
+      "revId": "16625c15f334293f75818cd7570fa4fe4833a1d4",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "47d439b3_12ab16c3",
+        "filename": "src/scenes/Home/components/Card/styles.css",
+        "patchSetId": 5
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-12-11T21:35:32Z",
+      "side": 1,
+      "message": "This box shadow is different than specified",
+      "range": {
+        "startLine": 3,
+        "startChar": 2,
+        "endLine": 3,
+        "endChar": 44
+      },
+      "revId": "16625c15f334293f75818cd7570fa4fe4833a1d4",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e5940c71_c9302f29",
+        "filename": "src/scenes/Home/components/Card/styles.css",
+        "patchSetId": 5
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-12-11T21:35:32Z",
+      "side": 1,
+      "message": "Use min-width, so that this card be reused (for dialogs, for instance).",
+      "range": {
+        "startLine": 5,
+        "startChar": 2,
+        "endLine": 5,
+        "endChar": 15
+      },
+      "revId": "16625c15f334293f75818cd7570fa4fe4833a1d4",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "59d00ae5_71c1da87",
+        "filename": "src/scenes/Home/components/Card/styles.css",
+        "patchSetId": 5
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-12-11T21:35:32Z",
+      "side": 1,
+      "message": "Is there a border in the spec?",
+      "revId": "16625c15f334293f75818cd7570fa4fe4833a1d4",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9fa4b684_42e1337f",
+        "filename": "src/scenes/Home/components/Card/styles.css",
+        "patchSetId": 5
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-12-11T21:35:32Z",
+      "side": 1,
+      "message": "We can omit it",
+      "range": {
+        "startLine": 7,
+        "startChar": 2,
+        "endLine": 7,
+        "endChar": 22
+      },
+      "revId": "16625c15f334293f75818cd7570fa4fe4833a1d4",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9d3003b7_32cbdd0a",
+        "filename": "src/scenes/Home/components/Card/styles.css",
+        "patchSetId": 5
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-12-11T21:35:32Z",
+      "side": 1,
+      "message": "The header has a radius in all corners (it is 30px as well)",
+      "range": {
+        "startLine": 11,
+        "startChar": 2,
+        "endLine": 12,
+        "endChar": 32
+      },
+      "revId": "16625c15f334293f75818cd7570fa4fe4833a1d4",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e8decfe5_0e7c2b82",
+        "filename": "src/scenes/Home/components/Card/styles.css",
+        "patchSetId": 5
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-12-11T21:35:32Z",
+      "side": 1,
+      "message": "Split content from the container. Specify this for a h1 element that should be the header title. In the CSS:\n\n.card-header \u003e h1 {\n  ...\n}\n\nIn the HTML:\n\n\u003cdiv class\u003d\"card-header\"\u003e\n  \u003ch1\u003eMy card title\u003c/h1\u003e\n\u003c/div\u003e\n\nWe can have other text elements in the header with different specs.",
+      "range": {
+        "startLine": 13,
+        "startChar": 2,
+        "endLine": 15,
+        "endChar": 20
+      },
+      "revId": "16625c15f334293f75818cd7570fa4fe4833a1d4",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e46d255b_12de3b7f",
+        "filename": "src/scenes/Home/components/Card/styles.css",
+        "patchSetId": 5
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-12-11T21:35:32Z",
+      "side": 1,
+      "message": "If we make the .card-header a flex container (display: flex), we can add auto margins to .card-header \u003e h1 so that it centralizes vertically. (see: https://hackernoon.com/the-ultimate-css-battle-grid-vs-flexbox-d40da0449faf )\n\n.card-header {\n  display: flex\n  ...\n}\n\n.card-header \u003e h1 {\n  margin: auto;\n  margin-left: 30px;\n  ...\n}",
+      "range": {
+        "startLine": 16,
+        "startChar": 2,
+        "endLine": 18,
+        "endChar": 23
+      },
+      "revId": "16625c15f334293f75818cd7570fa4fe4833a1d4",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8fa28ac3_12da345d",
+        "filename": "src/scenes/Home/components/Card/styles.css",
+        "patchSetId": 5
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-12-11T21:35:32Z",
+      "side": 1,
+      "message": "Shouldn\u0027t we move only when clicked?",
+      "range": {
+        "startLine": 49,
+        "startChar": 0,
+        "endLine": 49,
+        "endChar": 30
+      },
+      "revId": "16625c15f334293f75818cd7570fa4fe4833a1d4",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
