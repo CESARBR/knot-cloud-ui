@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5e578162_1654e977",
+        "filename": "src/components/PasswordInput/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-12-11T21:15:45Z",
+      "side": 1,
+      "message": "validPassword",
+      "range": {
+        "startLine": 16,
+        "startChar": 10,
+        "endLine": 16,
+        "endChar": 16
+      },
+      "revId": "4ec742cd27bc0d9f718377b3af779eeb372731d0",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
