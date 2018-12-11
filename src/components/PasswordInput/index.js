@@ -13,11 +13,12 @@ class PasswordInput extends Component {
     const doPasswordsMatch = (password === confirmPassword);
     const emptyFields = !(password && confirmPassword);
     const isPasswordValid = (doPasswordsMatch && !emptyFields);
+    const passwd = isPasswordValid ? password : null;
     const shouldShowError = (!doPasswordsMatch && !emptyFields);
     const errorMessage = (shouldShowError ? "Passwords don't match!" : '');
     const { onChange } = this.props;
 
-    onChange(isPasswordValid, errorMessage);
+    onChange(passwd, isPasswordValid, errorMessage);
   }
 
   updatePassword(e) {
