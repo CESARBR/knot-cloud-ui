@@ -67,7 +67,7 @@ class Signup extends Component {
           <PrimaryButton name="Sign up" />
         </form>
         <Link to="/signin">
-          <SecondaryButton name="Sign in" />
+          <SecondaryButton name="Sign In" />
         </Link>
         {this.renderRedirect()}
       </div>

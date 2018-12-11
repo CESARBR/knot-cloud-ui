@@ -39,7 +39,7 @@ class Forgot extends Component {
           <PrimaryButton name="SUBMIT" />
         </form>
         <Link to="/signin">
-          <SecondaryButton name="Login" />
+          <SecondaryButton name="Sign In" />
         </Link>
       </div>
     );

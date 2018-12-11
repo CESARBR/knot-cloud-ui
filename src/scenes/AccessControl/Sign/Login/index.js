@@ -55,7 +55,7 @@ class Signin extends Component {
           <TextInput type="email" id="email" placeholder="Email" onChange={this.handleChange} />
           <TextInput type="password" id="password" placeholder="Password" onChange={this.handleChange} />
           <ErrorMessage message={errorMessage} />
-          <PrimaryButton name="Login" />
+          <PrimaryButton name="Sign In" />
         </form>
         <Link to="/signup">
           <SmallButton name="Sign up" />
