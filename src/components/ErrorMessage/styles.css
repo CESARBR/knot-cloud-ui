@@ -1,7 +1,8 @@
 .request-error {
   color: red;
   text-shadow: 1px 1px black;
-  font-size: 13pt;
+  font-size: 15px;
+  font-style: lighter;
   display: inherit;
   white-space: pre-line;
 }
