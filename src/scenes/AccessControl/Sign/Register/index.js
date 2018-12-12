@@ -61,10 +61,12 @@ class Signup extends Component {
     const { errorMessage } = this.state;
     return (
       <div className="sign-form">
+        <div className="error-container">
+          <ErrorMessage message={errorMessage} />
+        </div>
         <form onSubmit={e => this.handleSignup(e)}>
           <TextInput type="email" id="email" placeholder="Email" onChange={this.handleChange} />
           <PasswordInput id="password-input-wrapper" onChange={this.handlePasswordChange} />
-          <ErrorMessage message={errorMessage} />
           <PrimaryButton name="Sign up" type="submit" />
         </form>
         <Link to="/signin">
