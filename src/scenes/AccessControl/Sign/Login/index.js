@@ -51,10 +51,10 @@ class Signin extends Component {
     const { errorMessage } = this.state;
     return (
       <div className="sign-form">
+        <ErrorMessage message={errorMessage} />
         <form onSubmit={e => this.handleSignin(e)}>
           <TextInput type="email" id="email" placeholder="Email" onChange={this.handleChange} />
           <TextInput type="password" id="password" placeholder="Password" onChange={this.handleChange} />
-          <ErrorMessage message={errorMessage} />
           <PrimaryButton name="Login" />
         </form>
         <Link to="/signup">

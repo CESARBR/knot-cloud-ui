@@ -3,16 +3,21 @@ import PropTypes from 'prop-types';
 import './styles.css';
 
 class ErrorMessage extends Component {
+  renderMessage(message) {
+    return (
+      <span className="request-error">
+        {message}
+      </span>);
+  }
+
   render() {
     const { message } = this.props;
-    if (message) {
-      return (
-        <p className="request-error">
-          {message}
-        </p>
-      );
-    }
-    return null;
+    return (
+      <div style={{ height: '85px', width: '100%', clear: 'both' }}>
+        {message
+        && this.renderMessage(message)}
+      </div>
+    );
   }
 }
 

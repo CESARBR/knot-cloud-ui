@@ -61,9 +61,9 @@ class Signup extends Component {
     return (
       <div className="sign-form">
         <form onSubmit={e => this.handleSignup(e)}>
+          <ErrorMessage message={errorMessage} />
           <TextInput type="email" id="email" placeholder="Email" onChange={this.handleChange} />
           <PasswordInput id="password-input-wrapper" onChange={this.handlePasswordChange} />
-          <ErrorMessage message={errorMessage} />
           <PrimaryButton name="Sign up" />
         </form>
         <Link to="/signin">
