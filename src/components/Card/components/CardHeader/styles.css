@@ -1,0 +1,12 @@
+.card-header {
+  background: #212121;
+  border-radius: 30px;
+  border-top-left-radius: 27px;
+  border-top-right-radius: 27px;
+  order: -1;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  min-height: 60px;
+  display: flex;
+  flex: none;
+  justify-content: left;
+}

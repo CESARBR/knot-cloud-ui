@@ -1,0 +1,21 @@
+.text-title {
+  text-align: left;
+  color: white;
+  margin-right: 15px;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  text-overflow: clip;
+  white-space: normal;
+  word-break: break-all;
+}
+
+.text-title[contenteditable="true"]:hover {
+  background: lightgray;
+  color: #212121;
+}
+
+.text-title[contenteditable="true"]:focus {
+  background: white;
+  color: #212121;
+  outline: none;
+}
