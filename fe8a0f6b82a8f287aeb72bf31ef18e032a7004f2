@@ -46,6 +46,30 @@
       "revId": "fe8a0f6b82a8f287aeb72bf31ef18e032a7004f2",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "514985ac_f9152fad",
+        "filename": "src/scenes/Gateways/index.js",
+        "patchSetId": 4
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-12-12T22:56:40Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "b81ff0bb_e38c162d",
+      "range": {
+        "startLine": 20,
+        "startChar": 2,
+        "endLine": 25,
+        "endChar": 3
+      },
+      "revId": "fe8a0f6b82a8f287aeb72bf31ef18e032a7004f2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
