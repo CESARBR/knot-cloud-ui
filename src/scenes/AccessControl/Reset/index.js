@@ -64,9 +64,11 @@ class Reset extends Component {
 
     return (
       <div className="reset-pwd-wrapper">
+        <div className="error-container">
+          <ErrorMessage message={errorMessage} />
+        </div>
         <form className="reset-form" onSubmit={e => this.handleSubmit(e)}>
           <PasswordInput id="password-input-wrapper" onChange={this.handlePasswordChange} />
-          <ErrorMessage message={errorMessage} />
           <PrimaryButton name="Reset Password" type="submit" />
         </form>
         {this.renderRedirect()}

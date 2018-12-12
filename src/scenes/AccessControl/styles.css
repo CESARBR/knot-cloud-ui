@@ -1,6 +1,5 @@
 .knot-logo-wrapper {
   padding-top: 85px;
-  padding-bottom: 85px;
 }
 
 .knot-logo-image {
@@ -27,4 +26,15 @@
 .sign-form {
   display: inline-block;
   width: 480px;
+}
+
+.error-container {
+  min-height: 85px;
+  width: 100%;
+  clear: both;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 25px;
+  box-sizing: border-box;
 }
