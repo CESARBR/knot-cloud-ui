@@ -43,8 +43,9 @@ class Reset extends Component {
     e.preventDefault();
   }
 
-  handlePasswordChange(isPasswordValid, errorMessage) {
+  handlePasswordChange(password, isPasswordValid, errorMessage) {
     this.setState({
+      password,
       isPasswordValid,
       errorMessage
     });
