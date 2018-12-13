@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "5a906e54_76189c76",
+        "filename": "src/scenes/Home/components/AddButton/styles.css",
+        "patchSetId": 8
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-12-13T23:18:46Z",
+      "side": 1,
+      "message": "Not sure which color would fit nice here and provide a good contrast.\nAs discussed going with the same color as the navbar.",
+      "parentUuid": "95248cce_45bf10f3",
+      "range": {
+        "startLine": 5,
+        "startChar": 20,
+        "endLine": 5,
+        "endChar": 27
+      },
+      "revId": "97a360bded6c76e8904056160ef403d2474e2f72",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "e2b04fb6_3dabcca3",
         "filename": "src/scenes/Home/components/AddButton/styles.css",
         "patchSetId": 8
@@ -45,6 +69,30 @@
       "revId": "97a360bded6c76e8904056160ef403d2474e2f72",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "69d0d4f8_23004a97",
+        "filename": "src/scenes/Home/components/AddButton/styles.css",
+        "patchSetId": 8
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-12-13T23:18:46Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e2b04fb6_3dabcca3",
+      "range": {
+        "startLine": 12,
+        "startChar": 0,
+        "endLine": 12,
+        "endChar": 5
+      },
+      "revId": "97a360bded6c76e8904056160ef403d2474e2f72",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     },
     {
       "key": {
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "7a06d467_a74ff35e",
+        "filename": "src/scenes/Home/components/AddButton/styles.css",
+        "patchSetId": 8
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-12-13T23:18:46Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "bdefb975_89e6efee",
+      "range": {
+        "startLine": 14,
+        "startChar": 0,
+        "endLine": 14,
+        "endChar": 21
+      },
+      "revId": "97a360bded6c76e8904056160ef403d2474e2f72",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "bd57cfe9_0c25fa1a",
         "filename": "src/scenes/Home/components/AddButton/styles.css",
         "patchSetId": 8
@@ -94,6 +166,30 @@
     },
     {
       "key": {
+        "uuid": "5751ffdc_060cd448",
+        "filename": "src/scenes/Home/components/AddButton/styles.css",
+        "patchSetId": 8
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-12-13T23:18:46Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bd57cfe9_0c25fa1a",
+      "range": {
+        "startLine": 23,
+        "startChar": 0,
+        "endLine": 23,
+        "endChar": 20
+      },
+      "revId": "97a360bded6c76e8904056160ef403d2474e2f72",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "6702b6ed_24ef18e7",
         "filename": "src/scenes/Home/components/AddButton/styles.css",
         "patchSetId": 8
@@ -114,6 +210,30 @@
       "revId": "97a360bded6c76e8904056160ef403d2474e2f72",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a61ca304_1639289b",
+        "filename": "src/scenes/Home/components/AddButton/styles.css",
+        "patchSetId": 8
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-12-13T23:18:46Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6702b6ed_24ef18e7",
+      "range": {
+        "startLine": 25,
+        "startChar": 2,
+        "endLine": 25,
+        "endChar": 24
+      },
+      "revId": "97a360bded6c76e8904056160ef403d2474e2f72",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
