@@ -46,6 +46,121 @@
       "revId": "ec8b89639d3227c85645231a56c9f2b9931bb0f5",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ee615ef5_d1d2b317",
+        "filename": "src/components/ErrorMessage/styles.css",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-12-13T23:18:49Z",
+      "side": 1,
+      "message": "Any reason to use percentage? There are fixed distances in the spec.",
+      "range": {
+        "startLine": 8,
+        "startChar": 2,
+        "endLine": 8,
+        "endChar": 11
+      },
+      "revId": "ec8b89639d3227c85645231a56c9f2b9931bb0f5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4945178a_860fcd3a",
+        "filename": "src/components/ErrorMessage/styles.css",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-12-13T23:18:49Z",
+      "side": 1,
+      "message": "These are related to the placement of the error message, not about how to display the error message component, they should be specified in the container, where the message is being added (sign-form, etc).",
+      "range": {
+        "startLine": 7,
+        "startChar": 2,
+        "endLine": 8,
+        "endChar": 11
+      },
+      "revId": "ec8b89639d3227c85645231a56c9f2b9931bb0f5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "88b3d5f9_20777fc0",
+        "filename": "src/components/ErrorMessage/styles.css",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-12-13T23:18:49Z",
+      "side": 1,
+      "message": "This only works if you are specifying a flex container.",
+      "range": {
+        "startLine": 9,
+        "startChar": 2,
+        "endLine": 9,
+        "endChar": 26
+      },
+      "revId": "ec8b89639d3227c85645231a56c9f2b9931bb0f5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5ae76dcc_a3be9cb6",
+        "filename": "src/components/ErrorMessage/styles.css",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-12-13T23:18:49Z",
+      "side": 1,
+      "message": "Could you remove this in this patch?\n\nWe don\u0027t know where this will be added to, so it is better to consider that it has the default display behavior.",
+      "range": {
+        "startLine": 10,
+        "startChar": 2,
+        "endLine": 10,
+        "endChar": 19
+      },
+      "revId": "ec8b89639d3227c85645231a56c9f2b9931bb0f5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "071bdc69_dce0e817",
+        "filename": "src/scenes/AccessControl/Forgot/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-12-13T23:18:49Z",
+      "side": 1,
+      "message": "In order to achieve the separation I propose in the .css, I think you must add a div here:\n\n\u003cdiv className\u003d...\u003e -\u003e in this class you specify the distances, margins, etc\n  \u003cErrorMessage\u003e\n\u003c/div\u003e",
+      "range": {
+        "startLine": 35,
+        "startChar": 8,
+        "endLine": 35,
+        "endChar": 47
+      },
+      "revId": "ec8b89639d3227c85645231a56c9f2b9931bb0f5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
     }
   ]
 }
