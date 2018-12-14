@@ -41,15 +41,8 @@ class Signin extends Component {
       });
   }
 
-  renderRedirect() { // eslint-disable-line consistent-return
-    const { redirect } = this.state;
-    if (redirect) {
-      return <Redirect to="/" />;
-    }
-  }
-
   render() {
-    const { errorMessage } = this.state;
+    const { errorMessage, redirect } = this.state;
     return (
       <div className="sign-form">
         <form onSubmit={e => this.handleSignin(e)}>
@@ -66,7 +59,7 @@ class Signin extends Component {
             <SmallButton name="Forgot Password?" type="submit" />
           </Link>
         </div>
-        {this.renderRedirect()}
+        {redirect && <Redirect to="/signin" />}
       </div>
     );
   }

@@ -51,16 +51,8 @@ class Home extends Component {
     }
   }
 
-  renderRedirect() { // eslint-disable-line consistent-return
-    const { redirect } = this.state;
-
-    if (redirect) {
-      return <Redirect to="/signin" />;
-    }
-  }
-
   render() {
-    const { currentScene } = this.state;
+    const { currentScene, redirect } = this.state;
 
     return (
       <div className="home-wrapper">
@@ -74,7 +66,7 @@ class Home extends Component {
         />
         <AddButton onClick={this.addDevice} />
         {this.showCurrentScene()}
-        {this.renderRedirect()}
+        {redirect && <Redirect to="/signin" />}
       </div>
     );
   }

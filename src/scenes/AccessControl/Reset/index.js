@@ -51,16 +51,8 @@ class Reset extends Component {
     });
   }
 
-  renderRedirect() { // eslint-disable-line consistent-return
-    const { redirect } = this.state;
-
-    if (redirect) {
-      return <Redirect to="/signin" />;
-    }
-  }
-
   render() {
-    const { errorMessage } = this.state;
+    const { errorMessage, redirect } = this.state;
 
     return (
       <div className="reset-pwd-wrapper">
@@ -69,7 +61,7 @@ class Reset extends Component {
           <ErrorMessage message={errorMessage} />
           <PrimaryButton name="Reset Password" type="submit" />
         </form>
-        {this.renderRedirect()}
+        {redirect && <Redirect to="/signin" />}
       </div>
     );
   }
