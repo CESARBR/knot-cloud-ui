@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Redirect } from 'react-router-dom';
+import Storage from 'services/Storage';
 import Navbar from './components/Navbar';
 import AddButton from './components/AddButton';
 import './styles.css';
@@ -25,8 +26,8 @@ class Home extends Component {
   }
 
   signout() {
-    // TODO:
-    // Remove token from storage
+    Storage.removeCredentials();
+
     this.setState({
       redirect: true
     });
