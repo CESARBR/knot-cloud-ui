@@ -718,6 +718,30 @@
     },
     {
       "key": {
+        "uuid": "ce605445_913d41f3",
+        "filename": "src/scenes/Home/index.js",
+        "patchSetId": 7
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-12-14T13:50:47Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "3cc90876_da9c096e",
+      "range": {
+        "startLine": 55,
+        "startChar": 6,
+        "endLine": 55,
+        "endChar": 36
+      },
+      "revId": "bc508d6b252d19812c2bcd0fabdb4bbb81e49a63",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "cf0d6e88_da8b6f29",
         "filename": "src/scenes/Home/styles.css",
         "patchSetId": 7

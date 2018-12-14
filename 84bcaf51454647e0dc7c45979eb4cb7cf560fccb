@@ -1,0 +1,165 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "68f91497_ca16022b",
+        "filename": "src/scenes/Home/components/Navbar/components/NavbarButton/index.js",
+        "patchSetId": 8
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-12-14T13:50:47Z",
+      "side": 1,
+      "message": "disable click if not active",
+      "range": {
+        "startLine": 14,
+        "startChar": 111,
+        "endLine": 14,
+        "endChar": 129
+      },
+      "revId": "84bcaf51454647e0dc7c45979eb4cb7cf560fccb",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d0a415b3_daac83c9",
+        "filename": "src/scenes/Home/components/Navbar/components/NavbarButton/styles.css",
+        "patchSetId": 8
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-12-14T13:50:47Z",
+      "side": 1,
+      "message": "border-radius is 42px",
+      "range": {
+        "startLine": 5,
+        "startChar": 16,
+        "endLine": 5,
+        "endChar": 22
+      },
+      "revId": "84bcaf51454647e0dc7c45979eb4cb7cf560fccb",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "20b41d19_d77a1d2e",
+        "filename": "src/scenes/Home/components/Navbar/components/NavbarButton/styles.css",
+        "patchSetId": 8
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-12-14T13:50:47Z",
+      "side": 1,
+      "message": "There is a shadow in the buttons when they are current or hover",
+      "range": {
+        "startLine": 9,
+        "startChar": 1,
+        "endLine": 9,
+        "endChar": 10
+      },
+      "revId": "84bcaf51454647e0dc7c45979eb4cb7cf560fccb",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "376dea35_8548b180",
+        "filename": "src/scenes/Home/components/Navbar/styles.css",
+        "patchSetId": 8
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-12-14T13:50:47Z",
+      "side": 1,
+      "message": "60px",
+      "range": {
+        "startLine": 19,
+        "startChar": 15,
+        "endLine": 19,
+        "endChar": 17
+      },
+      "revId": "84bcaf51454647e0dc7c45979eb4cb7cf560fccb",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "cadf9899_1c78f96f",
+        "filename": "src/scenes/Home/index.js",
+        "patchSetId": 8
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-12-14T13:50:47Z",
+      "side": 1,
+      "message": "Remove this (your are using `this`)",
+      "range": {
+        "startLine": 23,
+        "startChar": 14,
+        "endLine": 23,
+        "endChar": 59
+      },
+      "revId": "84bcaf51454647e0dc7c45979eb4cb7cf560fccb",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "37b1b3ea_cc203f8c",
+        "filename": "src/scenes/Home/index.js",
+        "patchSetId": 8
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-12-14T13:50:47Z",
+      "side": 1,
+      "message": "showRegisteredDevices is out of place to me as this is the Home scene (which doesn\u0027t deal with devices). What about showCurrentScene?",
+      "range": {
+        "startLine": 31,
+        "startChar": 2,
+        "endLine": 31,
+        "endChar": 23
+      },
+      "revId": "84bcaf51454647e0dc7c45979eb4cb7cf560fccb",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bd301582_0a9527c5",
+        "filename": "src/scenes/Home/styles.css",
+        "patchSetId": 8
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-12-14T13:50:47Z",
+      "side": 1,
+      "message": "It is 60px",
+      "range": {
+        "startLine": 4,
+        "startChar": 2,
+        "endLine": 4,
+        "endChar": 12
+      },
+      "revId": "84bcaf51454647e0dc7c45979eb4cb7cf560fccb",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
