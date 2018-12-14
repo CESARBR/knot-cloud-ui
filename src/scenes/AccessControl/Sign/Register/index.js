@@ -55,15 +55,8 @@ class Signup extends Component {
     });
   }
 
-  renderRedirect() { // eslint-disable-line consistent-return
-    const { redirect } = this.state;
-    if (redirect) {
-      return <Redirect to="/signin" />;
-    }
-  }
-
   render() {
-    const { errorMessage, loading } = this.state;
+    const { errorMessage, loading, redirect } = this.state;
     return (
       <div className="sign-form">
         <div className="error-container">
@@ -77,7 +70,7 @@ class Signup extends Component {
         <Link to="/signin">
           <SecondaryButton name="Sign In" type="submit" />
         </Link>
-        {this.renderRedirect()}
+        {redirect && <Redirect to="/signin" />}
       </div>
     );
   }
