@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "141052ee_260f408f",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 9
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-12-17T22:20:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "37aa6070_518ffd7d",
+      "range": {
+        "startLine": 9,
+        "startChar": 26,
+        "endLine": 9,
+        "endChar": 51
+      },
+      "revId": "5fae5ab5ce773fbd6121def249857f003401ae8c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "41e962fa_a34ed6a1",
         "filename": "src/scenes/Home/components/Navbar/components/NavbarButton/index.js",
         "patchSetId": 9
@@ -45,6 +69,30 @@
       "revId": "5fae5ab5ce773fbd6121def249857f003401ae8c",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d0ba2867_dfcaff62",
+        "filename": "src/scenes/Home/components/Navbar/components/NavbarButton/index.js",
+        "patchSetId": 9
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-12-17T22:20:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "41e962fa_a34ed6a1",
+      "range": {
+        "startLine": 14,
+        "startChar": 122,
+        "endLine": 14,
+        "endChar": 126
+      },
+      "revId": "5fae5ab5ce773fbd6121def249857f003401ae8c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     },
     {
       "key": {
@@ -82,6 +130,30 @@
       "writtenOn": "2018-12-17T21:54:30Z",
       "side": 1,
       "message": ", sans-serif",
+      "range": {
+        "startLine": 12,
+        "startChar": 19,
+        "endLine": 12,
+        "endChar": 20
+      },
+      "revId": "5fae5ab5ce773fbd6121def249857f003401ae8c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e9676df8_5a466833",
+        "filename": "src/scenes/Home/components/Navbar/styles.css",
+        "patchSetId": 9
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-12-17T22:20:48Z",
+      "side": 1,
+      "message": "Why is it necessary to add another font-family?",
+      "parentUuid": "5fbcc419_b306ba4b",
       "range": {
         "startLine": 12,
         "startChar": 19,
