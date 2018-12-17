@@ -32,11 +32,10 @@ class Forgot extends Component {
     const { errorMessage } = this.state;
     return (
       <div className="forgot-pwd-wrapper">
-        <h3 className="page-title"> FORGOT PASSWORD </h3>
         <form className="reset-form" onSubmit={e => this.handleSubmit(e)}>
           <TextInput type="email" id="reset-user-email" placeholder="Email" onChange={e => this.setState({ email: e.target.value })} />
           <ErrorMessage message={errorMessage} />
-          <PrimaryButton name="SUBMIT" />
+          <PrimaryButton name="Forgot Password" />
         </form>
         <Link to="/signin">
           <SecondaryButton name="Sign In" />
