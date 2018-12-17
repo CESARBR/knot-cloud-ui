@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c420d1cd_584396cc",
+        "filename": "src/scenes/Home/components/AddButton/styles.css",
+        "patchSetId": 10
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-12-17T21:54:18Z",
+      "side": 1,
+      "message": ", sans-serif",
+      "range": {
+        "startLine": 19,
+        "startChar": 19,
+        "endLine": 19,
+        "endChar": 20
+      },
+      "revId": "2fd4303ed59c8d43ca0a832656e568ec9163224d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
