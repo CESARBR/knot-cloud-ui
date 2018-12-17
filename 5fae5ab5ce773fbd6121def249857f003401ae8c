@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "37aa6070_518ffd7d",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 9
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-12-17T21:54:30Z",
+      "side": 1,
+      "message": "Remove this part.\n\"Create Navbar and buttons to avoid url redirect\"",
+      "range": {
+        "startLine": 9,
+        "startChar": 26,
+        "endLine": 9,
+        "endChar": 51
+      },
+      "revId": "5fae5ab5ce773fbd6121def249857f003401ae8c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "41e962fa_a34ed6a1",
+        "filename": "src/scenes/Home/components/Navbar/components/NavbarButton/index.js",
+        "patchSetId": 9
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-12-17T21:54:30Z",
+      "side": 1,
+      "message": "There is any case where name isn\u0027t a string?\nIf it\u0027s always a string use just name",
+      "range": {
+        "startLine": 14,
+        "startChar": 122,
+        "endLine": 14,
+        "endChar": 126
+      },
+      "revId": "5fae5ab5ce773fbd6121def249857f003401ae8c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e17d9790_d8c35748",
+        "filename": "src/scenes/Home/components/Navbar/components/NavbarButton/styles.css",
+        "patchSetId": 9
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-12-17T21:54:30Z",
+      "side": 1,
+      "message": ", sans-serif",
+      "range": {
+        "startLine": 7,
+        "startChar": 19,
+        "endLine": 7,
+        "endChar": 20
+      },
+      "revId": "5fae5ab5ce773fbd6121def249857f003401ae8c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5fbcc419_b306ba4b",
+        "filename": "src/scenes/Home/components/Navbar/styles.css",
+        "patchSetId": 9
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-12-17T21:54:30Z",
+      "side": 1,
+      "message": ", sans-serif",
+      "range": {
+        "startLine": 12,
+        "startChar": 19,
+        "endLine": 12,
+        "endChar": 20
+      },
+      "revId": "5fae5ab5ce773fbd6121def249857f003401ae8c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
