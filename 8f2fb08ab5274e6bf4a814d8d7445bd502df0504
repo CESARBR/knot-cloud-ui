@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9f69f7fd_050f8bce",
+        "filename": "src/components/ErrorMessage/index.js",
+        "patchSetId": 4
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-12-17T22:49:45Z",
+      "side": 1,
+      "message": "IMO This should be in a separate commit. e.g. \"Refactor ErrorMessage component\".\nUnless this change make it unusable if the other changes are not made at the same time.",
+      "revId": "8f2fb08ab5274e6bf4a814d8d7445bd502df0504",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f908051c_cf36f153",
+        "filename": "src/scenes/AccessControl/styles.css",
+        "patchSetId": 4
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-12-17T22:49:45Z",
+      "side": 1,
+      "message": "Should we define max-height?",
+      "revId": "8f2fb08ab5274e6bf4a814d8d7445bd502df0504",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
