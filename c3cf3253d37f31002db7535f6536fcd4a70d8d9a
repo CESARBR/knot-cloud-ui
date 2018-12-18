@@ -1,0 +1,211 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bac58fe9_c583b5cb",
+        "filename": "src/components/Card/CardTitle/index.js",
+        "patchSetId": 3
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-12-18T21:57:54Z",
+      "side": 1,
+      "message": "Do we need the div? Could it be simply the input/h1?",
+      "range": {
+        "startLine": 15,
+        "startChar": 6,
+        "endLine": 15,
+        "endChar": 34
+      },
+      "revId": "c3cf3253d37f31002db7535f6536fcd4a70d8d9a",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "350cdf66_c47ca351",
+        "filename": "src/components/Card/CardTitle/index.js",
+        "patchSetId": 3
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-12-18T21:57:54Z",
+      "side": 1,
+      "message": "Extract this to a class method to make `render()` deal only with rendering and attaching events. One suggestion is to have a `onTitleChange` that calls used defined onTitleChange (`this.props.onTitleChange`). Also verify if the title is different than the current value, otherwise don\u0027t trigger the event.",
+      "range": {
+        "startLine": 20,
+        "startChar": 12,
+        "endLine": 20,
+        "endChar": 50
+      },
+      "revId": "c3cf3253d37f31002db7535f6536fcd4a70d8d9a",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "16a23988_0bd67b71",
+        "filename": "src/components/Card/CardTitle/index.js",
+        "patchSetId": 3
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-12-18T21:57:54Z",
+      "side": 1,
+      "message": "Why not set `onBlur` on the element instead of replacing .onblur every time the value changes?",
+      "range": {
+        "startLine": 21,
+        "startChar": 12,
+        "endLine": 21,
+        "endChar": 63
+      },
+      "revId": "c3cf3253d37f31002db7535f6536fcd4a70d8d9a",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0361066e_5aadbc8f",
+        "filename": "src/components/Card/CardTitle/index.js",
+        "patchSetId": 3
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-12-18T21:57:54Z",
+      "side": 1,
+      "message": "The title be editable should be configurable as many titles (modal, for instance) can\u0027t be. One way to easily toggle edit is to use a `h1` instead of `input` and make it `content editable` (https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Editable_content). You\u0027ll need the keypress/change event as well.",
+      "range": {
+        "startLine": 16,
+        "startChar": 8,
+        "endLine": 26,
+        "endChar": 10
+      },
+      "revId": "c3cf3253d37f31002db7535f6536fcd4a70d8d9a",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "17f02cb6_7c30bc5b",
+        "filename": "src/components/Card/styles.css",
+        "patchSetId": 3
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-12-18T21:57:54Z",
+      "side": 1,
+      "message": "Do we need this float? Ain\u0027t the element already displayed aligned from left to right?",
+      "range": {
+        "startLine": 21,
+        "startChar": 2,
+        "endLine": 21,
+        "endChar": 14
+      },
+      "revId": "c3cf3253d37f31002db7535f6536fcd4a70d8d9a",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "378034b3_a54c717f",
+        "filename": "src/components/Card/styles.css",
+        "patchSetId": 3
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-12-18T21:57:54Z",
+      "side": 1,
+      "message": "If we use an editable h1, we don\u0027t need to override the input styles",
+      "range": {
+        "startLine": 23,
+        "startChar": 2,
+        "endLine": 25,
+        "endChar": 22
+      },
+      "revId": "c3cf3253d37f31002db7535f6536fcd4a70d8d9a",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "89a93456_d9cfe692",
+        "filename": "src/components/Card/styles.css",
+        "patchSetId": 3
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-12-18T21:57:54Z",
+      "side": 1,
+      "message": "These paddings are user-specific",
+      "range": {
+        "startLine": 32,
+        "startChar": 2,
+        "endLine": 33,
+        "endChar": 21
+      },
+      "revId": "c3cf3253d37f31002db7535f6536fcd4a70d8d9a",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0c567089_3d1d9fd5",
+        "filename": "src/components/Card/styles.css",
+        "patchSetId": 3
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-12-18T21:57:54Z",
+      "side": 1,
+      "message": "Leave font-size a responsibility of the user.",
+      "range": {
+        "startLine": 34,
+        "startChar": 2,
+        "endLine": 34,
+        "endChar": 18
+      },
+      "revId": "c3cf3253d37f31002db7535f6536fcd4a70d8d9a",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e88e4a17_bebcc49d",
+        "filename": "src/components/Card/styles.css",
+        "patchSetId": 3
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-12-18T21:57:54Z",
+      "side": 1,
+      "message": "I said that the body should be a container as well, but reviewing the spec, each card has its own layout needs, so it is better to leave the user to specify how it should displayed.\n\n\u003cCard\u003e\n  \u003cCardHeader\u003e\n    \u003cCardTitle title\u003d\"...\" /\u003e\n  \u003c/CardHeader\n  \u003cCardBody\u003e\n    \u003cdiv\u003e \u003c-- this is where the user specifies its margins, layout, etc\n      \u003cdiv ... /\u003e\n    \u003c/div\u003e\n  \u003c/CardBody\u003e\n\u003c/Card\u003e\n\nIn the end, the card body would only specify the growth in the card.",
+      "range": {
+        "startLine": 35,
+        "startChar": 2,
+        "endLine": 39,
+        "endChar": 28
+      },
+      "revId": "c3cf3253d37f31002db7535f6536fcd4a70d8d9a",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
