@@ -211,6 +211,30 @@
       "revId": "5fae5ab5ce773fbd6121def249857f003401ae8c",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9fed3551_3b950cb5",
+        "filename": "src/scenes/Home/components/Navbar/styles.css",
+        "patchSetId": 9
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-12-18T11:34:43Z",
+      "side": 1,
+      "message": "https://www.w3schools.com/csSref/css_websafe_fonts.asp",
+      "parentUuid": "670febef_9412bb3c",
+      "range": {
+        "startLine": 12,
+        "startChar": 19,
+        "endLine": 12,
+        "endChar": 20
+      },
+      "revId": "5fae5ab5ce773fbd6121def249857f003401ae8c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
