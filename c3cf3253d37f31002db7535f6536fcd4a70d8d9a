@@ -48,6 +48,30 @@
     },
     {
       "key": {
+        "uuid": "47b6ca80_0e3850b0",
+        "filename": "src/components/Card/CardTitle/index.js",
+        "patchSetId": 3
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-12-18T22:15:44Z",
+      "side": 1,
+      "message": "Can be like you did in the next patch with handleChange",
+      "parentUuid": "350cdf66_c47ca351",
+      "range": {
+        "startLine": 20,
+        "startChar": 12,
+        "endLine": 20,
+        "endChar": 50
+      },
+      "revId": "c3cf3253d37f31002db7535f6536fcd4a70d8d9a",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "16a23988_0bd67b71",
         "filename": "src/components/Card/CardTitle/index.js",
         "patchSetId": 3
