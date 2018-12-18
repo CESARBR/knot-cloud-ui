@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "e7444f62_aaa7fc5f",
+        "filename": "src/scenes/AccessControl/Forgot/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1013169
+      },
+      "writtenOn": "2018-12-18T18:50:25Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "50a8565c_a2f5411d",
+      "range": {
+        "startLine": 38,
+        "startChar": 31,
+        "endLine": 38,
+        "endChar": 37
+      },
+      "revId": "6fc258b29f0a0e9824d7de27ef04cfeabd6b32dc",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "8343f805_0ec54b6e",
         "filename": "src/scenes/AccessControl/Reset/index.js",
         "patchSetId": 1
@@ -36,6 +60,30 @@
       "writtenOn": "2018-12-17T22:33:47Z",
       "side": 1,
       "message": "\"Reset Password\"",
+      "range": {
+        "startLine": 70,
+        "startChar": 31,
+        "endLine": 70,
+        "endChar": 36
+      },
+      "revId": "6fc258b29f0a0e9824d7de27ef04cfeabd6b32dc",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6e20bd1c_e6e695f4",
+        "filename": "src/scenes/AccessControl/Reset/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1013169
+      },
+      "writtenOn": "2018-12-18T18:50:25Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8343f805_0ec54b6e",
       "range": {
         "startLine": 70,
         "startChar": 31,
