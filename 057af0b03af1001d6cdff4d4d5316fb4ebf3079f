@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b1483469_68dab6cf",
+        "filename": "src/scenes/Home/components/AddButton/styles.css",
+        "patchSetId": 11
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-12-18T11:49:04Z",
+      "side": 1,
+      "message": "remove the characters \u0027\nJust: Lato, sans-serif\nWith \"Lato\" there is no problem. but we keep with the same pattern in the previous commit\nBut in case of \u0027sans-serif\u0027 it is mandatory don\u0027t surrounded with \u0027\nApparently the browser don\u0027t recognize it. ¯\\_(ツ)_/¯",
+      "range": {
+        "startLine": 19,
+        "startChar": 15,
+        "endLine": 19,
+        "endChar": 35
+      },
+      "revId": "057af0b03af1001d6cdff4d4d5316fb4ebf3079f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
