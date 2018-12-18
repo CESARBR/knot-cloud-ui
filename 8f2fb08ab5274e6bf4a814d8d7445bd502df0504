@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "96e715b2_42192c1d",
+        "filename": "src/components/ErrorMessage/index.js",
+        "patchSetId": 4
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-12-18T16:02:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9f69f7fd_050f8bce",
+      "revId": "8f2fb08ab5274e6bf4a814d8d7445bd502df0504",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "f908051c_cf36f153",
         "filename": "src/scenes/AccessControl/styles.css",
         "patchSetId": 4
@@ -30,6 +48,24 @@
       "writtenOn": "2018-12-17T22:49:45Z",
       "side": 1,
       "message": "Should we define max-height?",
+      "revId": "8f2fb08ab5274e6bf4a814d8d7445bd502df0504",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c57bdd4f_99d3fae3",
+        "filename": "src/scenes/AccessControl/styles.css",
+        "patchSetId": 4
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-12-18T16:02:23Z",
+      "side": 1,
+      "message": "I don\u0027t think so. We should let free for the scene define it if it\u0027s necessary",
+      "parentUuid": "f908051c_cf36f153",
       "revId": "8f2fb08ab5274e6bf4a814d8d7445bd502df0504",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
