@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "929c09b8_18e631a1",
+        "filename": "src/scenes/AccessControl/Forgot/index.js",
+        "patchSetId": 6
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-12-18T17:32:19Z",
+      "side": 1,
+      "message": "error-container",
+      "range": {
+        "startLine": 35,
+        "startChar": 24,
+        "endLine": 35,
+        "endChar": 39
+      },
+      "revId": "c56e68bddd434c87b928ba242d9ce06fbbfe405b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}

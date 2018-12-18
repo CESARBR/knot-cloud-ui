@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "865f3b04_1bb8e106",
+        "filename": "src/components/ErrorMessage/index.js",
+        "patchSetId": 4
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-12-18T17:32:19Z",
+      "side": 1,
+      "message": "Now I see that you separated the refactor because of this message. Instead of changing the other commit\u0027s message, bring the style change to this commit.",
+      "parentUuid": "96e715b2_42192c1d",
+      "revId": "8f2fb08ab5274e6bf4a814d8d7445bd502df0504",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "f908051c_cf36f153",
         "filename": "src/scenes/AccessControl/styles.css",
         "patchSetId": 4
