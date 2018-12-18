@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "686e1dc2_ea6d5ee0",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-12-18T17:25:28Z",
+      "side": 1,
+      "message": "Better to say that you changing ErrorMessage\u0027s style. Refactoring doesn\u0027t change behavior/layout/etc, only how it is written.",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 31
+      },
+      "revId": "2af13f88ef035e4cdc579af163d92064c3d228cb",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
