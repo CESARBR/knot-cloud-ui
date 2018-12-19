@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Redirect } from 'react-router-dom';
 import PasswordInput from 'components/PasswordInput';
-import PrimaryButton from 'components/Button/PrimaryButton';
+import PrimaryButton from 'components/PrimaryButton';
 import ErrorMessage from 'components/ErrorMessage';
 import Authenticator from 'services/Authenticator';
 import PropTypes from 'prop-types';
@@ -67,7 +67,7 @@ class Reset extends Component {
         <form className="reset-form" onSubmit={e => this.handleSubmit(e)}>
           <PasswordInput id="password-input-wrapper" onChange={this.handlePasswordChange} />
           <ErrorMessage message={errorMessage} />
-          <PrimaryButton name="Reset Password" />
+          <PrimaryButton name="Reset Password" type="submit" />
         </form>
         {this.renderRedirect()}
       </div>

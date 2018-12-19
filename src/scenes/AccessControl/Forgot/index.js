@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import TextInput from 'components/TextInput';
-import { PrimaryButton, SecondaryButton } from 'components/Button';
+import PrimaryButton from 'components/PrimaryButton';
+import SecondaryButton from 'components/SecondaryButton';
 import ErrorMessage from 'components/ErrorMessage';
 import Authenticator from 'services/Authenticator';
 import './styles.css';
@@ -35,10 +36,10 @@ class Forgot extends Component {
         <form className="reset-form" onSubmit={e => this.handleSubmit(e)}>
           <TextInput type="email" id="reset-user-email" placeholder="Email" onChange={e => this.setState({ email: e.target.value })} />
           <ErrorMessage message={errorMessage} />
-          <PrimaryButton name="Forgot Password" />
+          <PrimaryButton name="Forgot Password" type="submit" />
         </form>
         <Link to="/signin">
-          <SecondaryButton name="Sign In" />
+          <SecondaryButton name="Sign In" type="submit" />
         </Link>
       </div>
     );

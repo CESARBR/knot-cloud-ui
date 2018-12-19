@@ -1,19 +1,20 @@
-import React, { Component } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
-import 'components/Button/styles.css';
+import SecondaryButton from 'components/SecondaryButton';
 import './styles.css';
 
-class SmallButton extends Component {
-  render() {
-    const { name } = this.props;
-    return (
-      <input className="btn btn-secondary btn-small" type="submit" value={name} />
-    );
-  }
-}
+const SmallButton = ({ name, type, onClick }) => (
+  <SecondaryButton className="btn-small" name={name} type={type} onClick={onClick} />
+);
+
+SmallButton.defaultProps = {
+  onClick: null
+};
 
 SmallButton.propTypes = {
-  name: PropTypes.string.isRequired
+  name: PropTypes.string.isRequired,
+  type: PropTypes.string.isRequired,
+  onClick: PropTypes.func
 };
 
 export default SmallButton;
