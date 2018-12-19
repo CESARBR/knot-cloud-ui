@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c0a7d366_1f08f6a0",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 8
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-12-19T01:38:43Z",
+      "side": 1,
+      "message": "This message is a little too much \"portuguesed\".\nChange error message placement/position, maybe?",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 49
+      },
+      "revId": "211db5cd1ec696051b56475b667aa8acb5eaac28",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "12350821_ecf94468",
+        "filename": "src/components/ErrorMessage/styles.css",
+        "patchSetId": 8
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-12-19T01:38:43Z",
+      "side": 1,
+      "message": "You\u0027re changing the style in the commit where you say you\u0027re changing the message position.\n\nWhy not do in a different commit or in the previous one and change the commit message as suggested previously?",
+      "range": {
+        "startLine": 1,
+        "startChar": 1,
+        "endLine": 1,
+        "endChar": 16
+      },
+      "revId": "211db5cd1ec696051b56475b667aa8acb5eaac28",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
