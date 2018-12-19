@@ -1,28 +1,27 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Button from 'components/Button';
 import './styles.css';
 
-const Button = ({
+const PrimaryButton = ({
   name,
   type,
   className,
   onClick
 }) => (
-  <div>
-    <input className={`btn ${className}`} type={type} value={name} onClick={onClick} />
-  </div>
+  <Button className={`btn-primary ${className}`} name={name} type={type} onClick={onClick} />
 );
 
-Button.defaultProps = {
+PrimaryButton.defaultProps = {
   className: '',
   onClick: null
 };
 
-Button.propTypes = {
+PrimaryButton.propTypes = {
   name: PropTypes.string.isRequired,
   type: PropTypes.string.isRequired,
   className: PropTypes.string,
   onClick: PropTypes.func
 };
 
-export default Button;
+export default PrimaryButton;

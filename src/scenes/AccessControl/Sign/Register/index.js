@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import { Link, Redirect } from 'react-router-dom';
 import Authenticator from 'services/Authenticator';
 import ErrorMessage from 'components/ErrorMessage';
-import { PrimaryButton, SecondaryButton } from 'components/Button';
+import PrimaryButton from 'components/PrimaryButton';
+import SecondaryButton from 'components/SecondaryButton';
 import TextInput from 'components/TextInput';
 import PasswordInput from 'components/PasswordInput';
 import 'scenes/AccessControl/Sign/styles.css';
@@ -64,10 +65,10 @@ class Signup extends Component {
           <TextInput type="email" id="email" placeholder="Email" onChange={this.handleChange} />
           <PasswordInput id="password-input-wrapper" onChange={this.handlePasswordChange} />
           <ErrorMessage message={errorMessage} />
-          <PrimaryButton name="Sign up" />
+          <PrimaryButton name="Sign up" type="submit" />
         </form>
         <Link to="/signin">
-          <SecondaryButton name="Sign In" />
+          <SecondaryButton name="Sign In" type="submit" />
         </Link>
         {this.renderRedirect()}
       </div>

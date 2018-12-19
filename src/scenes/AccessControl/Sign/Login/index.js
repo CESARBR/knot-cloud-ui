@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import { Link, Redirect } from 'react-router-dom';
 import TextInput from 'components/TextInput';
-import PrimaryButton from 'components/Button/PrimaryButton';
+import PrimaryButton from 'components/PrimaryButton';
 import ErrorMessage from 'components/ErrorMessage';
 import Authenticator from 'services/Authenticator';
 import 'scenes/AccessControl/Sign/styles.css';
 import Storage from 'services/Storage';
 import SmallButton from './components/SmallButton';
+import './styles.css';
 
 class Signin extends Component {
   constructor(props) {
@@ -55,14 +56,16 @@ class Signin extends Component {
           <TextInput type="email" id="email" placeholder="Email" onChange={this.handleChange} />
           <TextInput type="password" id="password" placeholder="Password" onChange={this.handleChange} />
           <ErrorMessage message={errorMessage} />
-          <PrimaryButton name="Sign In" />
+          <PrimaryButton name="Sign In" type="submit" />
         </form>
-        <Link to="/signup">
-          <SmallButton name="Sign up" />
-        </Link>
-        <Link to="/forgot">
-          <SmallButton name="Forgot Password?" />
-        </Link>
+        <div className="smallbuttons-container">
+          <Link to="/signup">
+            <SmallButton name="Sign up" type="submit" />
+          </Link>
+          <Link to="/forgot">
+            <SmallButton name="Forgot Password?" type="submit" />
+          </Link>
+        </div>
         {this.renderRedirect()}
       </div>
     );
