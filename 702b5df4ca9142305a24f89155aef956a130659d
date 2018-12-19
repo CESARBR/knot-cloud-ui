@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a1e6177_b696c4e1",
+        "filename": "src/scenes/AccessControl/styles.css",
+        "patchSetId": 9
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-12-19T16:23:19Z",
+      "side": 1,
+      "message": "This is a scope violation, you are overriding another component\u0027s style. It requires us to know exactly the class name used by the component (like messing around with a private variable). Also, as we have the container, the margin/padding could be set there.",
+      "range": {
+        "startLine": 40,
+        "startChar": 0,
+        "endLine": 42,
+        "endChar": 1
+      },
+      "revId": "702b5df4ca9142305a24f89155aef956a130659d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
