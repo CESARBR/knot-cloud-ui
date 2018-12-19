@@ -22,6 +22,30 @@
       "revId": "057af0b03af1001d6cdff4d4d5316fb4ebf3079f",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ada2dfc6_86831ef4",
+        "filename": "src/scenes/Home/components/AddButton/styles.css",
+        "patchSetId": 11
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-12-19T01:57:00Z",
+      "side": 1,
+      "message": "From this getting started, seems common to have the google font around single quotes and the fallback without.\n https://developers.google.com/fonts/docs/getting_started",
+      "parentUuid": "b1483469_68dab6cf",
+      "range": {
+        "startLine": 19,
+        "startChar": 15,
+        "endLine": 19,
+        "endChar": 35
+      },
+      "revId": "057af0b03af1001d6cdff4d4d5316fb4ebf3079f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
