@@ -4,6 +4,7 @@
   "description": "KNoT Cloud UI",
   "private": true,
   "dependencies": {
+    "@cesarbr/knot-cloud-websocket": "^0.1.0",
     "axios": "^0.18.0",
     "eslint-config-airbnb": "^17.1.0",
     "express": "^4.16.4",
