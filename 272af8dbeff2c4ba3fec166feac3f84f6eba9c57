@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c1b30a57_91c8d9b7",
+        "filename": "src/scenes/Home/components/Navbar/components/NavbarButton/index.js",
+        "patchSetId": 11
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-12-19T19:15:47Z",
+      "side": 1,
+      "message": "Reuse the new Button",
+      "range": {
+        "startLine": 14,
+        "startChar": 6,
+        "endLine": 15,
+        "endChar": 6
+      },
+      "revId": "272af8dbeff2c4ba3fec166feac3f84f6eba9c57",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f7391e38_af1b6e0d",
+        "filename": "src/scenes/Home/components/Navbar/components/NavbarButton/styles.css",
+        "patchSetId": 11
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-12-19T19:15:47Z",
+      "side": 1,
+      "message": "Need to set font-size as well. It is 20px",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 1
+      },
+      "revId": "272af8dbeff2c4ba3fec166feac3f84f6eba9c57",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a5d0135c_a2d68ff7",
+        "filename": "src/scenes/Home/components/Navbar/index.js",
+        "patchSetId": 11
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-12-19T19:15:47Z",
+      "side": 1,
+      "message": "What about these actions be defined by the user? Currently, to add a new button one must change the navbar and change the home scene. The user could pass an array of actions that would be displayed each as a button and the navbar would generate only one event, onAction (or any other better name). For instance, in the Home scene the navbar would be defined like below:\n\n\u003cNavbar actions\u003d[\u0027Gateways\u0027, \u0027Apps\u0027, \u0027Sign Out\u0027] onAction\u003d(action) \u003d\u003e {\n  if (action \u003d\u003d\u003d \u0027Gateways\u0027 || action \u003d\u003d\u003d \u0027Apps\u0027) changeCurrentScene(...);\n  else if (action \u003d\u003d\u003d \u0027Sign Out\u0027) signout();\n}/\u003e",
+      "range": {
+        "startLine": 21,
+        "startChar": 10,
+        "endLine": 23,
+        "endChar": 77
+      },
+      "revId": "272af8dbeff2c4ba3fec166feac3f84f6eba9c57",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
