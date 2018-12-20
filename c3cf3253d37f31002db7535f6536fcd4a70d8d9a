@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "0bea1d61_45c4003d",
+        "filename": "src/components/Card/CardTitle/index.js",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-12-20T21:39:40Z",
+      "side": 1,
+      "message": "Yes. In DeviceCard case, the scene must know about the change and update the name in the cloud.",
+      "parentUuid": "fb94b0e7_09cdfba8",
+      "range": {
+        "startLine": 12,
+        "startChar": 12,
+        "endLine": 12,
+        "endChar": 25
+      },
+      "revId": "c3cf3253d37f31002db7535f6536fcd4a70d8d9a",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "bac58fe9_c583b5cb",
         "filename": "src/components/Card/CardTitle/index.js",
         "patchSetId": 3
@@ -45,6 +69,30 @@
       "revId": "c3cf3253d37f31002db7535f6536fcd4a70d8d9a",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "da6eed49_5f9adad3",
+        "filename": "src/components/Card/CardTitle/index.js",
+        "patchSetId": 3
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-12-20T21:39:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bac58fe9_c583b5cb",
+      "range": {
+        "startLine": 15,
+        "startChar": 6,
+        "endLine": 15,
+        "endChar": 34
+      },
+      "revId": "c3cf3253d37f31002db7535f6536fcd4a70d8d9a",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     },
     {
       "key": {
@@ -95,6 +143,30 @@
     },
     {
       "key": {
+        "uuid": "3c357d06_4c9c0d39",
+        "filename": "src/components/Card/CardTitle/index.js",
+        "patchSetId": 3
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-12-20T21:39:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "47b6ca80_0e3850b0",
+      "range": {
+        "startLine": 20,
+        "startChar": 12,
+        "endLine": 20,
+        "endChar": 50
+      },
+      "revId": "c3cf3253d37f31002db7535f6536fcd4a70d8d9a",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "16a23988_0bd67b71",
         "filename": "src/components/Card/CardTitle/index.js",
         "patchSetId": 3
@@ -118,6 +190,30 @@
     },
     {
       "key": {
+        "uuid": "1e81e2b9_ef933fd6",
+        "filename": "src/components/Card/CardTitle/index.js",
+        "patchSetId": 3
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-12-20T21:39:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "16a23988_0bd67b71",
+      "range": {
+        "startLine": 21,
+        "startChar": 12,
+        "endLine": 21,
+        "endChar": 63
+      },
+      "revId": "c3cf3253d37f31002db7535f6536fcd4a70d8d9a",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "449686aa_2153367a",
         "filename": "src/components/Card/CardTitle/index.js",
         "patchSetId": 3
@@ -129,6 +225,30 @@
       "writtenOn": "2018-12-19T02:48:17Z",
       "side": 1,
       "message": "Shouldn\u0027t it be possible to set the right margin as well?",
+      "range": {
+        "startLine": 25,
+        "startChar": 19,
+        "endLine": 25,
+        "endChar": 29
+      },
+      "revId": "c3cf3253d37f31002db7535f6536fcd4a70d8d9a",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8759f62b_39cd758e",
+        "filename": "src/components/Card/CardTitle/index.js",
+        "patchSetId": 3
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-12-20T21:39:40Z",
+      "side": 1,
+      "message": "In all cards in the spec are aligned at left so we just need the marginLeft",
+      "parentUuid": "449686aa_2153367a",
       "range": {
         "startLine": 25,
         "startChar": 19,
@@ -164,6 +284,30 @@
     },
     {
       "key": {
+        "uuid": "16c849bc_90bb962e",
+        "filename": "src/components/Card/CardTitle/index.js",
+        "patchSetId": 3
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-12-20T21:39:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0361066e_5aadbc8f",
+      "range": {
+        "startLine": 16,
+        "startChar": 8,
+        "endLine": 26,
+        "endChar": 10
+      },
+      "revId": "c3cf3253d37f31002db7535f6536fcd4a70d8d9a",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "17f02cb6_7c30bc5b",
         "filename": "src/components/Card/styles.css",
         "patchSetId": 3
@@ -184,6 +328,30 @@
       "revId": "c3cf3253d37f31002db7535f6536fcd4a70d8d9a",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "01409fed_677a0df6",
+        "filename": "src/components/Card/styles.css",
+        "patchSetId": 3
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-12-20T21:39:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "17f02cb6_7c30bc5b",
+      "range": {
+        "startLine": 21,
+        "startChar": 2,
+        "endLine": 21,
+        "endChar": 14
+      },
+      "revId": "c3cf3253d37f31002db7535f6536fcd4a70d8d9a",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     },
     {
       "key": {
@@ -210,6 +378,30 @@
     },
     {
       "key": {
+        "uuid": "69b7e177_e810cd6d",
+        "filename": "src/components/Card/styles.css",
+        "patchSetId": 3
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-12-20T21:39:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "378034b3_a54c717f",
+      "range": {
+        "startLine": 23,
+        "startChar": 2,
+        "endLine": 25,
+        "endChar": 22
+      },
+      "revId": "c3cf3253d37f31002db7535f6536fcd4a70d8d9a",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "89a93456_d9cfe692",
         "filename": "src/components/Card/styles.css",
         "patchSetId": 3
@@ -230,6 +422,30 @@
       "revId": "c3cf3253d37f31002db7535f6536fcd4a70d8d9a",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a34886f4_88b2fa81",
+        "filename": "src/components/Card/styles.css",
+        "patchSetId": 3
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-12-20T21:39:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "89a93456_d9cfe692",
+      "range": {
+        "startLine": 32,
+        "startChar": 2,
+        "endLine": 33,
+        "endChar": 21
+      },
+      "revId": "c3cf3253d37f31002db7535f6536fcd4a70d8d9a",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     },
     {
       "key": {
@@ -256,6 +472,30 @@
     },
     {
       "key": {
+        "uuid": "0ad84cda_aa9314cc",
+        "filename": "src/components/Card/styles.css",
+        "patchSetId": 3
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-12-20T21:39:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0c567089_3d1d9fd5",
+      "range": {
+        "startLine": 34,
+        "startChar": 2,
+        "endLine": 34,
+        "endChar": 18
+      },
+      "revId": "c3cf3253d37f31002db7535f6536fcd4a70d8d9a",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "e88e4a17_bebcc49d",
         "filename": "src/components/Card/styles.css",
         "patchSetId": 3
@@ -276,6 +516,30 @@
       "revId": "c3cf3253d37f31002db7535f6536fcd4a70d8d9a",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "02a7f630_7a9354fb",
+        "filename": "src/components/Card/styles.css",
+        "patchSetId": 3
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-12-20T21:39:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e88e4a17_bebcc49d",
+      "range": {
+        "startLine": 35,
+        "startChar": 2,
+        "endLine": 39,
+        "endChar": 28
+      },
+      "revId": "c3cf3253d37f31002db7535f6536fcd4a70d8d9a",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
