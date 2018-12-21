@@ -14,6 +14,7 @@ class Reset extends Component {
     this.state = {
       redirect: false,
       isPasswordValid: false,
+      loading: false,
       errorMessage: ''
     };
 
@@ -27,6 +28,7 @@ class Reset extends Component {
     const authService = new Authenticator();
 
     if (isPasswordValid) {
+      this.setState({ loading: true });
       authService.resetPassword(email, token, password)
         .then(() => {
           this.setState({
@@ -37,6 +39,9 @@ class Reset extends Component {
           this.setState({
             errorMessage: error.message
           });
+        })
+        .finally(() => {
+          this.setState({ loading: false });
         });
     }
 
@@ -60,7 +65,7 @@ class Reset extends Component {
   }
 
   render() {
-    const { errorMessage } = this.state;
+    const { errorMessage, loading } = this.state;
 
     return (
       <div className="reset-pwd-wrapper">
@@ -69,7 +74,7 @@ class Reset extends Component {
         </div>
         <form className="reset-form" onSubmit={e => this.handleSubmit(e)}>
           <PasswordInput id="password-input-wrapper" onChange={this.handlePasswordChange} />
-          <PrimaryButton name="Reset Password" type="submit" />
+          <PrimaryButton disabled={loading} name="Reset Password" type="submit" />
         </form>
         {this.renderRedirect()}
       </div>

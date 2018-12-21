@@ -16,7 +16,8 @@ class Signin extends Component {
       email: '',
       password: '',
       errorMessage: '',
-      redirect: false
+      redirect: false,
+      loading: false
     };
     this.handleChange = this.handleChange.bind(this);
     this.handleSignin = this.handleSignin.bind(this);
@@ -31,6 +32,7 @@ class Signin extends Component {
     const { email, password } = this.state;
     const authService = new Authenticator();
     e.preventDefault();
+    this.setState({ loading: true });
     authService.authenticate(email, password)
       .then((res) => {
         Storage.setCredentials(res.uuid, res.token);
@@ -38,6 +40,9 @@ class Signin extends Component {
       })
       .catch((error) => {
         this.setState({ errorMessage: error.message });
+      })
+      .finally(() => {
+        this.setState({ loading: false });
       });
   }
 
@@ -49,7 +54,7 @@ class Signin extends Component {
   }
 
   render() {
-    const { errorMessage } = this.state;
+    const { errorMessage, loading } = this.state;
     return (
       <div className="sign-form">
         <div className="error-container">
@@ -58,7 +63,7 @@ class Signin extends Component {
         <form onSubmit={e => this.handleSignin(e)}>
           <TextInput type="email" id="email" placeholder="Email" onChange={this.handleChange} />
           <TextInput type="password" id="password" placeholder="Password" onChange={this.handleChange} />
-          <PrimaryButton name="Sign In" type="submit" />
+          <PrimaryButton disabled={loading} name="Sign In" type="submit" />
         </form>
         <div className="smallbuttons-container">
           <Link to="/signup">

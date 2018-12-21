@@ -38,3 +38,8 @@
   padding-bottom: 25px;
   box-sizing: border-box;
 }
+
+.busy {
+  pointer-events: none;
+  background: lightgray;
+}

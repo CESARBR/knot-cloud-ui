@@ -11,6 +11,7 @@ class Forgot extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      loading: false,
       errorMessage: ''
     };
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -19,18 +20,22 @@ class Forgot extends Component {
   handleSubmit(e) {
     const { email } = this.state;
     const authService = new Authenticator();
+    this.setState({ loading: true });
     authService.forgotPassword(email)
       .then(() => {
         alert(`Reset e-mail sent to ${email}`); // eslint-disable-line no-alert
       })
       .catch((error) => {
         this.setState({ errorMessage: error.message });
+      })
+      .finally(() => {
+        this.setState({ loading: false });
       });
     e.preventDefault();
   }
 
   render() {
-    const { errorMessage } = this.state;
+    const { errorMessage, loading } = this.state;
     return (
       <div className="forgot-pwd-wrapper">
         <div className="error-container">
@@ -38,7 +43,7 @@ class Forgot extends Component {
         </div>
         <form className="reset-form" onSubmit={e => this.handleSubmit(e)}>
           <TextInput type="email" id="reset-user-email" placeholder="Email" onChange={e => this.setState({ email: e.target.value })} />
-          <PrimaryButton name="Forgot Password" type="submit" />
+          <PrimaryButton disabled={loading} name="Forgot Password" type="submit" />
         </form>
         <Link to="/signin">
           <SecondaryButton name="Sign In" type="submit" />
