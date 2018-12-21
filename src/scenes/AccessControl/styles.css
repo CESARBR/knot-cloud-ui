@@ -28,3 +28,8 @@
   display: inline-block;
   width: 480px;
 }
+
+.busy {
+  pointer-events: none;
+  background: lightgray;
+}

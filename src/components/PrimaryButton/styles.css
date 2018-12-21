@@ -3,11 +3,11 @@
   color: white;
 }
 
-.btn-primary:hover {
+.btn-primary:hover:enabled {
   background-color: white;
   color: #07790d;
 }
 
-.btn-primary:active {
+.btn-primary:active:enabled {
   transform: translateY(2px);
 }

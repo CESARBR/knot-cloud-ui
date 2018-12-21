@@ -7,13 +7,15 @@ const PrimaryButton = ({
   name,
   type,
   className,
-  onClick
+  onClick,
+  disabled
 }) => (
-  <Button className={`btn-primary ${className}`} name={name} type={type} onClick={onClick} />
+  <Button className={`btn-primary ${className}`} name={name} type={type} onClick={onClick} disabled={disabled} />
 );
 
 PrimaryButton.defaultProps = {
   className: '',
+  disabled: false,
   onClick: null
 };
 
@@ -21,6 +23,7 @@ PrimaryButton.propTypes = {
   name: PropTypes.string.isRequired,
   type: PropTypes.string.isRequired,
   className: PropTypes.string,
+  disabled: PropTypes.bool,
   onClick: PropTypes.func
 };
 

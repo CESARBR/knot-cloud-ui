@@ -10,3 +10,8 @@
   font-family: Lato, sans-serif;
   font-weight: lighter;
 }
+
+.btn:disabled {
+  background: lightgray;
+  pointer-events: none;
+}

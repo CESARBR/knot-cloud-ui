@@ -15,6 +15,7 @@ class Signup extends Component {
       email: '',
       isPasswordValid: false,
       redirect: false,
+      loading: false,
       errorMessage: ''
     };
     this.handleChange = this.handleChange.bind(this);
@@ -32,12 +33,16 @@ class Signup extends Component {
 
     e.preventDefault();
     if (isPasswordValid) {
+      this.setState({ loading: true });
       authService.createUser(email, password)
         .then(() => {
           this.setState({ redirect: true });
         })
         .catch((error) => {
           this.setState({ errorMessage: error.message });
+        })
+        .finally(() => {
+          this.setState({ loading: false });
         });
     }
   }
@@ -58,14 +63,14 @@ class Signup extends Component {
   }
 
   render() {
-    const { errorMessage } = this.state;
+    const { errorMessage, loading } = this.state;
     return (
       <div className="sign-form">
         <form onSubmit={e => this.handleSignup(e)}>
           <TextInput type="email" id="email" placeholder="Email" onChange={this.handleChange} />
           <PasswordInput id="password-input-wrapper" onChange={this.handlePasswordChange} />
           <ErrorMessage message={errorMessage} />
-          <PrimaryButton name="Sign up" type="submit" />
+          <PrimaryButton disabled={loading} name="Sign up" type="submit" />
         </form>
         <Link to="/signin">
           <SecondaryButton name="Sign In" type="submit" />
