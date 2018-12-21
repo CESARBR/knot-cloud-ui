@@ -31,12 +31,18 @@ class Signin extends Component {
     const { email, password } = this.state;
     const authService = new Authenticator();
     e.preventDefault();
+    document.body.classList.add('busy-cursor');
+    document.querySelector('.btn-primary').classList.add('busy-cursor');
     authService.authenticate(email, password)
       .then((res) => {
+        document.body.classList.remove('busy-cursor');
+        document.querySelector('.btn-primary').classList.remove('busy-cursor');
         Storage.setCredentials(res.uuid, res.token);
         this.setState({ redirect: true });
       })
       .catch((error) => {
+        document.body.classList.remove('busy-cursor');
+        document.querySelector('.btn-primary').classList.remove('busy-cursor');
         this.setState({ errorMessage: error.message });
       });
   }

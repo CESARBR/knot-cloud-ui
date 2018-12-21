@@ -2,3 +2,7 @@
   display: inline-block;
   width: 480px;
 }
+
+.busy-cursor {
+  cursor: wait;
+}

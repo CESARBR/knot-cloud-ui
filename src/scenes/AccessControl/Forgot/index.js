@@ -19,11 +19,17 @@ class Forgot extends Component {
   handleSubmit(e) {
     const { email } = this.state;
     const authService = new Authenticator();
+    document.body.classList.add('busy-cursor');
+    document.querySelector('.btn-primary').classList.add('busy-cursor');
     authService.forgotPassword(email)
       .then(() => {
+        document.body.classList.remove('busy-cursor');
+        document.querySelector('.btn-primary').classList.remove('busy-cursor');
         alert(`Reset e-mail sent to ${email}`); // eslint-disable-line no-alert
       })
       .catch((error) => {
+        document.body.classList.remove('busy-cursor');
+        document.querySelector('.btn-primary').classList.remove('busy-cursor');
         this.setState({ errorMessage: error.message });
       });
     e.preventDefault();

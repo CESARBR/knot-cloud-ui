@@ -27,13 +27,19 @@ class Reset extends Component {
     const authService = new Authenticator();
 
     if (isPasswordValid) {
+      document.body.classList.add('busy-cursor');
+      document.querySelector('.btn-primary').classList.add('busy-cursor');
       authService.resetPassword(email, token, password)
         .then(() => {
+          document.body.classList.remove('busy-cursor');
+          document.querySelector('.btn-primary').classList.remove('busy-cursor');
           this.setState({
             redirect: true
           });
         })
         .catch((error) => {
+          document.body.classList.remove('busy-cursor');
+          document.querySelector('.btn-primary').classList.remove('busy-cursor');
           this.setState({
             errorMessage: error.message
           });
