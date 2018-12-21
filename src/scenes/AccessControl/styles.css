@@ -28,3 +28,13 @@
   display: inline-block;
   width: 480px;
 }
+
+.busy {
+  pointer-events: none;
+  background: lightgray;
+}
+
+.busy:hover:active:focus {
+  pointer-events: none;
+  background: lightgray;
+}
