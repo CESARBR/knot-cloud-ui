@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "05e4cbac_bcaecef6",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-12-24T17:31:18Z",
+      "side": 1,
+      "message": "What do you think about Create rather than Add?\n\nAnd use the commit message body to explain the sub-components (Body, Header and Title).\nAlso, I think would be nice to explain about the usage here, since it\u0027s not (at least to me) trivial to understand the hierarchy and maybe in the future we (or only I) could use some reference.\n\u003cCard ...\u003e\n  \u003cCardHeader ...\u003e\n    \u003cCardTitle ...\u003e\n    \u003c/CardTitle\u003e\n  \u003cCardHeader\u003e\n  \u003cCardBody ...\u003e\n  \u003cCardBody\u003e\n\u003c/Card\u003e",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 3
+      },
+      "revId": "090539a0232264ae55de936f73bac77de82a25b1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "4e433024_8de31947",
         "filename": "src/components/Card/CardTitle/index.js",
         "patchSetId": 4
