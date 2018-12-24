@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4e433024_8de31947",
+        "filename": "src/components/Card/CardTitle/index.js",
+        "patchSetId": 4
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-12-24T17:12:18Z",
+      "side": 1,
+      "message": "Is there a difference between using this and setting to null?",
+      "range": {
+        "startLine": 51,
+        "startChar": 17,
+        "endLine": 51,
+        "endChar": 25
+      },
+      "revId": "090539a0232264ae55de936f73bac77de82a25b1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5738d487_40e4355a",
+        "filename": "src/components/Card/styles.css",
+        "patchSetId": 4
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-12-24T17:12:18Z",
+      "side": 1,
+      "message": "Since this element should not grow or shrink, should it have:\nflex: none;\n\nhttps://tailwindcss.com/docs/flexbox-flex-grow-shrink/#none",
+      "range": {
+        "startLine": 12,
+        "startChar": 1,
+        "endLine": 12,
+        "endChar": 13
+      },
+      "revId": "090539a0232264ae55de936f73bac77de82a25b1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0be542e0_fcc595b9",
+        "filename": "src/components/Card/styles.css",
+        "patchSetId": 4
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-12-24T17:12:18Z",
+      "side": 1,
+      "message": "From this getting started, seems common to have the google font around single quotes and the fallback without.\nhttps://developers.google.com/fonts/docs/getting_started",
+      "range": {
+        "startLine": 28,
+        "startChar": 2,
+        "endLine": 28,
+        "endChar": 13
+      },
+      "revId": "090539a0232264ae55de936f73bac77de82a25b1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "11923345_a628d8f1",
+        "filename": "src/components/Card/styles.css",
+        "patchSetId": 4
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-12-24T17:12:18Z",
+      "side": 1,
+      "message": "Why define this here instead of inside /components/Card/CardBody/styles.css?\n\nSame goes to all other classes other than .card",
+      "range": {
+        "startLine": 46,
+        "startChar": 0,
+        "endLine": 46,
+        "endChar": 10
+      },
+      "revId": "090539a0232264ae55de936f73bac77de82a25b1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
