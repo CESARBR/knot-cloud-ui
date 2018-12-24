@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d64ff4f2_4705521d",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 9
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-12-24T18:05:56Z",
+      "side": 1,
+      "message": "Change this since you\u0027re not creating only this two components anymore (there is a CardField and the DownloadCardButton).\n\nSame as previous commit, I think we should use more the commit message to explain what is being done in the commit.",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 38
+      },
+      "revId": "459973e993bfcaa9e03b6d9f6907629142788b40",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e0422594_31c2e8ca",
+        "filename": "src/scenes/Home/components/CardField/index.js",
+        "patchSetId": 9
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-12-24T18:05:56Z",
+      "side": 1,
+      "message": "Could not understand the purpose of this class by reading its name. \nPerhaps a more descriptive name would help.",
+      "range": {
+        "startLine": 6,
+        "startChar": 6,
+        "endLine": 6,
+        "endChar": 15
+      },
+      "revId": "459973e993bfcaa9e03b6d9f6907629142788b40",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
