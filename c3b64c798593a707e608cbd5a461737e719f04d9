@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "50660ef2_da431da3",
+        "filename": "src/scenes/AccessControl/Forgot/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-12-24T12:20:27Z",
+      "side": 1,
+      "message": "Is it possible to have this in the upper component as a function and then pass as a Prop to each component that needs?\nThis would match with having the style in the upper component and avoid some code copy+paste.",
+      "range": {
+        "startLine": 22,
+        "startChar": 4,
+        "endLine": 23,
+        "endChar": 72
+      },
+      "revId": "c3b64c798593a707e608cbd5a461737e719f04d9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3f2ff55e_97818539",
+        "filename": "src/scenes/AccessControl/Forgot/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-12-24T12:20:27Z",
+      "side": 1,
+      "message": "If you put this in a finally statement, there is no need to repeat code.",
+      "range": {
+        "startLine": 31,
+        "startChar": 0,
+        "endLine": 32,
+        "endChar": 79
+      },
+      "revId": "c3b64c798593a707e608cbd5a461737e719f04d9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "82a87959_90903de0",
+        "filename": "src/scenes/AccessControl/Sign/styles.css",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-12-24T12:20:27Z",
+      "side": 1,
+      "message": "If this is used by all scenes, shouldn\u0027t it be defined on /AccessControl/styles.css?\nAlso, disable click/interactions here to avoid multiple requests.",
+      "range": {
+        "startLine": 6,
+        "startChar": 1,
+        "endLine": 6,
+        "endChar": 5
+      },
+      "revId": "c3b64c798593a707e608cbd5a461737e719f04d9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
