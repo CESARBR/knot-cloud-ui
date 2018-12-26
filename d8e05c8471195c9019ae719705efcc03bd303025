@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e7d09ddf_84f2b11a",
+        "filename": "src/scenes/AccessControl/styles.css",
+        "patchSetId": 10
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-12-26T17:25:50Z",
+      "side": 1,
+      "message": "Does this clear fits any purpose?",
+      "revId": "d8e05c8471195c9019ae719705efcc03bd303025",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9d68303d_ec84050d",
+        "filename": "src/scenes/AccessControl/styles.css",
+        "patchSetId": 10
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-12-26T17:25:50Z",
+      "side": 1,
+      "message": "This container is 120px tall. min-height forces the content to be at least 85px and margin-bottom adds 25px to it.\n\nYou can solve this by using padding instead of margin and changing the way it computes the height with box-sizing property: https://www.w3schools.com/csSref/css3_pr_box-sizing.asp",
+      "range": {
+        "startLine": 31,
+        "startChar": 0,
+        "endLine": 39,
+        "endChar": 1
+      },
+      "revId": "d8e05c8471195c9019ae719705efcc03bd303025",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
