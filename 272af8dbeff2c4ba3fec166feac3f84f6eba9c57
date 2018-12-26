@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "67a2e8bf_74640112",
+        "filename": "src/scenes/Home/components/Navbar/components/NavbarButton/index.js",
+        "patchSetId": 11
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-12-26T12:38:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c1b30a57_91c8d9b7",
+      "range": {
+        "startLine": 14,
+        "startChar": 6,
+        "endLine": 15,
+        "endChar": 6
+      },
+      "revId": "272af8dbeff2c4ba3fec166feac3f84f6eba9c57",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "f7391e38_af1b6e0d",
         "filename": "src/scenes/Home/components/Navbar/components/NavbarButton/styles.css",
         "patchSetId": 11
@@ -48,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "71fff252_37076c2e",
+        "filename": "src/scenes/Home/components/Navbar/components/NavbarButton/styles.css",
+        "patchSetId": 11
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-12-26T12:38:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f7391e38_af1b6e0d",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 1
+      },
+      "revId": "272af8dbeff2c4ba3fec166feac3f84f6eba9c57",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "a5d0135c_a2d68ff7",
         "filename": "src/scenes/Home/components/Navbar/index.js",
         "patchSetId": 11
@@ -68,6 +116,30 @@
       "revId": "272af8dbeff2c4ba3fec166feac3f84f6eba9c57",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3dd24bf5_94d4ef46",
+        "filename": "src/scenes/Home/components/Navbar/index.js",
+        "patchSetId": 11
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-12-26T12:38:30Z",
+      "side": 1,
+      "message": "Done with some minor changes but overall behavior is the same.",
+      "parentUuid": "a5d0135c_a2d68ff7",
+      "range": {
+        "startLine": 21,
+        "startChar": 10,
+        "endLine": 23,
+        "endChar": 77
+      },
+      "revId": "272af8dbeff2c4ba3fec166feac3f84f6eba9c57",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
