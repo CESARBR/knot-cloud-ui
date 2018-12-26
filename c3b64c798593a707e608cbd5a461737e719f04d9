@@ -48,6 +48,30 @@
     },
     {
       "key": {
+        "uuid": "6c227173_dcc8fb5d",
+        "filename": "src/scenes/AccessControl/Forgot/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-12-26T17:04:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3f2ff55e_97818539",
+      "range": {
+        "startLine": 31,
+        "startChar": 0,
+        "endLine": 32,
+        "endChar": 79
+      },
+      "revId": "c3b64c798593a707e608cbd5a461737e719f04d9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "82a87959_90903de0",
         "filename": "src/scenes/AccessControl/Sign/styles.css",
         "patchSetId": 1
@@ -68,6 +92,30 @@
       "revId": "c3b64c798593a707e608cbd5a461737e719f04d9",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "540df478_1848527f",
+        "filename": "src/scenes/AccessControl/Sign/styles.css",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-12-26T17:04:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "82a87959_90903de0",
+      "range": {
+        "startLine": 6,
+        "startChar": 1,
+        "endLine": 6,
+        "endChar": 5
+      },
+      "revId": "c3b64c798593a707e608cbd5a461737e719f04d9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
