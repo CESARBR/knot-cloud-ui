@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "9a7a0d77_00a073be",
+        "filename": "src/scenes/AccessControl/styles.css",
+        "patchSetId": 10
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-12-26T17:53:44Z",
+      "side": 1,
+      "message": "Avoid any floating element in left and right the text.\nhttps://www.w3schools.com/cssref/pr_class_clear.asp",
+      "parentUuid": "e7d09ddf_84f2b11a",
+      "revId": "d8e05c8471195c9019ae719705efcc03bd303025",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "9d68303d_ec84050d",
         "filename": "src/scenes/AccessControl/styles.css",
         "patchSetId": 10
@@ -39,6 +57,30 @@
       "revId": "d8e05c8471195c9019ae719705efcc03bd303025",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d6432d59_61e7906d",
+        "filename": "src/scenes/AccessControl/styles.css",
+        "patchSetId": 10
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-12-26T17:53:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9d68303d_ec84050d",
+      "range": {
+        "startLine": 31,
+        "startChar": 0,
+        "endLine": 39,
+        "endChar": 1
+      },
+      "revId": "d8e05c8471195c9019ae719705efcc03bd303025",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
