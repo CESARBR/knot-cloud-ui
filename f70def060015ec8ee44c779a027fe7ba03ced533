@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a05b9b28_591cf460",
+        "filename": "src/scenes/AccessControl/styles.css",
+        "patchSetId": 2
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-12-26T17:43:40Z",
+      "side": 1,
+      "message": "This is a button\u0027s, not scene\u0027s, state. This style can be applied to any button in any scene. Move it to Button and export a way to disable it (check if React exports a disabled attribute on inputs).\n\nWe don\u0027t need to specify a new class, inputs have the `disabled` attribute that handles pointer events. To add our style, I believe there is a CSS selector (:disabled, perhaps).",
+      "range": {
+        "startLine": 32,
+        "startChar": 0,
+        "endLine": 35,
+        "endChar": 1
+      },
+      "revId": "f70def060015ec8ee44c779a027fe7ba03ced533",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8825fd8d_06dd17ae",
+        "filename": "src/scenes/AccessControl/styles.css",
+        "patchSetId": 2
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-12-26T17:43:40Z",
+      "side": 1,
+      "message": "Do you need to specify this?",
+      "range": {
+        "startLine": 37,
+        "startChar": 0,
+        "endLine": 40,
+        "endChar": 1
+      },
+      "revId": "f70def060015ec8ee44c779a027fe7ba03ced533",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
