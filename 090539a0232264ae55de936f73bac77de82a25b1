@@ -25,6 +25,53 @@
     },
     {
       "key": {
+        "uuid": "7ed241c1_6138374a",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-12-26T18:18:48Z",
+      "side": 1,
+      "message": "+1",
+      "parentUuid": "05e4cbac_bcaecef6",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 3
+      },
+      "revId": "090539a0232264ae55de936f73bac77de82a25b1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a90b7509_c985d588",
+        "filename": "src/components/Card/CardTitle/index.js",
+        "patchSetId": 4
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-12-26T18:18:48Z",
+      "side": 1,
+      "message": "This can be done with CSS selector: https://stackoverflow.com/questions/45128310/css-selector-for-html5-tag-contenteditable",
+      "range": {
+        "startLine": 38,
+        "startChar": 33,
+        "endLine": 38,
+        "endChar": 73
+      },
+      "revId": "090539a0232264ae55de936f73bac77de82a25b1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "4e433024_8de31947",
         "filename": "src/components/Card/CardTitle/index.js",
         "patchSetId": 4
@@ -71,6 +118,30 @@
     },
     {
       "key": {
+        "uuid": "46422e58_3e007c0f",
+        "filename": "src/components/Card/styles.css",
+        "patchSetId": 4
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-12-26T18:18:48Z",
+      "side": 1,
+      "message": "+1",
+      "parentUuid": "5738d487_40e4355a",
+      "range": {
+        "startLine": 12,
+        "startChar": 1,
+        "endLine": 12,
+        "endChar": 13
+      },
+      "revId": "090539a0232264ae55de936f73bac77de82a25b1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "0be542e0_fcc595b9",
         "filename": "src/components/Card/styles.css",
         "patchSetId": 4
@@ -105,6 +176,30 @@
       "writtenOn": "2018-12-24T17:12:18Z",
       "side": 1,
       "message": "Why define this here instead of inside /components/Card/CardBody/styles.css?\n\nSame goes to all other classes other than .card",
+      "range": {
+        "startLine": 46,
+        "startChar": 0,
+        "endLine": 46,
+        "endChar": 10
+      },
+      "revId": "090539a0232264ae55de936f73bac77de82a25b1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "acd82868_6f08c276",
+        "filename": "src/components/Card/styles.css",
+        "patchSetId": 4
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-12-26T18:18:48Z",
+      "side": 1,
+      "message": "+1",
+      "parentUuid": "11923345_a628d8f1",
       "range": {
         "startLine": 46,
         "startChar": 0,
