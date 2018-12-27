@@ -49,6 +49,30 @@
     },
     {
       "key": {
+        "uuid": "a51c548f_78b6d51f",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-12-27T11:33:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7ed241c1_6138374a",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 3
+      },
+      "revId": "090539a0232264ae55de936f73bac77de82a25b1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "a90b7509_c985d588",
         "filename": "src/components/Card/CardTitle/index.js",
         "patchSetId": 4
@@ -72,6 +96,30 @@
     },
     {
       "key": {
+        "uuid": "f9872089_31bec10c",
+        "filename": "src/components/Card/CardTitle/index.js",
+        "patchSetId": 4
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-12-27T11:33:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a90b7509_c985d588",
+      "range": {
+        "startLine": 38,
+        "startChar": 33,
+        "endLine": 38,
+        "endChar": 73
+      },
+      "revId": "090539a0232264ae55de936f73bac77de82a25b1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "4e433024_8de31947",
         "filename": "src/components/Card/CardTitle/index.js",
         "patchSetId": 4
@@ -92,6 +140,30 @@
       "revId": "090539a0232264ae55de936f73bac77de82a25b1",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d15c2781_261ad68c",
+        "filename": "src/components/Card/CardTitle/index.js",
+        "patchSetId": 4
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-12-27T11:33:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4e433024_8de31947",
+      "range": {
+        "startLine": 51,
+        "startChar": 17,
+        "endLine": 51,
+        "endChar": 25
+      },
+      "revId": "090539a0232264ae55de936f73bac77de82a25b1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     },
     {
       "key": {
@@ -142,6 +214,30 @@
     },
     {
       "key": {
+        "uuid": "7811aff0_f71d2722",
+        "filename": "src/components/Card/styles.css",
+        "patchSetId": 4
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-12-27T11:33:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "46422e58_3e007c0f",
+      "range": {
+        "startLine": 12,
+        "startChar": 1,
+        "endLine": 12,
+        "endChar": 13
+      },
+      "revId": "090539a0232264ae55de936f73bac77de82a25b1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "0be542e0_fcc595b9",
         "filename": "src/components/Card/styles.css",
         "patchSetId": 4
@@ -162,6 +258,30 @@
       "revId": "090539a0232264ae55de936f73bac77de82a25b1",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7b745e52_0542a1a3",
+        "filename": "src/components/Card/styles.css",
+        "patchSetId": 4
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-12-27T11:33:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0be542e0_fcc595b9",
+      "range": {
+        "startLine": 28,
+        "startChar": 2,
+        "endLine": 28,
+        "endChar": 13
+      },
+      "revId": "090539a0232264ae55de936f73bac77de82a25b1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     },
     {
       "key": {
@@ -209,6 +329,30 @@
       "revId": "090539a0232264ae55de936f73bac77de82a25b1",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c6589589_ead67498",
+        "filename": "src/components/Card/styles.css",
+        "patchSetId": 4
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2018-12-27T11:33:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "acd82868_6f08c276",
+      "range": {
+        "startLine": 46,
+        "startChar": 0,
+        "endLine": 46,
+        "endChar": 10
+      },
+      "revId": "090539a0232264ae55de936f73bac77de82a25b1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
