@@ -46,6 +46,30 @@
       "revId": "1997931a4fe7121ce71fe9238ac2b639e8fa6aed",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2e45693c_1096f7ed",
+        "filename": "src/scenes/AccessControl/styles.css",
+        "patchSetId": 3
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2018-12-31T15:07:45Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "f4032634_428f4b84",
+      "range": {
+        "startLine": 37,
+        "startChar": 0,
+        "endLine": 37,
+        "endChar": 24
+      },
+      "revId": "1997931a4fe7121ce71fe9238ac2b639e8fa6aed",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
