@@ -2,6 +2,120 @@
   "comments": [
     {
       "key": {
+        "uuid": "b043e553_43cd1b25",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 6
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2019-01-03T20:21:16Z",
+      "side": 1,
+      "message": "Update the commit message to reflect the changes discussed from patchset 5 to 6.",
+      "range": {
+        "startLine": 6,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 21
+      },
+      "revId": "d11b1a4a559d22a3ade59546172294af2a146289",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0dfc35c7_bfc598f2",
+        "filename": "src/components/Card/CardBody/index.js",
+        "patchSetId": 6
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2019-01-03T20:21:16Z",
+      "side": 1,
+      "message": "This should be inside Card/components/CardBody",
+      "revId": "d11b1a4a559d22a3ade59546172294af2a146289",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e0d38dd6_8b3fc244",
+        "filename": "src/components/Card/CardBody/styles.css",
+        "patchSetId": 6
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2019-01-03T20:21:16Z",
+      "side": 1,
+      "message": "This should be inside Card/components/CardBody",
+      "revId": "d11b1a4a559d22a3ade59546172294af2a146289",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5c7a98e5_dff8f47a",
+        "filename": "src/components/Card/CardHeader/index.js",
+        "patchSetId": 6
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2019-01-03T20:21:16Z",
+      "side": 1,
+      "message": "This should be inside Card/components/CardHeader",
+      "revId": "d11b1a4a559d22a3ade59546172294af2a146289",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ebca631f_6f214c4f",
+        "filename": "src/components/Card/CardHeader/styles.css",
+        "patchSetId": 6
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2019-01-03T20:21:16Z",
+      "side": 1,
+      "message": "This should be inside Card/components/CardHeader",
+      "revId": "d11b1a4a559d22a3ade59546172294af2a146289",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7477c793_06be35c8",
+        "filename": "src/components/Card/index.js",
+        "patchSetId": 6
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2019-01-03T20:21:16Z",
+      "side": 1,
+      "message": "Fix the imports based on the comments in other patches.",
+      "range": {
+        "startLine": 3,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 48
+      },
+      "revId": "d11b1a4a559d22a3ade59546172294af2a146289",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "89b9fd82_6d7ca5f7",
         "filename": "src/components/TextTitle/styles.css",
         "patchSetId": 6
