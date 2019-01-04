@@ -281,6 +281,30 @@
       "revId": "e5d6f60b419e151d6b583c3167382e4eef05be2f",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9f249de6_6e84d2f3",
+        "filename": "src/scenes/Home/components/DeviceCard/DeviceProperty/index.js",
+        "patchSetId": 11
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1013169
+      },
+      "writtenOn": "2019-01-04T20:49:35Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "1f504422_9af30dba",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 33
+      },
+      "revId": "e5d6f60b419e151d6b583c3167382e4eef05be2f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
