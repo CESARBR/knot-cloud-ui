@@ -262,6 +262,30 @@
       "revId": "d11b1a4a559d22a3ade59546172294af2a146289",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ea27fe6f_c9cecebb",
+        "filename": "src/components/TextTitle/styles.css",
+        "patchSetId": 6
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1013169
+      },
+      "writtenOn": "2019-01-04T12:02:06Z",
+      "side": 1,
+      "message": "Yes, yes... \u0027text-title\u0027*.",
+      "parentUuid": "69fbed18_e760446e",
+      "range": {
+        "startLine": 1,
+        "startChar": 1,
+        "endLine": 1,
+        "endChar": 11
+      },
+      "revId": "d11b1a4a559d22a3ade59546172294af2a146289",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
