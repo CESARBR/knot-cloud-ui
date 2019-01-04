@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4e417c86_fd67e669",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 14
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1013169
+      },
+      "writtenOn": "2019-01-04T13:06:36Z",
+      "side": 1,
+      "message": "I think this commit message doesn\u0027t add relevant information about this patch. What is the relation between navbar/buttons and avoiding url redirect? At least for me, the commit title is enough.",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 48
+      },
+      "revId": "25fc3bf48bbd2eca7dd3458558720a7ca988a901",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
