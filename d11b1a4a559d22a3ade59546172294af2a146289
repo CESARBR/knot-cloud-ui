@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "b9626481_1d1207e7",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 6
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2019-01-04T10:30:28Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b043e553_43cd1b25",
+      "range": {
+        "startLine": 6,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 21
+      },
+      "revId": "d11b1a4a559d22a3ade59546172294af2a146289",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "0dfc35c7_bfc598f2",
         "filename": "src/components/Card/CardBody/index.js",
         "patchSetId": 6
@@ -39,6 +63,24 @@
       "revId": "d11b1a4a559d22a3ade59546172294af2a146289",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4652a7c6_53eff243",
+        "filename": "src/components/Card/CardBody/index.js",
+        "patchSetId": 6
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2019-01-04T10:30:28Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0dfc35c7_bfc598f2",
+      "revId": "d11b1a4a559d22a3ade59546172294af2a146289",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     },
     {
       "key": {
@@ -76,6 +118,24 @@
     },
     {
       "key": {
+        "uuid": "b1cc1f95_19e3ceb4",
+        "filename": "src/components/Card/CardHeader/index.js",
+        "patchSetId": 6
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2019-01-04T10:30:28Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5c7a98e5_dff8f47a",
+      "revId": "d11b1a4a559d22a3ade59546172294af2a146289",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ebca631f_6f214c4f",
         "filename": "src/components/Card/CardHeader/styles.css",
         "patchSetId": 6
@@ -90,6 +150,24 @@
       "revId": "d11b1a4a559d22a3ade59546172294af2a146289",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fc9ee056_e3c1a719",
+        "filename": "src/components/Card/CardHeader/styles.css",
+        "patchSetId": 6
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2019-01-04T10:30:28Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ebca631f_6f214c4f",
+      "revId": "d11b1a4a559d22a3ade59546172294af2a146289",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     },
     {
       "key": {
@@ -116,6 +194,30 @@
     },
     {
       "key": {
+        "uuid": "0f8c35fb_12947fb4",
+        "filename": "src/components/Card/index.js",
+        "patchSetId": 6
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2019-01-04T10:30:28Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7477c793_06be35c8",
+      "range": {
+        "startLine": 3,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 48
+      },
+      "revId": "d11b1a4a559d22a3ade59546172294af2a146289",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "89b9fd82_6d7ca5f7",
         "filename": "src/components/TextTitle/styles.css",
         "patchSetId": 6
@@ -136,6 +238,30 @@
       "revId": "d11b1a4a559d22a3ade59546172294af2a146289",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "69fbed18_e760446e",
+        "filename": "src/components/TextTitle/styles.css",
+        "patchSetId": 6
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2019-01-04T10:30:28Z",
+      "side": 1,
+      "message": "text-title actually\nit can be used now by other components besides a card",
+      "parentUuid": "89b9fd82_6d7ca5f7",
+      "range": {
+        "startLine": 1,
+        "startChar": 1,
+        "endLine": 1,
+        "endChar": 11
+      },
+      "revId": "d11b1a4a559d22a3ade59546172294af2a146289",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
