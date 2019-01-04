@@ -10,6 +10,6 @@
   background-position: bottom;
   width:100%;
   min-height: 100vh;
-  overflow: hidden;
+  overflow: auto;
   overflow-x: visible;
 }
