@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "edd9122e_b13ed646",
+        "filename": "src/scenes/Home/components/AddButton/styles.css",
+        "patchSetId": 15
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1013169
+      },
+      "writtenOn": "2019-01-04T13:37:19Z",
+      "side": 1,
+      "message": "Please, investigate why this button isn\u0027t centralized. The \u0027+\u0027 is getting more close of div\u0027s bottom. I haven\u0027t any suggestion for now.",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 1,
+        "endChar": 15
+      },
+      "revId": "0e158002e1dd72541f0cbdc6dad98a6c5cbfe038",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
