@@ -22,6 +22,30 @@
       "revId": "0e158002e1dd72541f0cbdc6dad98a6c5cbfe038",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "29e8674a_bd1533f0",
+        "filename": "src/scenes/Home/components/AddButton/styles.css",
+        "patchSetId": 15
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2019-01-04T18:00:33Z",
+      "side": 1,
+      "message": "Incresead the font-size and the appearence of not being centralized changed. At the time there is not a better solution as this is the text inside the button that is being rendered like that.",
+      "parentUuid": "edd9122e_b13ed646",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 1,
+        "endChar": 15
+      },
+      "revId": "0e158002e1dd72541f0cbdc6dad98a6c5cbfe038",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
