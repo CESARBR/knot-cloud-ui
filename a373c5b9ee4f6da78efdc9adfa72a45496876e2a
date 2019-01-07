@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "48f79d3b_50d1bbda",
+        "filename": "src/components/Card/components/CardHeader/styles.css",
+        "patchSetId": 9
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2019-01-07T17:11:07Z",
+      "side": 1,
+      "message": "Keep the styles consistent either separated by comma or not (as in Card/styles.css). I think the other files do not use comma.",
+      "range": {
+        "startLine": 7,
+        "startChar": 2,
+        "endLine": 7,
+        "endChar": 46
+      },
+      "revId": "a373c5b9ee4f6da78efdc9adfa72a45496876e2a",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ce3cce83_a35d1c7a",
+        "filename": "src/components/Card/index.js",
+        "patchSetId": 9
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2019-01-07T17:11:07Z",
+      "side": 1,
+      "message": "For children components, I\u0027d rather use relative import path just like the styles import and move them below the outer components, what do you think? IMO this shortens the path and still keeps readability.\n\n\nimport TextTitle from \u0027components/TextTitle\u0027;\nimport CardHeader from \u0027./components/CardHeader\u0027;\nimport CardBody from \u0027./components/CardBody\u0027;\nimport \u0027./styles.css\u0027;",
+      "range": {
+        "startLine": 3,
+        "startChar": 0,
+        "endLine": 4,
+        "endChar": 59
+      },
+      "revId": "a373c5b9ee4f6da78efdc9adfa72a45496876e2a",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
