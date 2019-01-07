@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Redirect } from 'react-router-dom';
 import Storage from 'services/Storage';
+import Cloud from './services/Cloud';
 import Navbar from './components/Navbar';
 import AddButton from './components/AddButton';
 import CardBoard from './components/CardBoard';
@@ -12,8 +13,11 @@ const actions = ['Gateways', 'Apps', 'Sign Out'];
 class Home extends Component {
   constructor(props) {
     super(props);
-    // TODO: Create a state with a client knot-lib-websocket
+    const { uuid, token } = Storage.getCredentials();
+    const wsHostname = process.env.WS_HOSTNAME || 'localhost';
+    const wsPort = process.env.WS_PORT || 3004;
     this.state = {
+      cloud: new Cloud(wsHostname, wsPort, uuid, token),
       currentScene: 'Gateways',
       appsList: [],
       gatewaysList: [],
@@ -25,11 +29,23 @@ class Home extends Component {
   }
 
   componentDidMount() {
-    // TODO: Connect the client to cloud and initialize the lists
+    const { cloud } = this.state;
+
+    cloud.connect()
+      .then(() => {
+      // TODO: initialize lists with devices on cloud
+      })
+      .catch((err) => {
+        if (err) {
+        // TODO: Show message to user when something went wrong
+          console.error(err); // eslint-disable-line no-console
+        }
+      });
   }
 
   componentWillUnmount() {
-    // TODO: Close the client connection
+    const { cloud } = this.state;
+    cloud.close();
   }
 
   updateCurrentScene(newScene) {
@@ -46,10 +62,26 @@ class Home extends Component {
     });
   }
 
-  addDevice() {
-    const { currentScene } = this.state;
+  addDevice(e) {
+    const {
+      currentScene, cloud, gatewaysList, appsList
+    } = this.state;
+    const type = currentScene === 'Gateways' ? 'gateway' : 'app';
+    const list = currentScene === 'Gateways' ? gatewaysList : appsList;
+    const name = 'Default Name';
+    e.persist(); // For more info about this command see the following page: https://reactjs.org/docs/events.html#event-pooling
+    e.target.disabled = true;
 
-    window.alert(`Add new device on ${currentScene}`); // eslint-disable-line no-alert
+    cloud.register({ type, name })
+      .then((device) => {
+        list.push(device);
+        if (type === 'gateway') {
+          this.setState({ gatewaysList: list });
+        } else if (type === 'app') {
+          this.setState({ appsList: list });
+        }
+        e.target.disabled = false;
+      });
   }
 
   updateOnCloud(device, title, content) {
