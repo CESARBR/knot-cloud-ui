@@ -56,6 +56,20 @@ class Cloud {
       });
     });
   }
+
+  unregister(id) {
+    return new Promise((resolve, reject) => {
+      if (this.isConnected()) {
+        this.client.unregister(id);
+      } else {
+        reject(new Error('Socket closed. Unable to delete device. Refresh the page'));
+      }
+      this.client.once('unregistered', () => resolve());
+      this.client.once('error', (err) => {
+        reject(new Error(err));
+      });
+    });
+  }
 }
 
 export default Cloud;
