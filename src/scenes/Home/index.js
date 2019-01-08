@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Redirect } from 'react-router-dom';
+import Loader from 'react-loader-spinner';
 import Storage from 'services/Storage';
 import Cloud from './services/Cloud';
 import Navbar from './components/Navbar';
@@ -23,7 +24,8 @@ class Home extends Component {
       appsList: [],
       gatewaysList: [],
       redirect: false,
-      showModal: false
+      showModal: false,
+      loading: true
     };
     this.updateCurrentScene = this.updateCurrentScene.bind(this);
     this.signout = this.signout.bind(this);
@@ -35,8 +37,10 @@ class Home extends Component {
     const { cloud } = this.state;
 
     cloud.connect()
-      .then(() => {
-      // TODO: initialize lists with devices on cloud
+      .then(async () => {
+        this.setState({ gatewaysList: await cloud.getDevices({ type: 'gateway' }) });
+        this.setState({ appsList: await cloud.getDevices({ type: 'app' }) });
+        this.setState({ loading: false });
       })
       .catch((err) => {
         if (err) {
@@ -134,8 +138,19 @@ class Home extends Component {
     }
   }
 
+  showSpinner() {
+    return (
+      <div>
+        <Loader type="Oval" color="white" />
+        <span className="loading">Fetching for devices...</span>
+      </div>
+    );
+  }
+
   render() {
-    const { currentScene, redirect, showModal } = this.state;
+    const {
+      currentScene, redirect, showModal, loading
+    } = this.state;
 
     return (
       <div className="home-wrapper">
@@ -155,7 +170,8 @@ class Home extends Component {
           onCloseRequest={this.toggleModal}
           onSaveDevice={this.addDevice}
         />)}
-        {this.showCurrentScene()}
+        {!loading && this.showCurrentScene()}
+        {loading && this.showSpinner()}
         {redirect && <Redirect to="/signin" />}
       </div>
     );

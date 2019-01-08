@@ -33,6 +33,16 @@ class Cloud {
       });
     });
   }
+
+  getDevices(query) {
+    return new Promise((resolve, reject) => {
+      this.client.getDevices(query);
+      this.client.once('devices', devices => resolve(devices));
+      this.client.once('error', (err) => {
+        reject(new Error(err));
+      });
+    });
+  }
 }
 
 export default Cloud;
