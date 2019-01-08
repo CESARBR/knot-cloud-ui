@@ -104,8 +104,25 @@ class Home extends Component {
   }
 
   deleteOnCloud(uuid) {
-    // TODO: make request `unregister` to cloud
-    console.log(uuid); // eslint-disable-line no-console
+    const {
+      cloud, currentScene, gatewaysList, appsList
+    } = this.state;
+    const list = currentScene === 'Gateways' ? gatewaysList : appsList;
+
+    cloud.unregister(uuid)
+      .then(() => {
+        list.splice(list.findIndex(device => device.uuid === uuid), 1);
+        if (currentScene === 'Gateways') {
+          this.setState({ gatewaysList });
+        } else if (currentScene === 'Apps') {
+          this.setState({ appsList });
+        }
+      })
+      .catch((err) => {
+        if (err) {
+          console.error(err); // eslint-disable-line no-console
+        }
+      });
   }
 
   createSessionTokenOnCloud(device) {
