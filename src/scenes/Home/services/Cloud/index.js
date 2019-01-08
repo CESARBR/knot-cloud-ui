@@ -42,6 +42,20 @@ class Cloud {
       });
     });
   }
+
+  getDevices(query) {
+    return new Promise((resolve, reject) => {
+      if (this.isConnected()) {
+        this.client.getDevices(query);
+      } else {
+        reject(new Error('Socket closed. Unable to get devices. Refresh the page'));
+      }
+      this.client.once('devices', devices => resolve(devices));
+      this.client.once('error', (err) => {
+        reject(new Error(err));
+      });
+    });
+  }
 }
 
 export default Cloud;
