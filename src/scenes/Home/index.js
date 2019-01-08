@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Redirect } from 'react-router-dom';
+import Loader from 'react-loader-spinner';
 import Storage from 'services/Storage';
 import Cloud from './services/Cloud';
 import Navbar from './components/Navbar';
@@ -21,6 +22,7 @@ class Home extends Component {
       currentScene: 'Gateways',
       appsList: [],
       gatewaysList: [],
+      loading: true,
       redirect: false
     };
     this.updateCurrentScene = this.updateCurrentScene.bind(this);
@@ -32,8 +34,10 @@ class Home extends Component {
     const { cloud } = this.state;
 
     cloud.connect()
-      .then(() => {
-      // TODO: initialize lists with devices on cloud
+      .then(async () => {
+        this.setState({ gatewaysList: await cloud.getDevices({ type: 'gateway' }) });
+        this.setState({ appsList: await cloud.getDevices({ type: 'app' }) });
+        this.setState({ loading: false });
       })
       .catch((err) => {
         if (err) {
@@ -124,8 +128,17 @@ class Home extends Component {
     }
   }
 
+  showSpinner() {
+    return (
+      <div>
+        <Loader type="Oval" color="white" />
+        <span className="loading">Fetching for devices...</span>
+      </div>
+    );
+  }
+
   render() {
-    const { currentScene, redirect } = this.state;
+    const { currentScene, redirect, loading } = this.state;
 
     return (
       <div className="home-wrapper">
@@ -138,7 +151,8 @@ class Home extends Component {
           }}
         />
         <AddButton onClick={this.addDevice} />
-        {this.showCurrentScene()}
+        {!loading && this.showCurrentScene()}
+        {loading && this.showSpinner()}
         {redirect && <Redirect to="/signin" />}
       </div>
     );
