@@ -32,8 +32,9 @@ class Home extends Component {
     const { cloud } = this.state;
 
     cloud.connect()
-      .then(() => {
-      // TODO: initialize lists with devices on cloud
+      .then(async () => {
+        this.setState({ gatewaysList: await cloud.devices({ type: 'gateway' }) });
+        this.setState({ appsList: await cloud.devices({ type: 'app' }) });
       })
       .catch((err) => {
         if (err) {
