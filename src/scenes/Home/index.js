@@ -102,9 +102,16 @@ class Home extends Component {
     });
   }
 
-  updateOnCloud(device, title, content) {
-    // TODO: make request `updateMetada` to cloud
-    console.log(`device ${device.uuid} change property ${title} to ${content}`); // eslint-disable-line no-console
+  async updateOnCloud(device, key, value) {
+    const { cloud } = this.state;
+    const metadata = { [key]: value };
+
+    try {
+      await cloud.update(device.uuid, metadata);
+      console.log(`device ${device.uuid} property ${key} updated to ${value}`); // eslint-disable-line no-console
+    } catch (err) {
+      this.setState({ errorMessage: err.message });
+    }
   }
 
   async deleteOnCloud(uuid) {
@@ -137,7 +144,7 @@ class Home extends Component {
       <DeviceCard
         key={device.uuid}
         device={device}
-        onPropertyChange={(title, content) => this.updateOnCloud(device, title, content)}
+        onPropertyChange={(property, content) => this.updateOnCloud(device, property, content)}
         onDelete={() => this.deleteOnCloud(device.uuid)}
         onDownload={() => this.createSessionTokenOnCloud(device)}
       />

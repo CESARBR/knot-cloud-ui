@@ -70,6 +70,20 @@ class Cloud {
       });
     });
   }
+
+  update(id, metadata) {
+    return new Promise((resolve, reject) => {
+      if (this.isConnected()) {
+        this.client.updateMetadata(id, metadata);
+      } else {
+        reject(new Error('Socket closed. Unable to update device. Refresh the page'));
+      }
+      this.client.once('updated', () => resolve());
+      this.client.once('error', (err) => {
+        reject(new Error(err));
+      });
+    });
+  }
 }
 
 export default Cloud;
