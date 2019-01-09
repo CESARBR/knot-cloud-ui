@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c9e3a1c9_a36882fd",
+        "filename": "src/scenes/Home/services/Cloud/index.js",
+        "patchSetId": 7
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1013169
+      },
+      "writtenOn": "2019-01-09T13:50:59Z",
+      "side": 1,
+      "message": "I think you don\u0027t need to use wildcard imports since the \u0027knot-cloud-websocket\u0027 is exporting a default class. https://github.com/CESARBR/knot-cloud-websocket/blob/master/src/index.js\n\nYou can use whatever name in the import, e.g. `import KNoTCloudWebSocket from \u0027@cesarbr/knot-cloud-websocket\u0027;",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 1,
+        "endChar": 31
+      },
+      "revId": "d8fd9426c5a83f350d86bdd6f396c117b1069c47",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
