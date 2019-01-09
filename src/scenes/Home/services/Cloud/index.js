@@ -53,6 +53,16 @@ class Cloud {
       });
     });
   }
+
+  update(id, metadata) {
+    return new Promise((resolve, reject) => {
+      this.client.updateMetadata(id, metadata);
+      this.client.once('updated', () => resolve());
+      this.client.once('error', (err) => {
+        reject(new Error(err));
+      });
+    });
+  }
 }
 
 export default Cloud;
