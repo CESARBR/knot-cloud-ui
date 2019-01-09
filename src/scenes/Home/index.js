@@ -86,8 +86,19 @@ class Home extends Component {
   }
 
   updateOnCloud(device, title, content) {
-    // TODO: make request `updateMetada` to cloud
-    console.log(`device ${device.uuid} change property ${title} to ${content}`); // eslint-disable-line no-console
+    const { cloud } = this.state;
+    const metadata = { [title]: content };
+
+    cloud.update(device.uuid, metadata)
+      .then(() => {
+        console.log(`device ${device.uuid} property ${title} updated to ${content}`); // eslint-disable-line no-console
+      })
+      .catch((err) => {
+        if (err) {
+          // TODO: Show message to user saying that the request failed
+          console.error(err); // eslint-disable-line no-console
+        }
+      });
   }
 
   deleteOnCloud(uuid) {
