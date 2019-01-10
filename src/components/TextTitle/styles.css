@@ -9,6 +9,10 @@
   word-break: break-all;
 }
 
+.text-title-container {
+  flex: 1 1 auto;
+}
+
 .text-title[contenteditable="true"]:hover {
   background: lightgray;
   color: #212121;

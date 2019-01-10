@@ -29,6 +29,7 @@ class TextTitle extends Component {
     const { title } = this.state;
     return (
       <div
+        className="text-title-container"
         role="textbox"
         tabIndex="0"
         onKeyPress={e => this.handleKeyPress(e)}
