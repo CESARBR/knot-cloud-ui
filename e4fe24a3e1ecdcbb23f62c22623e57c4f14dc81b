@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e23e9de3_4e389452",
+        "filename": "src/scenes/Home/services/Cloud/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1013169
+      },
+      "writtenOn": "2019-01-10T21:13:38Z",
+      "side": 1,
+      "message": "I was wondering... if a user unregister devices x and y in almost the same time, there will exist two promises waiting for the \u0027unregister\u0027 message to be resolved, right? What happens if these messages arrives in a different order?\n\nI mean... \nPromise 1 is waiting for a \u0027unregistered\u0027 message related to device x removed.\nPromise 2 is waiting for a \u0027unregistered\u0027 message related to device y removed.\n\nFirst, the server send an \u0027unregistered\u0027 message for the device y. Which promise will be resolved?",
+      "revId": "e4fe24a3e1ecdcbb23f62c22623e57c4f14dc81b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
