@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6eb92523_dc556c69",
+        "filename": "src/scenes/Home/components/DeviceCard/DeviceProperty/index.js",
+        "patchSetId": 19
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2019-01-10T20:11:51Z",
+      "side": 1,
+      "message": "This should be inside DeviceCard/components/DeviceProperty/",
+      "revId": "77c10eeae8942450e4edf9cca5081ed9ad1ab580",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a19690c4_77a873c6",
+        "filename": "src/scenes/Home/components/DeviceCard/DeviceProperty/index.js",
+        "patchSetId": 19
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2019-01-10T20:11:51Z",
+      "side": 1,
+      "message": "Just to keep the import orders consistent, I think all other files have (or should have) first the external imports,then the local imports for root components and then the imports for subcomponents. What do you think? \n\nimport React, { Component } from \u0027react\u0027;\nimport PropTypes from \u0027prop-types\u0027;\nimport TextTitle from \u0027components/TextTitle\u0027;\nimport \u0027./styles.css\u0027;",
+      "revId": "77c10eeae8942450e4edf9cca5081ed9ad1ab580",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "df07e238_65ab24cd",
+        "filename": "src/scenes/Home/components/DeviceCard/DeviceProperty/styles.css",
+        "patchSetId": 19
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2019-01-10T20:11:51Z",
+      "side": 1,
+      "message": "This should be inside DeviceCard/components/DeviceProperty/",
+      "revId": "77c10eeae8942450e4edf9cca5081ed9ad1ab580",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
