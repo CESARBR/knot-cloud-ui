@@ -22,6 +22,30 @@
       "revId": "9b3041bc595d05fecae5180b567c4463f91f66a0",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "10a4d1cb_e6064961",
+        "filename": "src/scenes/Home/components/CardBoard/styles.css",
+        "patchSetId": 20
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2019-01-11T18:27:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7d2979a1_05a86ebc",
+      "range": {
+        "startLine": 2,
+        "startChar": 1,
+        "endLine": 5,
+        "endChar": 20
+      },
+      "revId": "9b3041bc595d05fecae5180b567c4463f91f66a0",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
