@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "b62a5e2b_8b38833f",
+        "filename": "src/scenes/Home/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2019-01-11T13:49:20Z",
+      "side": 1,
+      "message": "The variable e is a SyntheticEvent and as described here: https://reactjs.org/docs/events.html#event-pooling\n\nIt is nullified to performance reasons after you use.\nBut in my researchs we can use e.persist() and we can use the way you said.\nI\u0027m gonna use it now",
+      "parentUuid": "90ffd306_11ddee77",
+      "range": {
+        "startLine": 76,
+        "startChar": 4,
+        "endLine": 77,
+        "endChar": 27
+      },
+      "revId": "c55739eb59f8777b9ba87b5d9f296d3496f62d55",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "dc415ac1_7a7bdd3d",
         "filename": "src/scenes/Home/index.js",
         "patchSetId": 1
@@ -45,6 +69,30 @@
       "revId": "c55739eb59f8777b9ba87b5d9f296d3496f62d55",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d568e7e7_12f033cd",
+        "filename": "src/scenes/Home/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2019-01-11T13:49:20Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "dc415ac1_7a7bdd3d",
+      "range": {
+        "startLine": 81,
+        "startChar": 0,
+        "endLine": 81,
+        "endChar": 26
+      },
+      "revId": "c55739eb59f8777b9ba87b5d9f296d3496f62d55",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
