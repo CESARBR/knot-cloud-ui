@@ -16,6 +16,24 @@
       "revId": "e4fe24a3e1ecdcbb23f62c22623e57c4f14dc81b",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0aa20391_8bf312d5",
+        "filename": "src/scenes/Home/services/Cloud/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2019-01-11T18:02:55Z",
+      "side": 1,
+      "message": "Good question but i didn\u0027t test it yet.\nFor now I believe we can do the request in this way. But we do need to investigate it.",
+      "parentUuid": "e23e9de3_4e389452",
+      "revId": "e4fe24a3e1ecdcbb23f62c22623e57c4f14dc81b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
     }
   ]
 }
