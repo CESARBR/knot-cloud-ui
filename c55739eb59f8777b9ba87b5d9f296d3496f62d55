@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "90ffd306_11ddee77",
+        "filename": "src/scenes/Home/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1013169
+      },
+      "writtenOn": "2019-01-11T11:41:40Z",
+      "side": 1,
+      "message": "Why not `e.target.button.disabled \u003d true`?",
+      "range": {
+        "startLine": 76,
+        "startChar": 4,
+        "endLine": 77,
+        "endChar": 27
+      },
+      "revId": "c55739eb59f8777b9ba87b5d9f296d3496f62d55",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "dc415ac1_7a7bdd3d",
+        "filename": "src/scenes/Home/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 1013169
+      },
+      "writtenOn": "2019-01-11T11:41:40Z",
+      "side": 1,
+      "message": "You are pushing in the `list` array but is updating the state with `gatewaysList` or `appsList`. I know that `list` creates a reference to the original array, but IMO you should set the state with the `list` itself to make the code more readable.",
+      "range": {
+        "startLine": 81,
+        "startChar": 0,
+        "endLine": 81,
+        "endChar": 26
+      },
+      "revId": "c55739eb59f8777b9ba87b5d9f296d3496f62d55",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
