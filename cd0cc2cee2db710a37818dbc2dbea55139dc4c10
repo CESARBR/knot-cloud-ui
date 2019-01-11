@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "98f75ab4_080037b4",
+        "filename": "src/scenes/Home/index.js",
+        "patchSetId": 3
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2019-01-11T19:37:17Z",
+      "side": 1,
+      "message": "Extract this from the class, like actions.",
+      "range": {
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 18,
+        "endChar": 47
+      },
+      "revId": "cd0cc2cee2db710a37818dbc2dbea55139dc4c10",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bbc3813b_f45eaab5",
+        "filename": "src/scenes/Home/index.js",
+        "patchSetId": 3
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2019-01-11T19:37:17Z",
+      "side": 1,
+      "message": "IMO there is no need to have this comment here. If you search for \"event persist react\" the first page that shows up is https://reactjs.org/docs/events.html.\nI understand that this reference was important to our discussion before the approval, however once we agree that this is OK, if someone wants more info about the usage, she/he can search it.",
+      "revId": "cd0cc2cee2db710a37818dbc2dbea55139dc4c10",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
