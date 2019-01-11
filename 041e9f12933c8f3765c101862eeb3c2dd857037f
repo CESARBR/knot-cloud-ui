@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "7056495d_68f96f69",
+        "filename": "src/scenes/Home/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2019-01-11T13:48:51Z",
+      "side": 1,
+      "message": "No I can\u0027t. Because I will have to access metadata like this way: metadata.title\nBut what I really want to do is: I have a title that is a string, for example \u0027online\u0027, and I want access metadata.online based on this string",
+      "parentUuid": "cb814aa2_0817f888",
+      "range": {
+        "startLine": 94,
+        "startChar": 21,
+        "endLine": 95,
+        "endChar": 30
+      },
+      "revId": "041e9f12933c8f3765c101862eeb3c2dd857037f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "555f64da_3476af18",
         "filename": "src/scenes/Home/index.js",
         "patchSetId": 1
@@ -45,6 +69,30 @@
       "revId": "041e9f12933c8f3765c101862eeb3c2dd857037f",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b3aeeda1_f0d8e6aa",
+        "filename": "src/scenes/Home/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2019-01-11T13:48:51Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "555f64da_3476af18",
+      "range": {
+        "startLine": 98,
+        "startChar": 43,
+        "endLine": 98,
+        "endChar": 49
+      },
+      "revId": "041e9f12933c8f3765c101862eeb3c2dd857037f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
