@@ -39,6 +39,24 @@
       "revId": "cd0cc2cee2db710a37818dbc2dbea55139dc4c10",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "edff0267_01b09aca",
+        "filename": "src/scenes/Home/index.js",
+        "patchSetId": 3
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1013169
+      },
+      "writtenOn": "2019-01-14T20:51:03Z",
+      "side": 1,
+      "message": "+1",
+      "parentUuid": "bbc3813b_f45eaab5",
+      "revId": "cd0cc2cee2db710a37818dbc2dbea55139dc4c10",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
     }
   ]
 }
