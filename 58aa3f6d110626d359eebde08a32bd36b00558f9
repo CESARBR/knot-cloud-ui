@@ -16,6 +16,24 @@
       "revId": "58aa3f6d110626d359eebde08a32bd36b00558f9",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c366c94d_5668a61a",
+        "filename": "src/components/TextTitle/styles.css",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2019-01-14T13:37:40Z",
+      "side": 1,
+      "message": "just the div is a flex item. The h1 inside the is not",
+      "parentUuid": "cb912a3a_f8e2568a",
+      "revId": "58aa3f6d110626d359eebde08a32bd36b00558f9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
     }
   ]
 }
