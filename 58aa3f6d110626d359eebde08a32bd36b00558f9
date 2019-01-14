@@ -34,6 +34,24 @@
       "revId": "58aa3f6d110626d359eebde08a32bd36b00558f9",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "746161f9_b9956542",
+        "filename": "src/components/TextTitle/styles.css",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2019-01-14T14:38:40Z",
+      "side": 1,
+      "message": "Understood. \nFrom what I read here: https://css-tricks.com/snippets/css/a-guide-to-flexbox/\nIt\u0027s better to use the shorthand \u0027flex\u0027 to define flex-grow, flex-shrink and flex-basis in an one-liner.",
+      "parentUuid": "c366c94d_5668a61a",
+      "revId": "58aa3f6d110626d359eebde08a32bd36b00558f9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
     }
   ]
 }
