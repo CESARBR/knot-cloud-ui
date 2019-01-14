@@ -63,6 +63,16 @@ class Cloud {
       });
     });
   }
+
+  createSessionToken(id) {
+    return new Promise((resolve, reject) => {
+      this.client.createSessionToken(id);
+      this.client.once('created', token => resolve(token));
+      this.client.once('error', (err) => {
+        reject(new Error(err));
+      });
+    });
+  }
 }
 
 export default Cloud;
