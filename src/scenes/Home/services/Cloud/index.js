@@ -98,6 +98,20 @@ class Cloud {
       });
     });
   }
+
+  createSessionToken(id) {
+    return new Promise((resolve, reject) => {
+      if (this.isConnected()) {
+        this.client.createSessionToken(id);
+      } else {
+        reject(new Error('Socket closed. Unable to create token device. Refresh the page'));
+      }
+      this.client.once('created', token => resolve(token));
+      this.client.once('error', (err) => {
+        reject(new Error(err));
+      });
+    });
+  }
 }
 
 export default Cloud;

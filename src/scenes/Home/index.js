@@ -143,9 +143,13 @@ class Home extends Component {
   }
 
   async createSessionTokenOnCloud(device) {
-    // TODO: make request `createSessionToken` to cloud
-    device.token = 'new token';
-    return device; // This return is required as a device where should have the new session token
+    const { cloud } = this.state;
+    try {
+      device.token = await cloud.createSessionToken(device.uuid);
+    } catch (err) {
+      this.setState({ errorMessage: err.message });
+    }
+    return device;
   }
 
   showCards(list) {
