@@ -77,7 +77,20 @@ class DeviceCard extends Component {
         id={`download-${device.uuid}`}
         href="/"
         onClick={(e) => {
-          e.target.parentNode.setAttribute('href', `data:text/json;charset=utf-8,${encodeURIComponent(JSON.stringify(onDownload(), null, 2))}`);
+          e.preventDefault(); // statement need to avoid download an HTML default
+          e.persist(); // statement need to access e.target.parentNode
+          onDownload()
+            .then((dev) => {
+              const anchor = e.target.parentNode;
+              if (dev.metadata.name) {
+                anchor.download = `${dev.metadata.name}.json`;
+              }
+              anchor.setAttribute('href', `data:text/json;charset=utf-8,${encodeURIComponent(JSON.stringify(dev, null, 2))}`);
+              anchor.onclick = (event) => {
+                event.stopPropagation(); // Remove the preventDefault
+              };
+              anchor.click(); // Force a click with the new href
+            });
         }}
         onBlur={e => e.target.setAttribute('href', '/')}
         download="card.json"

@@ -123,10 +123,15 @@ class Home extends Component {
       });
   }
 
-  createSessionTokenOnCloud(device) {
-    // TODO: make request `createSessionToken` to cloud
-    device.token = 'new token';
-    return device; // This return is required as a device where should have the new session token
+  async createSessionTokenOnCloud(device) {
+    const { cloud } = this.state;
+    try {
+      device.token = await cloud.createSessionToken(device.uuid);
+    } catch (error) {
+      // TODO: Show message to user saying that the request failed
+      console.error(error); // eslint-disable-line no-console
+    }
+    return device;
   }
 
   showCards(list) {
