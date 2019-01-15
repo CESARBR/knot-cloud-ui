@@ -3,6 +3,7 @@ import { Redirect } from 'react-router-dom';
 import Storage from 'services/Storage';
 import Navbar from './components/Navbar';
 import AddButton from './components/AddButton';
+import Modal from './components/Modal';
 import './styles.css';
 
 const actions = ['Gateways', 'Apps', 'Sign Out'];
@@ -12,11 +13,13 @@ class Home extends Component {
     super(props);
     this.state = {
       currentScene: 'Gateways',
-      redirect: false
+      redirect: false,
+      showModal: false
     };
     this.updateCurrentScene = this.updateCurrentScene.bind(this);
     this.signout = this.signout.bind(this);
     this.addDevice = this.addDevice.bind(this);
+    this.toggleModal = this.toggleModal.bind(this);
   }
 
   updateCurrentScene(newScene) {
@@ -33,12 +36,6 @@ class Home extends Component {
     });
   }
 
-  addDevice() {
-    const { currentScene } = this.state;
-
-    window.alert(`Add new device on ${currentScene}`); // eslint-disable-line no-alert
-  }
-
   showCurrentScene() {
     const { currentScene } = this.state;
 
@@ -51,8 +48,24 @@ class Home extends Component {
     }
   }
 
+  toggleModal() {
+    const { showModal } = this.state;
+    this.setState({
+      showModal: !showModal
+    });
+  }
+
+  addDevice(newDeviceName) {
+    // TODO:
+    // Request to 'register' endpoint
+    // Close modal on success and show ErrorMessage on error
+
+    window.alert(`${newDeviceName} added`); // eslint-disable-line no-alert
+    this.toggleModal();
+  }
+
   render() {
-    const { currentScene, redirect } = this.state;
+    const { currentScene, redirect, showModal } = this.state;
 
     return (
       <div className="home-wrapper">
@@ -64,7 +77,14 @@ class Home extends Component {
             else this.updateCurrentScene(action);
           }}
         />
-        <AddButton onClick={this.addDevice} />
+        <AddButton onClick={this.toggleModal} />
+        {showModal
+        && (
+        <Modal
+          currentScene={currentScene}
+          onCloseRequest={this.toggleModal}
+          onSaveDevice={this.addDevice}
+        />)}
         {this.showCurrentScene()}
         {redirect && <Redirect to="/signin" />}
       </div>
