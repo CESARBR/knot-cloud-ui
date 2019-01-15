@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d97a27bd_84f4f45b",
+        "filename": "src/components/TextTitle/index.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1013169
+      },
+      "writtenOn": "2019-01-15T11:14:57Z",
+      "side": 1,
+      "message": "About the className, wouldn\u0027t be clearer \u0027text-title-box\u0027 here and \u0027text-title-head\u0027 in the h1 element? Thus, avoiding to use `div.text-title` in the CSS.",
+      "range": {
+        "startLine": 32,
+        "startChar": 19,
+        "endLine": 32,
+        "endChar": 29
+      },
+      "revId": "21a4b96ba590e1950784a49ba2619a28cbfc18d9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
