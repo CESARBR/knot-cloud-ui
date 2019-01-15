@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "1c540df9_b8678ce9",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2019-01-15T19:42:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8bb28e7e_eda22721",
+      "range": {
+        "startLine": 9,
+        "startChar": 15,
+        "endLine": 9,
+        "endChar": 18
+      },
+      "revId": "586d9990db0f1deba1978fc9fa57f8da25d69656",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "c3c9fa21_e4db7bb0",
         "filename": "src/scenes/Home/components/DeviceCard/index.js",
         "patchSetId": 1
@@ -71,6 +95,54 @@
     },
     {
       "key": {
+        "uuid": "b04756b3_d057b7bf",
+        "filename": "src/scenes/Home/components/DeviceCard/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2019-01-15T19:42:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "92dc2a9b_8cc0fab3",
+      "range": {
+        "startLine": 80,
+        "startChar": 69,
+        "endLine": 80,
+        "endChar": 81
+      },
+      "revId": "586d9990db0f1deba1978fc9fa57f8da25d69656",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0b4a4eb7_0d0201da",
+        "filename": "src/scenes/Home/components/DeviceCard/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2019-01-15T19:42:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c3c9fa21_e4db7bb0",
+      "range": {
+        "startLine": 80,
+        "startChar": 33,
+        "endLine": 80,
+        "endChar": 47
+      },
+      "revId": "586d9990db0f1deba1978fc9fa57f8da25d69656",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "dfcdcbc6_bc7b6d8b",
         "filename": "src/scenes/Home/components/DeviceCard/index.js",
         "patchSetId": 1
@@ -94,6 +166,30 @@
     },
     {
       "key": {
+        "uuid": "1a91367c_a3f1932d",
+        "filename": "src/scenes/Home/components/DeviceCard/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2019-01-15T19:42:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "dfcdcbc6_bc7b6d8b",
+      "range": {
+        "startLine": 81,
+        "startChar": 26,
+        "endLine": 81,
+        "endChar": 40
+      },
+      "revId": "586d9990db0f1deba1978fc9fa57f8da25d69656",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "b8147ee2_78343065",
         "filename": "src/scenes/Home/components/DeviceCard/index.js",
         "patchSetId": 1
@@ -114,6 +210,30 @@
       "revId": "586d9990db0f1deba1978fc9fa57f8da25d69656",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fa0ea2ae_a622507d",
+        "filename": "src/scenes/Home/components/DeviceCard/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2019-01-15T19:42:01Z",
+      "side": 1,
+      "message": "device is already defined",
+      "parentUuid": "b8147ee2_78343065",
+      "range": {
+        "startLine": 83,
+        "startChar": 19,
+        "endLine": 83,
+        "endChar": 22
+      },
+      "revId": "586d9990db0f1deba1978fc9fa57f8da25d69656",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
