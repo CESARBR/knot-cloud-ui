@@ -52,6 +52,24 @@
       "revId": "58aa3f6d110626d359eebde08a32bd36b00558f9",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8b77ef6e_140288e3",
+        "filename": "src/components/TextTitle/styles.css",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2019-01-15T19:41:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "746161f9_b9956542",
+      "revId": "58aa3f6d110626d359eebde08a32bd36b00558f9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
