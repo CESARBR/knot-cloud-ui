@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "2f9a64ed_f905ebd7",
+        "filename": "src/components/Modal/styles.css",
+        "patchSetId": 7
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1013169
+      },
+      "writtenOn": "2019-01-16T13:54:26Z",
+      "side": 1,
+      "message": "Paulo, did you see this comment?",
+      "parentUuid": "ede04c7d_02c2a033",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 4,
+        "endChar": 1
+      },
+      "revId": "19dbc9aa3a55f78b6a02696824cf4760b465af6e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "4e6e978d_8caa74e9",
         "filename": "src/components/Modal/styles.css",
         "patchSetId": 7
@@ -36,6 +60,30 @@
       "writtenOn": "2018-12-11T18:51:46Z",
       "side": 1,
       "message": "draw it like the dialogs in the spec: smaller than the navbar (it could fit the content), white background and a black title bar.",
+      "range": {
+        "startLine": 25,
+        "startChar": 0,
+        "endLine": 29,
+        "endChar": 1
+      },
+      "revId": "19dbc9aa3a55f78b6a02696824cf4760b465af6e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "760839e0_b4d8f6ad",
+        "filename": "src/components/Modal/styles.css",
+        "patchSetId": 7
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1013169
+      },
+      "writtenOn": "2019-01-16T13:54:26Z",
+      "side": 1,
+      "message": "Here too.",
+      "parentUuid": "4e6e978d_8caa74e9",
       "range": {
         "startLine": 25,
         "startChar": 0,
