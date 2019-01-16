@@ -46,6 +46,30 @@
       "revId": "21a4b96ba590e1950784a49ba2619a28cbfc18d9",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b7988cdd_27929266",
+        "filename": "src/components/TextTitle/index.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1013169
+      },
+      "writtenOn": "2019-01-16T16:40:54Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "2e6ac0e1_fc4c26bb",
+      "range": {
+        "startLine": 32,
+        "startChar": 19,
+        "endLine": 32,
+        "endChar": 29
+      },
+      "revId": "21a4b96ba590e1950784a49ba2619a28cbfc18d9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
