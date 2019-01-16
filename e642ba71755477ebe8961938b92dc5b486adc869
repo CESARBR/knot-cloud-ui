@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "bdbf0bde_ffd0bdd2",
+        "filename": "src/components/Modal/index.js",
+        "patchSetId": 8
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2019-01-16T19:47:57Z",
+      "side": 1,
+      "message": "Actually this file is legacy. Since the Modal will not be (for now) a generic component, it will be only inside /Home/components.",
+      "parentUuid": "cacb0b28_54127d62",
+      "range": {
+        "startLine": 25,
+        "startChar": 4,
+        "endLine": 33,
+        "endChar": 47
+      },
+      "revId": "e642ba71755477ebe8961938b92dc5b486adc869",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "0ec3ee65_4b49a5c4",
         "filename": "src/scenes/Home/components/Modal/components/CloseButton/index.js",
         "patchSetId": 8
@@ -77,6 +101,30 @@
       "side": 1,
       "message": "... or even an if/elseif statement since there are just two cases.",
       "parentUuid": "93c48812_9bc73403",
+      "range": {
+        "startLine": 32,
+        "startChar": 4,
+        "endLine": 45,
+        "endChar": 47
+      },
+      "revId": "e642ba71755477ebe8961938b92dc5b486adc869",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "baa7f41e_4af569af",
+        "filename": "src/scenes/Home/components/Modal/index.js",
+        "patchSetId": 8
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2019-01-16T19:47:57Z",
+      "side": 1,
+      "message": "Having a direct reference map is faster than if-else. But I agree with Joao, since there are only two comparisons, I think the if-elseif is better.",
+      "parentUuid": "a4f6e7b4_6651b318",
       "range": {
         "startLine": 32,
         "startChar": 4,

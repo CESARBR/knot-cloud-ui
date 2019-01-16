@@ -49,6 +49,30 @@
     },
     {
       "key": {
+        "uuid": "f90360fd_e4985ace",
+        "filename": "src/components/Modal/styles.css",
+        "patchSetId": 7
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2019-01-16T19:47:57Z",
+      "side": 1,
+      "message": "Actually this file is legacy. Since the Modal will not be (for now) a generic component, it will be only inside /Home/components.\nBut to answer it, as far as I\u0027ve tested, it will not affect the behavior for other scenes.",
+      "parentUuid": "2f9a64ed_f905ebd7",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 4,
+        "endChar": 1
+      },
+      "revId": "19dbc9aa3a55f78b6a02696824cf4760b465af6e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "4e6e978d_8caa74e9",
         "filename": "src/components/Modal/styles.css",
         "patchSetId": 7
@@ -93,6 +117,30 @@
       "revId": "19dbc9aa3a55f78b6a02696824cf4760b465af6e",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ea885f55_3ae00343",
+        "filename": "src/components/Modal/styles.css",
+        "patchSetId": 7
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2019-01-16T19:47:57Z",
+      "side": 1,
+      "message": "Same as before.",
+      "parentUuid": "760839e0_b4d8f6ad",
+      "range": {
+        "startLine": 25,
+        "startChar": 0,
+        "endLine": 29,
+        "endChar": 1
+      },
+      "revId": "19dbc9aa3a55f78b6a02696824cf4760b465af6e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
