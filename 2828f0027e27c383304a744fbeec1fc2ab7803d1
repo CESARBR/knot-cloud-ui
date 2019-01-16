@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "9471690c_d89c604a",
+        "filename": "src/scenes/Home/index.js",
+        "patchSetId": 5
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2019-01-16T22:14:34Z",
+      "side": 1,
+      "message": "Add some sort of visual feedback indicating the fetch is ongoing.",
+      "revId": "2828f0027e27c383304a744fbeec1fc2ab7803d1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "18fa7c19_b6852cba",
         "filename": "src/scenes/Home/services/Cloud/index.js",
         "patchSetId": 5
