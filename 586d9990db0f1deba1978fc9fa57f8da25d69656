@@ -234,6 +234,30 @@
       "revId": "586d9990db0f1deba1978fc9fa57f8da25d69656",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fd40b9a2_361907a2",
+        "filename": "src/scenes/Home/components/DeviceCard/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 1013169
+      },
+      "writtenOn": "2019-01-16T17:04:44Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "fa0ea2ae_a622507d",
+      "range": {
+        "startLine": 83,
+        "startChar": 19,
+        "endLine": 83,
+        "endChar": 22
+      },
+      "revId": "586d9990db0f1deba1978fc9fa57f8da25d69656",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
