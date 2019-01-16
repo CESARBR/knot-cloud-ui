@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "cacb0b28_54127d62",
+        "filename": "src/components/Modal/index.js",
+        "patchSetId": 8
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2019-01-16T13:28:18Z",
+      "side": 1,
+      "message": "Why didn\u0027t you use the code bellow?\nif (e.keyCode \u003d\u003d\u003d 27) {\n   e.preventDefault();\n   onCloseRequest();\n   window.removeEventListener(\u0027keyup\u0027, this.handleKeyUp, false);\n}",
+      "range": {
+        "startLine": 25,
+        "startChar": 4,
+        "endLine": 33,
+        "endChar": 47
+      },
+      "revId": "e642ba71755477ebe8961938b92dc5b486adc869",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0ec3ee65_4b49a5c4",
+        "filename": "src/scenes/Home/components/Modal/components/CloseButton/index.js",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2019-01-16T13:28:18Z",
+      "side": 1,
+      "message": "This component are being used in the same way in the Modal component. Maybe we can put it outside the scene. Unless the buttons have two different styles",
+      "revId": "e642ba71755477ebe8961938b92dc5b486adc869",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "93c48812_9bc73403",
+        "filename": "src/scenes/Home/components/Modal/index.js",
+        "patchSetId": 8
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2019-01-16T13:28:18Z",
+      "side": 1,
+      "message": "Same what I said in another comment. But here we can use a switch",
+      "range": {
+        "startLine": 32,
+        "startChar": 4,
+        "endLine": 45,
+        "endChar": 47
+      },
+      "revId": "e642ba71755477ebe8961938b92dc5b486adc869",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
