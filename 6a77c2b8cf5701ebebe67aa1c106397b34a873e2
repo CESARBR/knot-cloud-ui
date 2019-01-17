@@ -46,6 +46,30 @@
       "revId": "6a77c2b8cf5701ebebe67aa1c106397b34a873e2",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "40b232b9_356cdb97",
+        "filename": "src/scenes/Home/index.js",
+        "patchSetId": 4
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2019-01-17T21:52:36Z",
+      "side": 1,
+      "message": "Couldn\u0027t finally be used for that? \nhttps://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/finally\n\nOr just use async on every function, as we\u0027ve being doing as a rule of thumb. Except, perhaps on componentDidMount as it is a native function and I\u0027m not sure if it\u0027s common to have it as an async.",
+      "parentUuid": "86e36009_d4971479",
+      "range": {
+        "startLine": 139,
+        "startChar": 2,
+        "endLine": 139,
+        "endChar": 7
+      },
+      "revId": "6a77c2b8cf5701ebebe67aa1c106397b34a873e2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
     }
   ]
 }
