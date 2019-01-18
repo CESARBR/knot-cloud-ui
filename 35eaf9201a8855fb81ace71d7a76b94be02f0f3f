@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bbd83b62_0cc3e02c",
+        "filename": "src/scenes/Home/index.js",
+        "patchSetId": 9
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2019-01-18T20:59:59Z",
+      "side": 1,
+      "message": "Change this in the patch where you create the function placeholder.",
+      "range": {
+        "startLine": 105,
+        "startChar": 30,
+        "endLine": 105,
+        "endChar": 40
+      },
+      "revId": "35eaf9201a8855fb81ace71d7a76b94be02f0f3f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bbb27e92_664b71d9",
+        "filename": "src/scenes/Home/index.js",
+        "patchSetId": 9
+      },
+      "lineNbr": 147,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2019-01-18T20:59:59Z",
+      "side": 1,
+      "message": "Change this in the patch where you create the function placeholder.",
+      "range": {
+        "startLine": 147,
+        "startChar": 27,
+        "endLine": 147,
+        "endChar": 35
+      },
+      "revId": "35eaf9201a8855fb81ace71d7a76b94be02f0f3f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
