@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ce9bfc3a_6a07a7be",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 16
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1013169
+      },
+      "writtenOn": "2019-01-18T18:17:27Z",
+      "side": 1,
+      "message": "Even if there are registered devices this patch still aims to put placeholders cards to be used in the future, so there isn\u0027t a cause/effect relation between the sentences. In addition, I think if the commit message doesn\u0027t add relevant information, it won\u0027t be needed. The message just makes sense if show detailed information about the CardBoard rendering in the Home scene.",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 52
+      },
+      "revId": "319a0ea9a4bd82187a95765f67a86911864b145a",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
