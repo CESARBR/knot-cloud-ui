@@ -84,6 +84,24 @@
     },
     {
       "key": {
+        "uuid": "fef3c6d8_90171747",
+        "filename": "src/scenes/Home/components/Modal/components/CloseButton/index.js",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1013169
+      },
+      "writtenOn": "2019-01-18T21:03:04Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "53e93100_3fe0c01f",
+      "revId": "e642ba71755477ebe8961938b92dc5b486adc869",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "93c48812_9bc73403",
         "filename": "src/scenes/Home/components/Modal/index.js",
         "patchSetId": 8
