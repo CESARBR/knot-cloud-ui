@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "cf3a2874_752c2e00",
+        "filename": "src/scenes/Home/components/DeviceCard/index.js",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2019-01-21T11:31:51Z",
+      "side": 1,
+      "message": "After I downloaded the credential (in the same session) it returns an HTML for the page, not the expected JSON. Checked in the protocol adapter and no \u0027token\u0027 requests are made.\nAlso, IMO, the file name should not contain spaces. If the device name contains, we could either trim or replace with underscore.",
+      "revId": "a47a9af9d8842d4a1392bcba7ff62b9a1842cd35",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
