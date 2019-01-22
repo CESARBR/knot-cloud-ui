@@ -40,8 +40,6 @@ class Signin extends Component {
       })
       .catch((error) => {
         this.setState({ errorMessage: error.message });
-      })
-      .finally(() => {
         this.setState({ loading: false });
       });
   }
