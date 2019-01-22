@@ -39,10 +39,10 @@ class Signup extends Component {
           this.setState({ redirect: true });
         })
         .catch((error) => {
-          this.setState({ errorMessage: error.message });
-        })
-        .finally(() => {
-          this.setState({ loading: false });
+          this.setState({
+            errorMessage: error.message,
+            loading: false
+          });
         });
     }
   }

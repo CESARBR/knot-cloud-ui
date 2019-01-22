@@ -37,11 +37,9 @@ class Reset extends Component {
         })
         .catch((error) => {
           this.setState({
-            errorMessage: error.message
+            errorMessage: error.message,
+            loading: false
           });
-        })
-        .finally(() => {
-          this.setState({ loading: false });
         });
     }
 
