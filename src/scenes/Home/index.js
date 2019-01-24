@@ -12,15 +12,15 @@ import Modal from './components/Modal';
 import './styles.css';
 
 const actions = ['Gateways', 'Apps', 'Sign Out'];
-const { uuid: userUuid, token: userToken } = Storage.getCredentials();
 const wsHostname = process.env.WS_HOSTNAME || 'localhost';
 const wsPort = process.env.WS_PORT || 3004;
 
 class Home extends Component {
   constructor(props) {
+    const { uuid, token } = Storage.getCredentials();
     super(props);
     this.state = {
-      cloud: new Cloud(wsHostname, wsPort, userUuid, userToken),
+      cloud: new Cloud(wsHostname, wsPort, uuid, token),
       currentScene: 'Gateways',
       appsList: [],
       gatewaysList: [],
