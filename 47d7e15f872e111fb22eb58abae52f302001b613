@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "88867543_3d78098e",
+        "filename": "src/scenes/AccessControl/Reset/index.js",
+        "patchSetId": 3
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2019-01-28T14:23:49Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ada0914a_784933cd",
+      "range": {
+        "startLine": 39,
+        "startChar": 9,
+        "endLine": 42,
+        "endChar": 44
+      },
+      "revId": "47d7e15f872e111fb22eb58abae52f302001b613",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "51708618_68b09ea9",
         "filename": "src/scenes/AccessControl/Sign/Login/index.js",
         "patchSetId": 3
@@ -42,6 +66,24 @@
     },
     {
       "key": {
+        "uuid": "b76baaa3_2ca3ea83",
+        "filename": "src/scenes/AccessControl/Sign/Login/index.js",
+        "patchSetId": 3
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2019-01-28T14:23:49Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "51708618_68b09ea9",
+      "revId": "47d7e15f872e111fb22eb58abae52f302001b613",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "59c22e30_1a422e2b",
         "filename": "src/scenes/AccessControl/Sign/Register/index.js",
         "patchSetId": 3
@@ -56,6 +98,24 @@
       "revId": "47d7e15f872e111fb22eb58abae52f302001b613",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9cacee6c_f85a97a6",
+        "filename": "src/scenes/AccessControl/Sign/Register/index.js",
+        "patchSetId": 3
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2019-01-28T14:23:49Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "59c22e30_1a422e2b",
+      "revId": "47d7e15f872e111fb22eb58abae52f302001b613",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
