@@ -1,0 +1,61 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ada0914a_784933cd",
+        "filename": "src/scenes/AccessControl/Reset/index.js",
+        "patchSetId": 3
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2019-01-28T14:19:11Z",
+      "side": 1,
+      "message": "You can do this in a single setState.",
+      "range": {
+        "startLine": 39,
+        "startChar": 9,
+        "endLine": 42,
+        "endChar": 44
+      },
+      "revId": "47d7e15f872e111fb22eb58abae52f302001b613",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "51708618_68b09ea9",
+        "filename": "src/scenes/AccessControl/Sign/Login/index.js",
+        "patchSetId": 3
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2019-01-28T14:19:11Z",
+      "side": 1,
+      "message": "same",
+      "revId": "47d7e15f872e111fb22eb58abae52f302001b613",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "59c22e30_1a422e2b",
+        "filename": "src/scenes/AccessControl/Sign/Register/index.js",
+        "patchSetId": 3
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1015148
+      },
+      "writtenOn": "2019-01-28T14:19:11Z",
+      "side": 1,
+      "message": "same",
+      "revId": "47d7e15f872e111fb22eb58abae52f302001b613",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
