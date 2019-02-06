@@ -13,6 +13,8 @@ Configuration is made via environment variables. The configuration parameters ar
 * `PORT` **Number** Server port number. (Default: 80|3000)
 * `API_HOSTNAME` **String** API service hostname. (Default: **localhost**)
 * `API_PORT` **Number** API service port. (Default: 3003)
+* `WS_HOSTNAME` **String** WebSocket adapter hostname. (Default: **localhost**)
+* `WS_PORT` **Number** WebSocket adapter port. (Default: 3004)
 
 ### Build and run (local)
 
