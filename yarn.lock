@@ -867,10 +867,10 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
-"@cesarbr/knot-cloud-websocket@^0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@cesarbr/knot-cloud-websocket/-/knot-cloud-websocket-0.2.0.tgz#d6e1ba4257f5bd880542cc643056b38cb7632723"
-  integrity sha512-IYg0gkPUJ+sPOPoApwmiO44R2tg4Fkb8iO3RN6nkyN+A3bpo9SlNhkkEnNHrkwhWv5/+wWw74lwbFFfsesovyQ==
+"@cesarbr/knot-cloud-websocket@^0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@cesarbr/knot-cloud-websocket/-/knot-cloud-websocket-0.4.1.tgz#3d10089645712f67975bb4afe1fce486a24048f9"
+  integrity sha512-2e+6gsjbwgEtI1SW0dPtFB4U7laYWDFqGZ2jSWi/UbXHMtC4xJ+23d4ZmG2hJY0f2293xnK0xziyZcEyuvyLAg==
   dependencies:
     eventemitter3 "^3.1.0"
     isomorphic-ws "^4.0.1"
@@ -2511,9 +2511,9 @@ core-js@2.5.7:
   integrity sha512-RszJCAxg/PP6uzXVXL6BsxSXx/B05oJAQ2vkJRjyjrEcNVycaqOmNb5OTxZPE3xa5gwZduqza6L9JOCenh/Ecw==
 
 core-js@^2.4.0, core-js@^2.5.0:
-  version "2.6.3"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.3.tgz#4b70938bdffdaf64931e66e2db158f0892289c49"
-  integrity sha512-l00tmFFZOBHtYhN4Cz7k32VM7vTn3rE2ANjQDxdEN6zmXZ/xq1jQuutnmHvMG1ZJ7xd72+TA5YpUK8wz3rWsfQ==
+  version "2.6.4"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.4.tgz#b8897c062c4d769dd30a0ac5c73976c47f92ea0d"
+  integrity sha512-05qQ5hXShcqGkPZpXEFLIpxayZscVD2kuMBZewxiIPPEagukO4mqgPA9CWhUvFBJfy3ODdK2p9xyHh7FTU9/7A==
 
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
@@ -4316,9 +4316,9 @@ handle-thing@^2.0.0:
   integrity sha512-d4sze1JNC454Wdo2fkuyzCr6aHcbL6PGGuFAz0Li/NcOm1tCHGnWDRmJP85dh9IhQErTc2svWFEX5xHIOo//kQ==
 
 handlebars@^4.0.3:
-  version "4.0.12"
-  resolved "https://registry.yarnpkg.com/handlebars/-/handlebars-4.0.12.tgz#2c15c8a96d46da5e266700518ba8cb8d919d5bc5"
-  integrity sha512-RhmTekP+FZL+XNhwS1Wf+bTTZpdLougwt5pcgA1tuz6Jcx0fpH/7z0qd71RKnZHBCxIRBHfBOnio4gViPemNzA==
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/handlebars/-/handlebars-4.1.0.tgz#0d6a6f34ff1f63cecec8423aa4169827bf787c3a"
+  integrity sha512-l2jRuU1NAWK6AW5qqcTATWQJvNPEwkM7NEKSiv/gqOsoSQbVoWyqVEY5GS+XPQ88zLNmqASRpzfdm8d79hJS+w==
   dependencies:
     async "^2.5.0"
     optimist "^0.6.1"
