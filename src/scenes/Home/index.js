@@ -12,15 +12,21 @@ import Modal from './components/Modal';
 import './styles.css';
 
 const actions = ['Gateways', 'Apps', 'Sign Out'];
-const wsHostname = process.env.WS_HOSTNAME || 'localhost';
-const wsPort = process.env.WS_PORT || 3004;
+
+function createCloudService(credentials) {
+  const { uuid, token } = credentials;
+  // TODO: change to wss
+  const { hostname } = window.location;
+  return new Cloud(hostname, 80, uuid, token);
+}
 
 class Home extends Component {
   constructor(props) {
-    const { uuid, token } = Storage.getCredentials();
     super(props);
+    const credentials = Storage.getCredentials();
+    const cloud = createCloudService(credentials);
     this.state = {
-      cloud: new Cloud(wsHostname, wsPort, uuid, token),
+      cloud,
       currentScene: 'Gateways',
       appsList: [],
       gatewaysList: [],
