@@ -22,6 +22,30 @@
       "revId": "cdefca187adf418e0e1147be7cfaf8f6a69518eb",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "cb7d8f26_df699179",
+        "filename": "Dockerfile-dev",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1013169
+      },
+      "writtenOn": "2019-02-11T18:36:01Z",
+      "side": 1,
+      "message": "`yarn` is similar to `yarn install`.\nBTW, I\u0027ve found the same problem here.",
+      "parentUuid": "48671bce_d9f956e9",
+      "range": {
+        "startLine": 6,
+        "startChar": 4,
+        "endLine": 6,
+        "endChar": 8
+      },
+      "revId": "cdefca187adf418e0e1147be7cfaf8f6a69518eb",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
     }
   ]
 }
