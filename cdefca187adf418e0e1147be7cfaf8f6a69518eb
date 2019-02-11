@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "48671bce_d9f956e9",
+        "filename": "Dockerfile-dev",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2019-02-11T13:29:14Z",
+      "side": 1,
+      "message": "I am receiving this error:\nCould not find a required file.\n  Name: index.html\n  Searched in: /usr/src/app/public\n\nIs that command supposed to be: `yarn build`?\nAlso update the README showing how to run the container",
+      "range": {
+        "startLine": 6,
+        "startChar": 4,
+        "endLine": 6,
+        "endChar": 8
+      },
+      "revId": "cdefca187adf418e0e1147be7cfaf8f6a69518eb",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
