@@ -1,11 +1,11 @@
 import KNoTCloudWebSocket from '@cesarbr/knot-cloud-websocket';
 
 class Cloud {
-  constructor(hostname, port, uuid, token) {
+  constructor(hostname, port, id, token) {
     this.client = new KNoTCloudWebSocket({
       hostname,
       port,
-      uuid,
+      id,
       token
     });
   }

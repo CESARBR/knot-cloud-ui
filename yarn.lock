@@ -867,10 +867,10 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
-"@cesarbr/knot-cloud-websocket@^0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@cesarbr/knot-cloud-websocket/-/knot-cloud-websocket-0.2.0.tgz#d6e1ba4257f5bd880542cc643056b38cb7632723"
-  integrity sha512-IYg0gkPUJ+sPOPoApwmiO44R2tg4Fkb8iO3RN6nkyN+A3bpo9SlNhkkEnNHrkwhWv5/+wWw74lwbFFfsesovyQ==
+"@cesarbr/knot-cloud-websocket@^0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@cesarbr/knot-cloud-websocket/-/knot-cloud-websocket-0.4.1.tgz#3d10089645712f67975bb4afe1fce486a24048f9"
+  integrity sha512-2e+6gsjbwgEtI1SW0dPtFB4U7laYWDFqGZ2jSWi/UbXHMtC4xJ+23d4ZmG2hJY0f2293xnK0xziyZcEyuvyLAg==
   dependencies:
     eventemitter3 "^3.1.0"
     isomorphic-ws "^4.0.1"
