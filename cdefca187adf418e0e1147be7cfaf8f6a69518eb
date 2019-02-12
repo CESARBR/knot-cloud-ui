@@ -46,6 +46,30 @@
       "revId": "cdefca187adf418e0e1147be7cfaf8f6a69518eb",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "11280ec7_5f9fcf1b",
+        "filename": "Dockerfile-dev",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2019-02-12T22:56:42Z",
+      "side": 1,
+      "message": "This might be because you need to add a volume to the container mapping to your source folder. I\u0027m going to add instructions to the README",
+      "parentUuid": "cb7d8f26_df699179",
+      "range": {
+        "startLine": 6,
+        "startChar": 4,
+        "endLine": 6,
+        "endChar": 8
+      },
+      "revId": "cdefca187adf418e0e1147be7cfaf8f6a69518eb",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
     }
   ]
 }
