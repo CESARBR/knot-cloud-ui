@@ -84,6 +84,20 @@ class Cloud {
       });
     });
   }
+
+  revokeSessionToken(id, token) {
+    return new Promise((resolve, reject) => {
+      if (this.isConnected()) {
+        this.client.revokeSessionToken(id, token);
+      } else {
+        reject(new Error('Socket closed. Unable to revoke session token. Refresh the page'));
+      }
+      this.client.once('revoked', () => resolve());
+      this.client.once('error', (err) => {
+        reject(new Error(err));
+      });
+    });
+  }
 }
 
 export default Cloud;

@@ -70,7 +70,10 @@ class Home extends Component {
     });
   }
 
-  signout() {
+  async signout() {
+    const { cloud } = this.state;
+    const credentials = Storage.getCredentials();
+    await cloud.revokeSessionToken(credentials.uuid, credentials.token);
     Storage.removeCredentials();
 
     this.setState({
