@@ -96,6 +96,30 @@
     },
     {
       "key": {
+        "uuid": "4bd6b25f_afc81adb",
+        "filename": "README.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2019-02-15T19:03:02Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "be13c88d_9250aed7",
+      "range": {
+        "startLine": 58,
+        "startChar": 0,
+        "endLine": 58,
+        "endChar": 2
+      },
+      "revId": "6ceb044fad50bc8a1d3c0f64211550ab889a57b5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ecce7fa7_f71b7ba5",
         "filename": "README.md",
         "patchSetId": 4
@@ -140,6 +164,30 @@
       "revId": "6ceb044fad50bc8a1d3c0f64211550ab889a57b5",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d402e47f_f7b149c6",
+        "filename": "README.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2019-02-15T19:03:02Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3cfa3019_eb8cc29c",
+      "range": {
+        "startLine": 59,
+        "startChar": 0,
+        "endLine": 59,
+        "endChar": 2
+      },
+      "revId": "6ceb044fad50bc8a1d3c0f64211550ab889a57b5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
