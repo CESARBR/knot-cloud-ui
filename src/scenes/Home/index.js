@@ -192,8 +192,13 @@ class Home extends Component {
           currentScene={currentScene}
           actions={actions}
           onAction={(action) => {
-            if (action === 'Sign Out') this.signout();
-            else this.updateCurrentScene(action);
+            if (action === 'Sign Out') {
+              if (window.confirm('Are you sure you wish to sign out?')) { // eslint-disable-line no-alert
+                this.signout();
+              }
+            } else {
+              this.updateCurrentScene(action);
+            }
           }}
         />
         {errorMessage && <ErrorMessage message={errorMessage} />}
