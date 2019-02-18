@@ -16,6 +16,47 @@
       "revId": "a47a9af9d8842d4a1392bcba7ff62b9a1842cd35",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "75288a6c_9a472b05",
+        "filename": "src/scenes/Home/components/DeviceCard/index.js",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2019-02-18T22:23:26Z",
+      "side": 1,
+      "message": "Didn\u0027t get this error, but if the device is updated (e.g. change its name), the content isn\u0027t changed. There is an approach of dinamically creating a \u003ca\u003e, perform a click and then destroy it, that I believe would solve this problem.\n\n+1 for a name without spaces. It can always be \u0027credentials.json\u0027.",
+      "parentUuid": "cf3a2874_752c2e00",
+      "revId": "a47a9af9d8842d4a1392bcba7ff62b9a1842cd35",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fcbb525e_bce2d35c",
+        "filename": "src/scenes/Home/components/DeviceCard/index.js",
+        "patchSetId": 7
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2019-02-18T22:23:26Z",
+      "side": 1,
+      "message": "Is this id still needed?",
+      "range": {
+        "startLine": 77,
+        "startChar": 8,
+        "endLine": 77,
+        "endChar": 38
+      },
+      "revId": "a47a9af9d8842d4a1392bcba7ff62b9a1842cd35",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
     }
   ]
 }
