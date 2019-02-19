@@ -47,6 +47,41 @@ class DeviceCard extends Component {
     });
   }
 
+  handleDownloadClick(event) {
+    const { onDownload } = this.props;
+    event.preventDefault();
+    onDownload()
+      .then((device) => {
+        const link = this.createDownloadLink(device);
+        this.performDownloadClick(link);
+      });
+  }
+
+  createDownloadLink(device) {
+    const link = document.createElement('a');
+    link.download = 'credentials.json';
+    link.href = `data:text/json;charset=utf-8,${encodeURIComponent(JSON.stringify(device, null, 2))}`;
+    return link;
+  }
+
+  performDownloadClick(link) {
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
+
+  renderDownloadButton() {
+    return (
+      <a
+        href="/"
+        onClick={event => this.handleDownloadClick(event)}
+        onBlur={event => event.target.setAttribute('href', '/')}
+      >
+        <i className="card-body-action material-icons">file_download</i>
+      </a>
+    );
+  }
+
   renderBody() {
     const { device } = this.state;
     const metadataPropsToHide = ['name'];
@@ -67,24 +102,6 @@ class DeviceCard extends Component {
       ));
     }
     return properties;
-  }
-
-  renderDownloadButton() {
-    const { device } = this.state;
-    const { onDownload } = this.props;
-    return (
-      <a
-        id={`download-${device.uuid}`}
-        href="/"
-        onClick={(e) => {
-          e.target.parentNode.setAttribute('href', `data:text/json;charset=utf-8,${encodeURIComponent(JSON.stringify(onDownload(), null, 2))}`);
-        }}
-        onBlur={e => e.target.setAttribute('href', '/')}
-        download="card.json"
-      >
-        <i className="card-body-action material-icons">file_download</i>
-      </a>
-    );
   }
 
   renderDeleteButton() {
