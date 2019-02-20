@@ -25,6 +25,8 @@ class Home extends Component {
     super(props);
     const credentials = Storage.getCredentials();
     const cloud = createCloudService(credentials);
+    cloud.on('registered', message => this.onDeviceRegistered(message));
+    cloud.on('unregistered', message => this.onDeviceRemoved(message));
     this.state = {
       cloud,
       currentScene: 'Gateways',
@@ -64,10 +66,38 @@ class Home extends Component {
     cloud.close();
   }
 
+  onDeviceRegistered(message) {
+    const { appsList, gatewaysList } = this.state;
+    const { device } = message.payload;
+
+    if (device.type === 'gateway') {
+      this.setState({ gatewaysList: [...gatewaysList, device] });
+    } else if (device.type === 'app') {
+      this.setState({ appsList: [...appsList, device] });
+    }
+  }
+
+  onDeviceRemoved(message) {
+    const { appsList, gatewaysList } = this.state;
+    const deviceUuid = message.from;
+
+    if (this.existsInList(appsList, deviceUuid)) {
+      this.removeDeviceFromList(appsList, deviceUuid);
+      this.setState({ appsList });
+    } else if (this.existsInList(gatewaysList, deviceUuid)) {
+      this.removeDeviceFromList(gatewaysList, deviceUuid);
+      this.setState({ gatewaysList });
+    }
+  }
+
   updateCurrentScene(newScene) {
     this.setState({
       currentScene: newScene
     });
+  }
+
+  existsInList(list, deviceUuid) {
+    return list.find(device => device.uuid === deviceUuid);
   }
 
   async signout() {
@@ -131,7 +161,7 @@ class Home extends Component {
 
     try {
       await cloud.unregister(uuid);
-      list.splice(list.findIndex(device => device.uuid === uuid), 1);
+      this.removeDeviceFromList(list, uuid);
       if (currentScene === 'Gateways') {
         this.setState({ gatewaysList });
       } else if (currentScene === 'Apps') {
@@ -140,6 +170,10 @@ class Home extends Component {
     } catch (err) {
       this.setState({ errorMessage: err.message });
     }
+  }
+
+  removeDeviceFromList(list, deviceUuid) {
+    return list.splice(list.findIndex(device => device.uuid === deviceUuid), 1);
   }
 
   async createSessionTokenOnCloud(device) {
