@@ -29,6 +29,10 @@ class Cloud {
     this.client.close();
   }
 
+  on(type, callback) {
+    this.client.on(type, callback);
+  }
+
   register(properties) {
     return new Promise((resolve, reject) => {
       if (this.isConnected()) {
