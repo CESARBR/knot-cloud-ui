@@ -152,7 +152,6 @@ DeviceCard.defaultProps = {
 DeviceCard.propTypes = {
   device: PropTypes.shape({
     uuid: PropTypes.string.isRequired,
-    token: PropTypes.string.isRequired,
     metadata: PropTypes.shape({
       name: PropTypes.string.isRequired
     })
