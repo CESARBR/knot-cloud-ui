@@ -15,9 +15,9 @@ const actions = ['Gateways', 'Apps', 'Sign Out'];
 
 function createCloudService(credentials) {
   const { uuid, token } = credentials;
-  // TODO: change to wss
   const { hostname } = window.location;
-  return new Cloud(hostname, 80, uuid, token);
+  const port = window.location.protocol === 'https' ? 443 : 80;
+  return new Cloud(hostname, port, uuid, token);
 }
 
 class Home extends Component {
