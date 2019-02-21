@@ -68,7 +68,7 @@ class Home extends Component {
 
   onDeviceRegistered(message) {
     const { appsList, gatewaysList } = this.state;
-    const { device } = message.payload;
+    const device = message.payload ? message.payload.device : message;
 
     if (device.type === 'gateway') {
       this.setState({ gatewaysList: [...gatewaysList, device] });
@@ -79,6 +79,11 @@ class Home extends Component {
 
   onDeviceRemoved(message) {
     const { appsList, gatewaysList } = this.state;
+
+    if (!message || !message.from) {
+      return;
+    }
+
     const deviceUuid = message.from;
 
     if (this.existsInList(appsList, deviceUuid)) {
