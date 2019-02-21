@@ -85,7 +85,7 @@ class DeviceCard extends Component {
   renderBody() {
     const { device } = this.state;
     const metadataPropsToHide = ['name'];
-    const knotPropsToHide = ['router', 'user', 'gateways'];
+    const knotPropsToHide = ['gateways', 'id'];
     let properties = [];
     if (device.metadata) {
       properties = properties.concat(this.mapObjToProperties(
@@ -111,8 +111,8 @@ class DeviceCard extends Component {
         role="button"
         tabIndex="0"
         className="card-body-action material-icons"
-        onClick={() => onDelete(device.uuid)}
-        onKeyPress={() => onDelete(device.uuid)}
+        onClick={() => onDelete(device.knot.id)}
+        onKeyPress={() => onDelete(device.knot.id)}
       >
         delete
       </i>
@@ -122,7 +122,7 @@ class DeviceCard extends Component {
   render() {
     const { device } = this.props;
     return (
-      <div id={device.uuid} className="card-device">
+      <div id={device.knot.id} className="card-device">
         <Card
           titleEditable
           title={device.metadata ? device.metadata.name : ''}
@@ -151,9 +151,11 @@ DeviceCard.defaultProps = {
 
 DeviceCard.propTypes = {
   device: PropTypes.shape({
-    uuid: PropTypes.string.isRequired,
     metadata: PropTypes.shape({
       name: PropTypes.string.isRequired
+    }),
+    knot: PropTypes.shape({
+      id: PropTypes.string.isRequired
     })
   }),
   onPropertyChange: PropTypes.func,

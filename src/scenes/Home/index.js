@@ -102,7 +102,7 @@ class Home extends Component {
   }
 
   existsInList(list, deviceUuid) {
-    return list.find(device => device.uuid === deviceUuid);
+    return list.find(device => device.knot.id === deviceUuid);
   }
 
   async signout() {
@@ -156,22 +156,22 @@ class Home extends Component {
     const metadata = { [key]: value };
 
     try {
-      await cloud.update(device.uuid, metadata);
-      console.log(`device ${device.uuid} property ${key} updated to ${value}`); // eslint-disable-line no-console
+      await cloud.update(device.knot.id, metadata);
+      console.log(`device ${device.knot.id} property ${key} updated to ${value}`); // eslint-disable-line no-console
     } catch (err) {
       this.setState({ errorMessage: err.message });
     }
   }
 
-  async deleteOnCloud(uuid) {
+  async deleteOnCloud(id) {
     const {
       cloud, currentScene, gatewaysList, appsList
     } = this.state;
     const list = currentScene === 'Gateways' ? gatewaysList : appsList;
 
     try {
-      await cloud.unregister(uuid);
-      this.removeDeviceFromList(list, uuid);
+      await cloud.unregister(id);
+      this.removeDeviceFromList(list, id);
       if (currentScene === 'Gateways') {
         this.setState({ gatewaysList });
       } else if (currentScene === 'Apps') {
@@ -183,13 +183,13 @@ class Home extends Component {
   }
 
   removeDeviceFromList(list, deviceUuid) {
-    return list.splice(list.findIndex(device => device.uuid === deviceUuid), 1);
+    return list.splice(list.findIndex(device => device.knot.id === deviceUuid), 1);
   }
 
   async createSessionTokenOnCloud(device) {
     const { cloud } = this.state;
     try {
-      device.token = await cloud.createSessionToken(device.uuid);
+      device.token = await cloud.createSessionToken(device.knot.id);
     } catch (err) {
       this.setState({ errorMessage: err.message });
     }
@@ -199,10 +199,10 @@ class Home extends Component {
   showCards(list) {
     return list.map(device => (
       <DeviceCard
-        key={device.uuid}
+        key={device.knot.id}
         device={device}
         onPropertyChange={(property, content) => this.updateOnCloud(device, property, content)}
-        onDelete={() => this.deleteOnCloud(device.uuid)}
+        onDelete={() => this.deleteOnCloud(device.knot.id)}
         onDownload={() => this.createSessionTokenOnCloud(device)}
       />
     ));
