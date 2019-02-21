@@ -103,9 +103,14 @@ class Home extends Component {
   async signout() {
     const { cloud } = this.state;
     const credentials = Storage.getCredentials();
-    await cloud.revokeSessionToken(credentials.uuid, credentials.token);
-    Storage.removeCredentials();
 
+    try {
+      await cloud.revokeSessionToken(credentials.uuid, credentials.token);
+    } catch (err) {
+      console.error(err); // eslint-disable-line no-console
+    }
+
+    Storage.removeCredentials();
     this.setState({
       redirect: true
     });
