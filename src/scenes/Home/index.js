@@ -49,8 +49,8 @@ class Home extends Component {
     try {
       await cloud.connect();
       this.setState({
-        gatewaysList: await cloud.getDevices({ type: 'gateway' }),
-        appsList: await cloud.getDevices({ type: 'app' }),
+        gatewaysList: await cloud.getDevices({ type: 'knot:gateway' }),
+        appsList: await cloud.getDevices({ type: 'knot:app' }),
         loading: false
       });
     } catch (err) {
@@ -68,11 +68,11 @@ class Home extends Component {
 
   onDeviceRegistered(message) {
     const { appsList, gatewaysList } = this.state;
-    const device = message.payload ? message.payload.device : message;
+    const device = message.payload ? message.payload : message;
 
-    if (device.type === 'gateway') {
+    if (device.type === 'knot:gateway' && !this.existsInList(gatewaysList, device.knot.id)) {
       this.setState({ gatewaysList: [...gatewaysList, device] });
-    } else if (device.type === 'app') {
+    } else if (device.type === 'knot:app' && !this.existsInList(appsList, device.knot.id)) {
       this.setState({ appsList: [...appsList, device] });
     }
   }
@@ -84,13 +84,13 @@ class Home extends Component {
       return;
     }
 
-    const deviceUuid = message.from;
+    const deviceId = message.from;
 
-    if (this.existsInList(appsList, deviceUuid)) {
-      this.removeDeviceFromList(appsList, deviceUuid);
+    if (this.existsInList(appsList, deviceId)) {
+      this.removeDeviceFromList(appsList, deviceId);
       this.setState({ appsList });
-    } else if (this.existsInList(gatewaysList, deviceUuid)) {
-      this.removeDeviceFromList(gatewaysList, deviceUuid);
+    } else if (this.existsInList(gatewaysList, deviceId)) {
+      this.removeDeviceFromList(gatewaysList, deviceId);
       this.setState({ gatewaysList });
     }
   }
@@ -101,8 +101,8 @@ class Home extends Component {
     });
   }
 
-  existsInList(list, deviceUuid) {
-    return list.find(device => device.knot.id === deviceUuid);
+  existsInList(list, deviceId) {
+    return list.find(device => device.knot.id === deviceId);
   }
 
   async signout() {
@@ -126,16 +126,16 @@ class Home extends Component {
       currentScene, cloud, gatewaysList, appsList
     } = this.state;
     this.setState({ errorMessage: '' });
-    const type = currentScene === 'Gateways' ? 'gateway' : 'app';
+    const type = currentScene === 'Gateways' ? 'knot:gateway' : 'knot:app';
     const list = currentScene === 'Gateways' ? gatewaysList : appsList;
     const name = newDeviceName;
 
     try {
       const device = await cloud.register({ type, name });
       list.push(device);
-      if (type === 'gateway') {
+      if (type === 'knot:gateway') {
         this.setState({ gatewaysList: list });
-      } else if (type === 'app') {
+      } else if (type === 'knot:app') {
         this.setState({ appsList: list });
       }
     } catch (err) {
@@ -182,8 +182,8 @@ class Home extends Component {
     }
   }
 
-  removeDeviceFromList(list, deviceUuid) {
-    return list.splice(list.findIndex(device => device.knot.id === deviceUuid), 1);
+  removeDeviceFromList(list, deviceId) {
+    return list.splice(list.findIndex(device => device.knot.id === deviceId), 1);
   }
 
   async createSessionTokenOnCloud(device) {
