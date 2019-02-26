@@ -11,4 +11,5 @@ RUN yarn build
 EXPOSE 80
 HEALTHCHECK CMD curl --fail http://localhost:80/healthcheck || exit 1
 
+ENV NODE_ENV=production
 CMD ["yarn", "start:server"]
