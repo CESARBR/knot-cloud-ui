@@ -5,6 +5,7 @@ class Cloud {
     this.client = new KNoTCloudWebSocket({
       hostname,
       port,
+      protocol: port === 80 ? 'ws' : 'wss',
       id,
       token
     });
