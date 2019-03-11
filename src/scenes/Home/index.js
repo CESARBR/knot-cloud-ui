@@ -16,7 +16,7 @@ const actions = ['Gateways', 'Apps', 'Sign Out'];
 function createCloudService(credentials) {
   const { uuid, token } = credentials;
   const { hostname } = window.location;
-  const port = window.location.protocol === 'https' ? 443 : 80;
+  const port = window.location.protocol === 'https:' ? 443 : 80;
   return new Cloud(hostname, port, uuid, token);
 }
 
