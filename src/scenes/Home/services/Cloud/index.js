@@ -6,6 +6,7 @@ class Cloud {
       hostname,
       port,
       protocol: port === 80 ? 'ws' : 'wss',
+      pathname: '/ws',
       id,
       token
     });
