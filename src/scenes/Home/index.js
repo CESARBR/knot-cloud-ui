@@ -11,7 +11,7 @@ import DeviceCard from './components/DeviceCard';
 import Modal from './components/Modal';
 import './styles.css';
 
-const actions = ['Gateways', 'Apps', 'Sign Out'];
+const actions = ['Gateways', 'Apps', 'Things', 'Sign Out'];
 
 function createCloudService(credentials) {
   const { uuid, token } = credentials;
@@ -32,6 +32,7 @@ class Home extends Component {
       currentScene: 'Gateways',
       appsList: [],
       gatewaysList: [],
+      thingsList: [],
       errorMessage: '',
       redirect: false,
       showModal: false,
@@ -51,6 +52,7 @@ class Home extends Component {
       this.setState({
         gatewaysList: await cloud.getDevices({ type: 'knot:gateway' }),
         appsList: await cloud.getDevices({ type: 'knot:app' }),
+        thingsList: await cloud.getDevices({ type: 'knot:thing' }),
         loading: false
       });
     } catch (err) {
@@ -67,18 +69,20 @@ class Home extends Component {
   }
 
   onDeviceRegistered(message) {
-    const { appsList, gatewaysList } = this.state;
+    const { appsList, gatewaysList, thingsList } = this.state;
     const device = message.payload ? message.payload : message;
 
     if (device.type === 'knot:gateway' && !this.existsInList(gatewaysList, device.knot.id)) {
       this.setState({ gatewaysList: [...gatewaysList, device] });
     } else if (device.type === 'knot:app' && !this.existsInList(appsList, device.knot.id)) {
       this.setState({ appsList: [...appsList, device] });
+    } else if (device.type === 'knot:thing' && !this.existsInList(thingsList, device.knot.id)) {
+      this.setState({ thingsList: [...thingsList, device] });
     }
   }
 
   onDeviceRemoved(message) {
-    const { appsList, gatewaysList } = this.state;
+    const { appsList, gatewaysList, thingsList } = this.state;
 
     if (!message || !message.from) {
       return;
@@ -92,6 +96,9 @@ class Home extends Component {
     } else if (this.existsInList(gatewaysList, deviceId)) {
       this.removeDeviceFromList(gatewaysList, deviceId);
       this.setState({ gatewaysList });
+    } else if (this.existsInList(thingsList, deviceId)) {
+      this.removeDeviceFromList(thingsList, deviceId);
+      this.setState({ thingsList });
     }
   }
 
@@ -123,20 +130,40 @@ class Home extends Component {
 
   async addDevice(newDeviceName) {
     const {
-      currentScene, cloud, gatewaysList, appsList
+      currentScene, cloud, gatewaysList, appsList, thingsList
     } = this.state;
     this.setState({ errorMessage: '' });
-    const type = currentScene === 'Gateways' ? 'knot:gateway' : 'knot:app';
-    const list = currentScene === 'Gateways' ? gatewaysList : appsList;
     const name = newDeviceName;
+
+    let type = '';
+    let list = '';
+
+    switch (currentScene) {
+      case 'Apps':
+        type = 'knot:app';
+        list = appsList;
+        break;
+      case 'Things':
+        type = 'knot:thing';
+        list = thingsList;
+        break;
+      case 'Gateways':
+      default:
+        type = 'knot:gateway';
+        list = gatewaysList;
+        break;
+    }
 
     try {
       const device = await cloud.register({ type, name });
       list.push(device);
+
       if (type === 'knot:gateway') {
         this.setState({ gatewaysList: list });
       } else if (type === 'knot:app') {
         this.setState({ appsList: list });
+      } else if (type === 'knot:thing') {
+        this.setState({ thingsList: list });
       }
     } catch (err) {
       this.setState({ errorMessage: err.message });
@@ -165,9 +192,23 @@ class Home extends Component {
 
   async deleteOnCloud(id) {
     const {
-      cloud, currentScene, gatewaysList, appsList
+      cloud, currentScene, gatewaysList, appsList, thingsList
     } = this.state;
-    const list = currentScene === 'Gateways' ? gatewaysList : appsList;
+
+    let list = '';
+
+    switch (currentScene) {
+      case 'Apps':
+        list = appsList;
+        break;
+      case 'Things':
+        list = thingsList;
+        break;
+      case 'Gateways':
+      default:
+        list = gatewaysList;
+        break;
+    }
 
     try {
       await cloud.unregister(id);
@@ -176,6 +217,8 @@ class Home extends Component {
         this.setState({ gatewaysList });
       } else if (currentScene === 'Apps') {
         this.setState({ appsList });
+      } else if (currentScene === 'Things') {
+        this.setState({ thingsList });
       }
     } catch (err) {
       this.setState({ errorMessage: err.message });
@@ -209,11 +252,15 @@ class Home extends Component {
   }
 
   showCurrentScene() {
-    const { currentScene, gatewaysList, appsList } = this.state;
+    const {
+      currentScene, gatewaysList, appsList, thingsList
+    } = this.state;
 
     switch (currentScene) {
       case 'Apps':
         return (<CardBoard>{this.showCards(appsList)}</CardBoard>);
+      case 'Things':
+        return (<CardBoard>{this.showCards(thingsList)}</CardBoard>);
       case 'Gateways':
       default:
         return (<CardBoard>{this.showCards(gatewaysList)}</CardBoard>);
