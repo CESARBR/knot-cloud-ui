@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Card from 'components/Card';
-import DeviceProperty from './components/DeviceProperty';
 import './styles.css';
+import sensorType from 'util/sensorTypeParser';
+import { isUndefined } from 'util';
+import DeviceProperty from './components/DeviceProperty';
+
 
 class DeviceCard extends Component {
   constructor(props) {
@@ -47,6 +50,58 @@ class DeviceCard extends Component {
     });
   }
 
+  mapSchemaObjToProperties(obj, hide, editable, index) {
+    let group = [];
+
+    if (index !== 0) {
+      group = group.concat(<div className="separator" />);
+    }
+
+    Object.keys(obj).map((property) => {
+      if (!hide.includes(property)) {
+        group = group.concat([
+          <DeviceProperty
+            key={property}
+            editable={editable}
+            title={property}
+            value={obj[property] instanceof Object ? JSON.stringify(obj[property])
+              : obj[property].toString()}
+            onValueChange={(key, value) => {
+              const { device } = this.state;
+              const { onPropertyChange } = this.props;
+              try {
+                obj[key] = JSON.parse(value);
+              } catch (error) {
+                obj[key] = value;
+              }
+              this.setState({ device });
+              onPropertyChange(key, value);
+            }}
+          />
+        ]);
+      }
+      return group;
+    });
+    return group;
+  }
+
+  parseSchemaObject(obj) {
+    const humanReadableOutput = {
+      'Sensor Name': obj.name,
+      Measure: ' '
+    };
+
+    if (isUndefined(sensorType[obj.typeId])) {
+      humanReadableOutput.Measure = 'Type not defined';
+    } else if (obj.unit) {
+      humanReadableOutput.Measure = `${sensorType[obj.typeId].measure} (${sensorType[obj.typeId].unit[obj.unit - 1]})`;
+    } else {
+      humanReadableOutput.Measure = sensorType[obj.typeId].measure;
+    }
+
+    return humanReadableOutput;
+  }
+
   handleDownloadClick(event) {
     const { onDownload } = this.props;
     event.preventDefault();
@@ -86,6 +141,7 @@ class DeviceCard extends Component {
     const { device } = this.state;
     const metadataPropsToHide = ['name'];
     const knotPropsToHide = ['gateways', 'id'];
+    const schemaPropsToHide = ['sensorId', 'valueType'];
     let properties = [];
     if (device.metadata) {
       properties = properties.concat(this.mapObjToProperties(
@@ -100,6 +156,17 @@ class DeviceCard extends Component {
         knotPropsToHide,
         false
       ));
+    }
+    if (device.schema) {
+      device.schema.map((schemaObject, index) => {
+        properties = properties.concat(this.mapSchemaObjToProperties(
+          this.parseSchemaObject(schemaObject),
+          schemaPropsToHide,
+          false,
+          index
+        ));
+        return properties;
+      });
     }
     return properties;
   }
