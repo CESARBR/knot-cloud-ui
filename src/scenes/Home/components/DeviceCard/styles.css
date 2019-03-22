@@ -2,10 +2,17 @@
   width: 325px; 
 }
 
+.card-body{
+  padding-bottom: 8%;
+  padding-right: 5px;
+}
+
 .card-body-device {
   font-size: 15px;
   align-content: space-around;
   justify-content: flex-end;
+  height: 180px;
+  overflow: auto;
 }
 
 .card-body-action {
@@ -36,4 +43,21 @@
   margin-left: 8%;
   height: .05rem;
   background-color: #212121;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ddd;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #262626;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
