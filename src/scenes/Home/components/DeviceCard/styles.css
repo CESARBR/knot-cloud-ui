@@ -1,5 +1,5 @@
 .card-device {
-  width: 325px;
+  width: 325px; 
 }
 
 .card-body-device {
@@ -29,4 +29,11 @@
 
 .card-body-action:active {
   transform: translateY(1px);
+}
+
+.separator{
+  margin-right: 8%;
+  margin-left: 8%;
+  height: .05rem;
+  background-color: #212121;
 }
