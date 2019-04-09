@@ -11,10 +11,12 @@ class Modal extends Component {
     super(props);
     this.state = {
       newDeviceName: '',
+      isThingManager: false,
       loading: false
     };
     this.handleKeyUp = this.handleKeyUp.bind(this);
     this.handleOutsideClick = this.handleOutsideClick.bind(this);
+    this.renderOptions = this.renderOptions.bind(this);
   }
 
   componentDidMount() {
@@ -52,17 +54,29 @@ class Modal extends Component {
 
   buttonClicked() {
     const { onSaveDevice, currentScene } = this.props;
-    const { newDeviceName } = this.state;
+    const { newDeviceName, isThingManager } = this.state;
     const deviceType = currentScene === 'Gateways' ? 'Gateway' : 'App';
-    const defaultName = `My KNoT ${deviceType}`;
-
+    let name = `My KNoT ${deviceType}`;
     this.setState({ loading: true });
 
-    if (!newDeviceName.replace(/\s/g, '').length) {
-      onSaveDevice(defaultName);
-    } else {
-      onSaveDevice(newDeviceName);
+    if (newDeviceName.replace(/\s/g, '').length) {
+      name = newDeviceName;
     }
+
+    onSaveDevice({ name, isThingManager });
+  }
+
+  renderOptions(type) {
+    if (type === 'App') {
+      return (
+        <div className="modal-info checkbox">
+          <input type="checkbox" id="checkbox-thing-management" onChange={() => this.setState(state => ({ isThingManager: !state.isThingManager }))} />
+          <label htmlFor="checkbox-thing-management">Enable thing management </label>
+        </div>
+      );
+    }
+
+    return null;
   }
 
   render() {
@@ -78,6 +92,9 @@ class Modal extends Component {
               <span> Name </span>
               <TextInput type="text" id="name" placeholder={`My KNoT ${deviceType}`} onChange={e => this.setState({ newDeviceName: e.target.value })} />
             </div>
+
+            {this.renderOptions(deviceType)}
+
             <div className="modal-button">
               <ModalButton disabled={loading} className="btn-accept" name="OK" onClick={() => this.buttonClicked()} />
             </div>

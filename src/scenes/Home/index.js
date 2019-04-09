@@ -121,17 +121,17 @@ class Home extends Component {
     });
   }
 
-  async addDevice(newDeviceName) {
+  async addDevice(properties) {
     const {
       currentScene, cloud, gatewaysList, appsList
     } = this.state;
     this.setState({ errorMessage: '' });
     const type = currentScene === 'Gateways' ? 'knot:gateway' : 'knot:app';
     const list = currentScene === 'Gateways' ? gatewaysList : appsList;
-    const name = newDeviceName;
+    const { name, isThingManager } = properties;
 
     try {
-      const device = await cloud.register({ type, name });
+      const device = await cloud.register({ type, name, isThingManager });
       list.push(device);
       if (type === 'knot:gateway') {
         this.setState({ gatewaysList: list });
