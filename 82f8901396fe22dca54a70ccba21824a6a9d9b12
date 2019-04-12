@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "70558146_5ec524f0",
+        "filename": "src/scenes/Home/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2019-04-12T14:11:36Z",
+      "side": 1,
+      "message": "let type, list;",
+      "range": {
+        "startLine": 138,
+        "startChar": 4,
+        "endLine": 139,
+        "endChar": 18
+      },
+      "revId": "82f8901396fe22dca54a70ccba21824a6a9d9b12",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a3db1841_892d8cf2",
+        "filename": "src/scenes/Home/index.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 198,
+      "author": {
+        "id": 1013096
+      },
+      "writtenOn": "2019-04-12T14:11:36Z",
+      "side": 1,
+      "message": "let type;\nor\nlet type \u003d [];",
+      "range": {
+        "startLine": 198,
+        "startChar": 15,
+        "endLine": 198,
+        "endChar": 17
+      },
+      "revId": "82f8901396fe22dca54a70ccba21824a6a9d9b12",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
