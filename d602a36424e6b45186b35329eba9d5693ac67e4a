@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a598dba9_737df52b",
+        "filename": ".eslintrc.json",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1013169
+      },
+      "writtenOn": "2019-04-22T21:45:45Z",
+      "side": 1,
+      "message": "I\u0027ve added these rules to avoid this issue: https://github.com/evcohen/eslint-plugin-jsx-a11y/issues/302.\n\nContext: I was trying to associate a checkbox input to a label through the `htmlFor` attribute, but the lint complains when the label is placed after the checkbox. This order is a requirement for my solution, since the checkbox is customized by using the `::before` and `::after` CSS pseudo-elements (https://medium.com/claritydesignsystem/pure-css-accessible-checkboxes-and-radios-buttons-54063e759bb3).",
+      "range": {
+        "startLine": 6,
+        "startChar": 0,
+        "endLine": 15,
+        "endChar": 7
+      },
+      "revId": "d602a36424e6b45186b35329eba9d5693ac67e4a",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
