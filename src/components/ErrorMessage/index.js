@@ -7,7 +7,8 @@ class ErrorMessage extends Component {
     return (
       <span className="request-error">
         {message}
-      </span>);
+      </span>
+    );
   }
 
   render() {

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Route, Redirect } from 'react-router-dom';
+import PropTypes from 'prop-types';
 import Storage from 'services/Storage';
 
 const ConditionalRoute = ({
@@ -20,5 +21,10 @@ const ConditionalRoute = ({
     }
 } />
 );
+
+ConditionalRoute.propTypes = {
+  path: PropTypes.string.isRequired,
+  component: PropTypes.func.isRequired
+};
 
 export default ConditionalRoute;

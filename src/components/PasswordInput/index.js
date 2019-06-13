@@ -52,7 +52,8 @@ class PasswordInput extends Component {
       <div id={id}>
         <TextInput type="password" id="new-password" placeholder="New password" onChange={e => this.updatePassword(e)} />
         <TextInput type="password" id="new-password-confirm" placeholder="Confirm new password" onChange={e => this.updateConfirmPassword(e)} />
-      </div>);
+      </div>
+    );
   }
 }
 

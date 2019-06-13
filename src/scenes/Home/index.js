@@ -257,7 +257,8 @@ class Home extends Component {
           currentScene={currentScene}
           onCloseRequest={this.toggleModal}
           onSaveDevice={this.addDevice}
-        />)}
+        />
+        )}
         {!loading && this.showCurrentScene()}
         {loading && this.showSpinner()}
         {redirect && <Redirect to="/signin" />}

@@ -9,7 +9,8 @@ class TextInput extends Component {
     return (
       <div>
         <input className="text-input" id={id} type={type} onChange={onChange} placeholder={placeholder} required />
-      </div>);
+      </div>
+    );
   }
 }
 
