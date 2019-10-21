@@ -1,3 +1,14 @@
+## [1.1.1](https://github.com/CESARBR/knot-cloud-ui/compare/v1.1.0...v1.1.1)
+
+### Bug Fixes
+
+- Fix modal button position
+- Update packages to fix vulnerabilities
+
+### Improvements
+
+- Add pull request template
+
 ## [1.1.0](https://github.com/CESARBR/knot-cloud-ui/compare/v1.0.1...v1.1.0)
 
 ### Features
